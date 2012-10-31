@@ -1,5 +1,5 @@
 ---
-pageable: true
+pageable: false
 per_page: 10
 ---
 <% if paginate %>
@@ -11,8 +11,10 @@ per_page: 10
 <% end %>
 
 <% page_articles.each_with_index do |article, i| %>
-  <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-  <p><%= article.summary %></p>
+  <article id="<%= article.title %>" class="post">
+    <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
+    <p><%= article.body %></p>
+  </article>
 <% end %>
 
 <% if paginate %>

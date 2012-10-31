@@ -6,20 +6,16 @@
     
     <title><%= data.page.title || "Alex Baldwin" %></title>
     <%= stylesheet_link_tag "app" %>
+    
+    <script type="text/javascript" src="//use.typekit.net/nhy1tfv.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
   <body>
   
     <header>
-      <a href="http://www.alexbaldwin.com/" class="avatar">Alex Baldwin</a>
+      <span>Howdy, I'm</span>
       <h1><a href="http://www.alexbaldwin.com/">Alex Baldwin</a></h1>
-      <span>Product Designer</span>
-      <ul>
-          <li><a href="http://twitter.com/alexbaldwin">@alexbaldwin</a></li>
-          <li><a href="http://dribbble.com/alexbaldwin">dribbble</a></li>
-          <li><a href="https://github.com/alexbaldwin">github</a></li>
-          <li><a href="mailto:alexbaldwin@gmail.com?subject:Howdy">say hello</a></li>
-          <li><a href="/posts.rss">rss feed</a></li>
-      </ul>    
+      <p>a product designer in San Francisco. When I'm working, I quite enjoy <a href="http://console.fm">dope beats</a>. I like to <a href="http://latteup.com">talk shop</a> while drinking my morning coffee. Send me an <a href="mailto:alexbaldwin@gmail.com?subject:Howdy">electronic mail</a>, or <a href="http://twitter.com/alexbaldwin">follow my quips</a>.</p> 
     </header>
     
     <div id="container">
@@ -31,21 +27,11 @@
         <h2>Recent Articles</h2>
         <ol>
           <% blog.articles[0...10].each do |article| %>
+            <section id="<%= article.title %>">
+            <div class="post contain">
             <li><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></li>
-          <% end %>
-        </ol>
-  
-        <h2>Tags</h2>
-        <ol>
-          <% blog.tags.each do |tag, articles| %>
-            <li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
-          <% end %>
-        </ol>
-  
-        <h2>By Year</h2>
-        <ol>
-          <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-            <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
+            </div>
+            </section>
           <% end %>
         </ol>
       </aside>
