@@ -82,6 +82,9 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+# Roll out the red carpet to fix XML parsing errors in Markdown
+set :markdown_engine, :redcarpet
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment

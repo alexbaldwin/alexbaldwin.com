@@ -3,34 +3,52 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
+    
+    <title><%= data.page.title || "Alex Baldwin" %></title>
+    <%= stylesheet_link_tag "app" %>
   </head>
   <body>
+  
+    <header>
+      <a href="http://www.alexbaldwin.com/" class="avatar">Alex Baldwin</a>
+      <h1><a href="http://www.alexbaldwin.com/">Alex Baldwin</a></h1>
+      <span>Product Designer</span>
+      <ul>
+          <li><a href="http://twitter.com/alexbaldwin">@alexbaldwin</a></li>
+          <li><a href="http://dribbble.com/alexbaldwin">dribbble</a></li>
+          <li><a href="https://github.com/alexbaldwin">github</a></li>
+          <li><a href="mailto:alexbaldwin@gmail.com?subject:Howdy">say hello</a></li>
+          <li><a href="/posts.rss">rss feed</a></li>
+      </ul>    
+    </header>
     
-    <div id="main" role="main">
-      <%= yield %>
+    <div id="container">
+      <div id="main" role="main">
+        <%= yield %>
+      </div>
+      
+      <aside>
+        <h2>Recent Articles</h2>
+        <ol>
+          <% blog.articles[0...10].each do |article| %>
+            <li><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></li>
+          <% end %>
+        </ol>
+  
+        <h2>Tags</h2>
+        <ol>
+          <% blog.tags.each do |tag, articles| %>
+            <li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
+          <% end %>
+        </ol>
+  
+        <h2>By Year</h2>
+        <ol>
+          <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
+            <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
+          <% end %>
+        </ol>
+      </aside>
     </div>
-    
-    <aside>
-      <h2>Recent Articles</h2>
-      <ol>
-        <% blog.articles[0...10].each do |article| %>
-          <li><a href="<%= article.url %>"><%= article.title %></a> <span><%= article.date.strftime('%b %e') %></span></li>
-        <% end %>
-      </ol>
-
-      <h2>Tags</h2>
-      <ol>
-        <% blog.tags.each do |tag, articles| %>
-          <li><a href="<%= tag_path tag %>"><%= tag %> (<%= articles.size %>)</a></li>
-        <% end %>
-      </ol>
-
-      <h2>By Year</h2>
-      <ol>
-        <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
-          <li><a href="<%= blog_year_path year %>"><%= year %> (<%= articles.size %>)</a></li>
-        <% end %>
-      </ol>
-    </aside>
   </body>
 </html>

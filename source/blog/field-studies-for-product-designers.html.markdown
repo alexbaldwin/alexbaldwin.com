@@ -1,6 +1,6 @@
 ---
-title: field-studies-for-product-designers
-date: 2012-10-30 15:45 -07:00
+title: Field studies for product designers
+date: 2012-04-02 15:45 -07:00
 tags:
 ---
 

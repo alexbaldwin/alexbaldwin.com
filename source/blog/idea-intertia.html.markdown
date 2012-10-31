@@ -1,6 +1,6 @@
 ---
-title: idea-intertia
-date: 2012-10-30 15:43 -07:00
+title: Idea inertia
+date: 2012-04-29 15:43 -07:00
 tags:
 ---
 

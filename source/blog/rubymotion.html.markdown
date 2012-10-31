@@ -1,6 +1,6 @@
 ---
-title: rubymotion
-date: 2012-10-30 15:41 -07:00
+title: RubyMotion brings MacRuby to life
+date: 2012-05-06 15:41 -07:00
 tags:
 ---
 
