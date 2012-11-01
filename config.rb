@@ -82,6 +82,8 @@ set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
 
+activate :directory_indexes
+
 # Roll out the red carpet to fix XML parsing errors in Markdown
 set :markdown_engine, :redcarpet
 
