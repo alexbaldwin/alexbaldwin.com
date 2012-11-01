@@ -39,3 +39,28 @@ header {
 article {
   border-bottom:1px solid lighten(#000, 90%);
 }
+
+img {
+  max-width:100%;
+}
+
+blockquote {
+  p {
+    font-style: italic;
+    color:#777;
+    img {
+      float:left;
+      margin:0 20px 20px 0;
+      width:70px;
+      height:70px;
+      border-radius: 35px;
+    }
+  }
+}
+
+h2 span {
+  display:block;
+  font-weight:normal;
+  color:#999;
+  font-size:.6em;
+}

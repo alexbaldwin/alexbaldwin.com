@@ -1,0 +1,24 @@
+---
+title: Tony Conrad, I owe you lunch
+date: 2012-03-01 12:10 -07:00
+tags:
+published: false
+---
+
+Over a year ago, I was sent this e-mail from Tony Conrad, the founder of [About.me](http://about.me) in response to a weekend project we made called [Why Hello](http://whyhello.im).
+
+> **Subject: about.me copycat**
+
+> [http://whyhello.im/](http://whyhello.im/)
+
+> [http://whyhello.im/alexbaldwin](http://whyhello.im/alexbaldwin)
+
+> I guess we should be flattered - but, i think you should focus your talent/ effort on building a site that is a reflection of your vision and not ours. The tech community is small and I've gotten 4 notes like the one below - all from very well respected people in our community.
+
+> Tony Conrad
+> [http://about.me/tonyconrad/bio](http://about.me/tonyconrad/bio)
+
+Let's be very honest here, it was a shameless ripoff and in no way am I arguing that Tony is wrong. It's really interesting though that he sent this over three months [after they were acquired by AOL](http://mashable.com/2010/12/20/about-me-acquired/). Also curious is that About.me is almost a literal clone of Flavors.me, which [predates them by over a year](http://techcrunch.com/2010/02/23/flavors-me-build-profile/).
+
+So Tony,  I'm sorry for cloning your clone, lunch is on me next time.
+
