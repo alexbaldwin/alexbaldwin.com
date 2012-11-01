@@ -33,3 +33,8 @@ Scope was so slim, they didn't even originally plan out the legendary multiplaye
 > The game's multiplayer mode was added late in the development process; Martin Hollis described it as "a complete afterthought". According to David Doak, the majority of the work on the multiplayer mode was done by Steve Ellis, who "sat in a room with all the code written for a single-player game and turned GoldenEye into a multiplayer game."
 
 Despite everything, the game went on to become the third highest selling N64 game, inspire console shooting games, and [win a crazy amount of awards](http://alexbaldw.in/KbGG). Next time you're heading down the wrong way of the [entrepreneurial rollercoaster](http://www.fourhourworkweek.com/blog/2008/10/03/harnessing-entrepreneurial-manic-depression-making-the-rollercoaster-work-for-you/), take a deep breath, make a cup of tea, and remember that you can make it happen. Persevere and dominate.
+
+
+I still have nightmares about playing Temple and not being able to find the proximity mines. If you like James Bond, lattes, startups and design, you'd enjoy my tweets.
+
+<a href="https://twitter.com/alexbaldwin" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @alexbaldwin</a>
