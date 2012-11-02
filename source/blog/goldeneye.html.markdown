@@ -34,7 +34,6 @@ Scope was so slim, they didn't even originally plan out the legendary multiplaye
 
 Despite everything, the game went on to become the third highest selling N64 game, inspire console shooting games, and [win a crazy amount of awards](http://alexbaldw.in/KbGG). Next time you're heading down the wrong way of the [entrepreneurial rollercoaster](http://www.fourhourworkweek.com/blog/2008/10/03/harnessing-entrepreneurial-manic-depression-making-the-rollercoaster-work-for-you/), take a deep breath, make a cup of tea, and remember that you can make it happen. Persevere and dominate.
 
-
-I still have nightmares about playing Temple and not being able to find the proximity mines. If you like James Bond, lattes, startups and design, you'd enjoy my tweets.
+If you have fond memories of playing proximity mines on Facility, you'll enjoy what I have to say on Twitter.
 
 <a href="https://twitter.com/alexbaldwin" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @alexbaldwin</a>
