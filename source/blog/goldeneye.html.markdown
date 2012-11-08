@@ -12,7 +12,7 @@ It's hard to imagine that this game almost didn't exist. Rare's studio head [Mar
 
 > ![Mark Betteridge](http://www.develop-online.net/static/images/features/835/184_1172_Mark%20Betteridge.jpg?i=1269566657)
 
-> “When Nintendo asked if we wanted to do it, we said, ‘well not really…we were trying to build our on IP, and film tie-ins meant a lot of ownership by the film company”
+> When Nintendo asked if we wanted to do it, we said, ‘well not really…we were trying to build our on IP, and film tie-ins meant a lot of ownership by the film company
 
 The team faced insane amounts of adversity and uncertainty. Starting out, they didn't even know what the specs were for the new platform.  [Wikipedia on the game's development](http://alexbaldw.in/Kb0a).
 
@@ -34,7 +34,6 @@ Scope was so slim, they didn't even originally plan out the legendary multiplaye
 
 Despite everything, the game went on to become the third highest selling N64 game, inspire console shooting games, and [win a crazy amount of awards](http://alexbaldw.in/KbGG). Next time you're heading down the wrong way of the [entrepreneurial rollercoaster](http://www.fourhourworkweek.com/blog/2008/10/03/harnessing-entrepreneurial-manic-depression-making-the-rollercoaster-work-for-you/), take a deep breath, make a cup of tea, and remember that you can make it happen. Persevere and dominate.
 
-
-I still have nightmares about playing Temple and not being able to find the proximity mines. If you like James Bond, lattes, startups and design, you'd enjoy my tweets.
+If you have fond memories of proximity mines, you'll enjoy what I have to say on Twitter.
 
 <a href="https://twitter.com/alexbaldwin" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @alexbaldwin</a>
