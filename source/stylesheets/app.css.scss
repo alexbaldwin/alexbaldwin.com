@@ -1,3 +1,5 @@
+$accent:#efefef;
+
 body {
   font-family: "ff-tisa-web-pro", "Hoefler Text", Constantia, Palatino, Georgia, serif;
   color:#333;
@@ -21,16 +23,16 @@ a {
 }
 
 header {
-  background:#efefef;
+  background: $accent;
   span {
     a {
       color:#333;
     }
   }
   p {
-    font-size:.8em;
-    margin:10px 0;
-    color:#959595;
+    font-size: .8em;
+    line-height:1.8em;
+    color: darken($accent, 40%);
   }
   border-bottom:1px solid lighten(#000, 90%);
 }
@@ -57,7 +59,11 @@ blockquote {
   }
 }
 
-h2 span {
+h1, h2 {
+  font-weight:normal;  
+}
+
+h2 span, h1 span {
   display:block;
   font-weight:normal;
   color:#999;
