@@ -1,13 +1,19 @@
 body {
   font-family: "ff-tisa-web-pro", "Hoefler Text", Constantia, Palatino, Georgia, serif;
   color:#333;
+  margin:0;
+}
+
+.container {
   width:700px;
-  margin:60px auto;
+  margin:0 auto;
+  padding:20px 0;
 }
 
 a {
   $link-color: #26AE90;
   text-decoration:none;
+  font-weight:normal;
   color: $link-color;
   &:hover {
     color:darken($link-color, 20%);
@@ -15,23 +21,16 @@ a {
 }
 
 header {
+  background:#efefef;
   span {
-    margin:10px 0;
-    color:#777;
-    font-style: italic;
-  }
-  h1 {
-    font-size: 4em;
-    line-height: 1em;
-    margin:0;
     a {
       color:#333;
     }
   }
   p {
-    font-size:1.5em;
+    font-size:.8em;
     margin:10px 0;
-    color:#777;
+    color:#959595;
   }
   border-bottom:1px solid lighten(#000, 90%);
 }
