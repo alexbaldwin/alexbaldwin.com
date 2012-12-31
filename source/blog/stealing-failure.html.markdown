@@ -2,6 +2,7 @@
 title: Stealing Failure
 date: 2012-11-19 10:18 -08:00
 tags:
+published: false
 ---
 
 Building on top of user interface patterns and trying to follow the inspiration of pixel masters is all in a good day's work being a designer. When inspiration eludes you and you have a deadline, what do you do? Well I know that in the past I've for sure copied elements of a design before, but the assets themselves?
