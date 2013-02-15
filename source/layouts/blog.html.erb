@@ -1,0 +1,30 @@
+<% wrap_layout :layout do %>
+	<div class="article">
+		<h2><%= current_page.title %></h2>
+	    <h3><%= current_page.date.strftime('%B %e, %Y') %></h3>
+	    <section>
+	    	<%= yield %>
+	    </section>
+	    <nav>
+	    	<ul>
+	    		<li class="articles">
+	    			<%= link_to "&larr; Articles", "/" %>
+	    		</li>
+	    		<li>
+
+		    	<% next_article = current_article.previous_article %>
+	    		<% if next_article %>
+	      			<%= link_to "#{next_article.title} &raquo;", next_article.url %>
+	      		<% end %>
+	    		</li>
+	    	</ul>
+	    </nav>
+	</div>
+
+	<script type="text/javascript">
+	analytics.track('Read an article', {
+    	article        : <%= current_page.title %>,
+	});
+</script>
+
+<% end %>

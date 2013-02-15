@@ -1,24 +1,8 @@
----
-pageable: false
-per_page: 10
----
-<% if paginate %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
-
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
-
 <% page_articles.each_with_index do |article, i| %>
-  <article id="<%= article.title %>" class="post">
-    <h2><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></h2>
-    <p><%= article.body %></p>
-  </article>
+  <section role="article">
+    <h2><%= link_to article.title, article %></h2>
+    <h3><%= article.date.strftime('%B %e, %Y') %></h3>
+  </section>
 <% end %>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>
+<%= link_to "View previous articles &rarr;", "/archive" %>

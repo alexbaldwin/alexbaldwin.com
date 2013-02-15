@@ -4,6 +4,9 @@ GEM
     activesupport (3.2.12)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    bourbon (3.0.1)
+      sass (>= 3.2.0)
+      thor
     builder (3.0.4)
     chunky_png (1.2.7)
     coffee-script (2.2.0)
@@ -62,6 +65,9 @@ GEM
       sprockets (~> 2.1, < 2.5)
       sprockets-sass (~> 0.9.0)
     multi_json (1.6.0)
+    neat (1.1.0)
+      bourbon (>= 2.1)
+      sass (>= 3.2)
     padrino-core (0.10.7)
       activesupport (~> 3.2.0)
       http_router (~> 0.10.2)
@@ -107,7 +113,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bourbon
   builder (~> 3.0.0)
-  middleman (~> 3.0.6)
+  middleman (~> 3.0.11)
   middleman-blog (~> 3.1.1)
+  neat
   redcarpet

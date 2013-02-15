@@ -1,5 +1,5 @@
 ---
-title: Why Instagram is so damn fast at uploading photos ⚓
+title: Why Instagram is so damn fast at uploading photos
 date: 2012-05-01 15:42 -07:00
 tags:
 ---

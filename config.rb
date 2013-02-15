@@ -6,10 +6,10 @@
 
 activate :blog do |blog|
   # blog.prefix = "blog"
-  blog.permalink = ":title.html"
-  blog.sources = "blog/:title.html"
+  blog.permalink = ":title"
+  blog.sources = "blog/:title"
   # blog.taglink = "tags/:tag.html"
-  blog.layout = "blog"
+  blog.layout = "layouts/blog"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = ":year.html"
@@ -69,6 +69,12 @@ page "/feed.xml", :layout => false
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
+# Roll out the red carpet to fix XML parsing errors in Markdown
+set :markdown_engine, :redcarpet
+set :markdown,  :fenced_code_blocks => true,
+                :autolink => true, 
+                :smartypants => true
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
@@ -76,16 +82,14 @@ page "/feed.xml", :layout => false
 #   end
 # end
 
+# Pretty URLs
+activate :directory_indexes
+
 set :css_dir, 'stylesheets'
 
 set :js_dir, 'javascripts'
 
 set :images_dir, 'images'
-
-activate :directory_indexes
-
-# Roll out the red carpet to fix XML parsing errors in Markdown
-set :markdown_engine, :redcarpet
 
 # Build-specific configuration
 configure :build do
