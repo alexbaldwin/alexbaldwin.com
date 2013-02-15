@@ -158,12 +158,17 @@ header {
   section {
     @include span-columns(5);
   }
+
+  @include media($tablet) {
+    padding:0;
+  }
 }
 
 nav[role="navigation"] {
   border-bottom:1px solid rgba(0,0,0,.1);
   padding:1em 0;
   margin-bottom: 1.5em;
+  background: rgba(0,0,0,.05);
 
   ul {
     @include span-columns(5);
@@ -179,7 +184,22 @@ nav[role="navigation"] {
       a {
         color:rgba(0,0,0,.5);
       }
+
+      @include media($tablet) {
+        float: none;
+        text-align:left;
+        width:100%;
+        @include pad;
+        border-bottom:1px solid rgba(0,0,0,.1);
+      }
+
     }
+  }
+
+  @include media($tablet) {
+    border-bottom: none;
+    margin:0;
+    padding:0;
   }
 
 }
