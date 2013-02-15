@@ -105,10 +105,12 @@ p {
 }
 
 header {
-  border-top:1em solid $color;
+  //border-top:1em solid $color;
   border-bottom:1px solid rgba(0,0,0,.1);
   padding:1.5em 0;
   text-align: center;
+  background: rgba(0,0,0,.9);
+  color:#fff;
 
   img {
     height:3em;
@@ -126,15 +128,27 @@ header {
     letter-spacing: 2px;
     font-family: "aw-conqueror-sans";
 
+    a {
+      color:#fff;
+    }
+
+    @include media($tablet) {
+      text-align:left;
+      @include pad;
+    }
   }
 
     h2 {
     font-size:.75em;
     line-height: 2em;
     font-weight: 400;
-    color: rgba(0,0,0,.5);
+    color: rgba(255,255,255,.5);
     @include media($tablet) {
       display:none;
+    }
+
+    a {
+      color:rgba(255,255,255,.8);
     }
 
   }
