@@ -3,6 +3,7 @@
 @import "neat/neat-helpers";
 
 //$visual-grid: true;
+//.container {background: url('http://www.baselineme.com/30') center top repeat;}
 $visual-grid-color: rgba(255,0,0,.2);
 $visual-grid-index: back;
 
@@ -89,7 +90,7 @@ p, li {
 }
 
 p {
-  margin-bottom: .5em;
+  margin-bottom: 1.5em;
 
   &+p {
     //margin-top:-.5em;
@@ -99,56 +100,49 @@ p {
 
 .container {
   @include outer-container;
-  //background: url('http://www.baselineme.com/30') center top repeat;
 
 
 }
 
 header {
-  //border-top:1em solid $color;
-  border-bottom:1px solid rgba(0,0,0,.1);
-  padding:1.5em 0;
   text-align: center;
-  background: rgba(0,0,0,.9);
-  color:#fff;
 
-  img {
-    height:3em;
-    width:3em;
-    border-radius:1.5em;
-    margin-top: 1.5em;
+  .container {
+    border-bottom:1px solid rgba(0,0,0,1);
+    padding:.75em 0;
   }
 
   h1 {
     font-size:1.5em;
-    line-height: 1.5em;
-    margin:0.5em 0 0 0;
+    line-height: 1.25em;
+    margin:.5em 0 0 0;
     text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 2px;
-    font-family: "aw-conqueror-sans";
+    font-weight: 600;
+    letter-spacing: 4px;
+    //font-family: "aw-conqueror-sans";
 
     a {
-      color:#fff;
+      //color:#fff;
     }
 
     @include media($tablet) {
-      text-align:left;
       @include pad;
     }
   }
 
     h2 {
     font-size:.75em;
-    line-height: 2em;
+    line-height: 2.5em;
     font-weight: 400;
-    color: rgba(255,255,255,.5);
+    color: rgba(0,0,0,.5);
+    font-style: italic;
+
     @include media($tablet) {
       display:none;
     }
 
     a {
-      color:rgba(255,255,255,.8);
+      //color:rgba(255,255,255,.8);
     }
 
   }
@@ -165,10 +159,19 @@ header {
 }
 
 nav[role="navigation"] {
-  border-bottom:1px solid rgba(0,0,0,.1);
-  padding:1em 0;
+  
+  
   margin-bottom: 1.5em;
-  background: rgba(0,0,0,.05);
+  //background: rgba(0,0,0,.05);
+
+  .container {
+    padding:.5em 0;
+    border-bottom:1px solid rgba(0,0,0,1);
+
+    @include media($tablet) {
+      padding:0;
+    }
+  }
 
   ul {
     @include span-columns(5);
@@ -178,19 +181,31 @@ nav[role="navigation"] {
       float:left;
       width:33%;
       text-align: center;
-      font-family: "aw-conqueror-sans";
+      //font-family: "aw-conqueror-sans";
       text-transform: uppercase;
+      font-size:.75em;
+      line-height:2.5em;
+      letter-spacing: 2px;
 
-      a {
-        color:rgba(0,0,0,.5);
+      &:after {
+        content: "—";
+        float:right;
+        color:rgba(0,0,0,.3);
+      }
+
+      &:last-child:after {
+        content: "";
       }
 
       @include media($tablet) {
         float: none;
-        text-align:left;
         width:100%;
-        @include pad;
-        border-bottom:1px solid rgba(0,0,0,.1);
+        @include pad(1em default);
+        border-top:1px solid rgba(0,0,0,.1);
+        
+        &:after {
+          content: "";
+        }
       }
 
     }
@@ -212,14 +227,11 @@ article {
   }
 
   h2 {
-    
+    line-height: 1.25em;
   }
 
   h3 {
     color:rgba(0,0,0,.5);
-    font-family: "aw-conqueror-sans";
-    padding-bottom:.25em;
-    border-bottom:.25em solid rgba(0,0,0,.05);
   }
 
   [role="article"] {
@@ -253,12 +265,6 @@ img {
 
 .article section {
   margin-top:1.5em;
-
-  > p > img, li > img {
-    border:.5em solid rgba(0,0,0,.05);
-    padding:1em;
-    margin:1.5em 0;
-  }
 
   a {
     text-decoration: underline;
@@ -302,6 +308,7 @@ article nav {
       line-height: 1.5em;
 
       &.articles {
+
         @include span-columns(1);
         a {
           color:rgba(0,0,0,.6);
@@ -312,17 +319,23 @@ article nav {
 }
 
 footer {
-  border-top:1px solid rgba(0,0,0,.1);
-  margin-top:1em;
+  .container {
+    border-top:1px solid rgba(0,0,0,1);
+  }
   
-  font-size:.8rem;
-  color:rgba(0,0,0,.5);
   line-height: 1rem;
 
   [role="attribution"] {
     @include span-columns(5);
     text-align: center;
-    padding:1em 0;
+    padding:1rem;
+
+    p {
+      color:rgba(0,0,0,.5);
+      margin-bottom: 0;
+      line-height:1em;
+      font-size:.75em;
+    }
   }
   
 }
@@ -331,7 +344,6 @@ footer {
   section {
 
     h4 {
-      font-family: "aw-conqueror-sans";
       text-transform: uppercase;
     }
 
@@ -358,7 +370,6 @@ footer {
         @include span-columns(2);
         color:rgba(0,0,0,.5);
         text-align: right;
-        font-family: "aw-conqueror-sans";
       }
       
       a {
