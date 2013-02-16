@@ -6,18 +6,10 @@
 	    	<%= yield %>
 	    </section>
 	    <nav>
-	    	<ul>
-	    		<li class="articles">
-	    			<%= link_to "&larr; Articles", "/archive" %>
-	    		</li>
-	    		<li>
-
-		    	<% next_article = current_article.previous_article %>
-	    		<% if next_article %>
-	      			<%= link_to "#{next_article.title} &raquo;", next_article.url %>
-	      		<% end %>
-	    		</li>
-	    	</ul>
+		    <% next_article = current_article.previous_article %>
+	    	<% if next_article %>
+	      		NEXT: <%= link_to "#{next_article.title} &raquo;", next_article.url %>
+	      <% end %>
 	    </nav>
 	</div>
 

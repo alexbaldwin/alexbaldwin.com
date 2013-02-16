@@ -39,7 +39,7 @@ input, button, select, textarea {
 
 body {    
 
-    font-family: "lemonde-journal"; 
+    font-family: "lemonde-journal", Georgia; 
     color:#333;
 }
 
@@ -231,7 +231,7 @@ article {
   }
 
   h2 {
-    line-height: 1.25em;
+    line-height: 1.5em;
   }
 
   h3 {
@@ -302,24 +302,13 @@ blockquote {
 }
 
 article nav {
-  border-top:.25em solid rgba(0,0,0,.05);
-  padding-top:1em;
-  margin-top:1em;
-
-  ul {
-    li {
-      @include span-columns(4);
-      line-height: 1.5em;
-
-      &.articles {
-
-        @include span-columns(1);
-        a {
-          color:rgba(0,0,0,.6);
-        }
-      }
-    }
-  }
+  border-top:1px solid #000;
+  @include span-columns(5);
+  font-size:.75em;
+  line-height: 2.5em;
+  padding:.5em;
+  
+  
 }
 
 footer {
@@ -327,7 +316,7 @@ footer {
     border-top:1px solid rgba(0,0,0,1);
   }
   
-  line-height: 1rem;
+  line-height: 1.5em;
 
   [role="attribution"] {
     @include span-columns(5);
@@ -370,12 +359,16 @@ footer {
     @include span-columns(2.5);
     @include omega(2n);
     text-align: center;
+    margin-bottom:1.5em;
 
     a {font-weight: 600;}
+    
     p {
       color:rgba(0,0,0,.5);
       font-size:.75em;
+      line-height:2em;
       font-style: italic;
+      margin-bottom:0;
     }
   }
 
@@ -388,9 +381,11 @@ footer {
 .archive {
   ul {
     list-style-type: none;
+    margin-bottom:1em;
+    @include clearfix;
     
     li {
-      padding-bottom:.5em;
+      margin-bottom:1.5em;
       @include span-columns(5);
 
       span {
@@ -416,8 +411,13 @@ footer {
 
 .about {
   img {
-    width:50%;
+    @include span-columns(2);
     margin:0 auto 1.5em;
     display:block;
+  }
+  
+  p {
+    @include span-columns(3);
+    @include pad;
   }
 }
