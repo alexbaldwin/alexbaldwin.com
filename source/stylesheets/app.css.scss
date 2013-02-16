@@ -336,6 +336,27 @@ footer {
       line-height:1em;
       font-size:.75em;
     }
+
+    li {
+      float:left;
+      list-style-type: none;
+      text-align: center;
+      //font-family: "aw-conqueror-sans";
+      text-transform: uppercase;
+      font-size:.75em;
+      line-height:2.5em;
+      letter-spacing: 2px;
+
+      &:after {
+        content: "—";
+        float:right;
+        color:rgba(0,0,0,.3);
+      }
+
+      &:last-child:after {
+        content: "";
+      }
+    }
   }
   
 }
@@ -343,10 +364,7 @@ footer {
 .products {
   section {
 
-    h4 {
-      text-transform: uppercase;
-    }
-
+    a {font-weight: 600;}
     p {
       color:rgba(0,0,0,.5);
     }
@@ -370,6 +388,9 @@ footer {
         @include span-columns(2);
         color:rgba(0,0,0,.5);
         text-align: right;
+        vertical-align: middle;
+        font-size:.75em;
+        font-style: italic;
       }
       
       a {
@@ -381,5 +402,13 @@ footer {
 
   nav {
     border-top: .25em solid rgba(0,0,0,.3);
+  }
+}
+
+.about {
+  img {
+    width:50%;
+    margin:0 auto 1.5em;
+    display:block;
   }
 }

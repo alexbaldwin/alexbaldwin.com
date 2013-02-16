@@ -56,8 +56,11 @@
     <footer>
       <div class="container">
         <section role="attribution">
-          <p><small>☯</small></p> 
-          <p><small>&copy; 2005 - 2013. All rights reserved.</small></p>
+          <p><small>☯ 2005 - 2013.</small></p> 
+          <ul>
+            <li><%= mail_to 'alexbaldwin@gmail.com', 'Email' %></li>
+            <li><%= link_to 'RSS', '/feed.xml' %></li>
+          </ul>
         </section>
       </div>
     </footer>  
