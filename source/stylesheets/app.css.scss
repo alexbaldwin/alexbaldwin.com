@@ -19,6 +19,10 @@ $max-width: 30rem;
 
 $color:rgb(46, 137, 196);
 
+a {
+  font-weight: 600;
+}
+
 
 * {
   margin: 0;
@@ -363,10 +367,15 @@ footer {
 
 .products {
   section {
+    @include span-columns(2.5);
+    @include omega(2n);
+    text-align: center;
 
     a {font-weight: 600;}
     p {
       color:rgba(0,0,0,.5);
+      font-size:.75em;
+      font-style: italic;
     }
   }
 
@@ -383,7 +392,7 @@ footer {
     li {
       padding-bottom:.5em;
       @include span-columns(5);
-      
+
       span {
         @include span-columns(2);
         color:rgba(0,0,0,.5);
