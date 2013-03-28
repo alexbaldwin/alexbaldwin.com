@@ -37,8 +37,11 @@ input, button, select, textarea {
   font: inherit;
 }
 
-body {    
+html {
+  
+}
 
+body {
     font-family: "lemonde-journal", Georgia; 
     color:#333;
 }
@@ -104,8 +107,6 @@ p {
 
 .container {
   @include outer-container;
-
-
 }
 
 header {
@@ -424,4 +425,8 @@ footer {
     @include span-columns(3);
     @include pad;
   }
+}
+
+.hero {
+  margin-bottom:1rem;
 }
