@@ -113,7 +113,7 @@ header {
   text-align: center;
 
   .container {
-    border-bottom:1px solid rgba(0,0,0,1);
+    border-bottom:1px dotted rgba(0,0,0,.3);
     padding:.75em 0;
   }
 
@@ -171,7 +171,7 @@ nav[role="navigation"] {
 
   .container {
     padding:.5em 0;
-    border-bottom:1px solid rgba(0,0,0,1);
+    border-bottom:1px dotted rgba(0,0,0,.3);
 
     @include media($tablet) {
       padding:0;
@@ -206,7 +206,7 @@ nav[role="navigation"] {
         float: none;
         width:100%;
         @include pad(1em default);
-        border-top:1px solid rgba(0,0,0,.1);
+        border-top:1px dotted rgba(0,0,0,.3);
         
         &:after {
           content: "";
@@ -307,7 +307,7 @@ blockquote {
 }
 
 article nav {
-  border-top:1px solid #000;
+  border-top:1px dotted rgba(0,0,0,.3);
   @include span-columns(5);
   font-size:.75em;
   line-height: 2.5em;
@@ -318,7 +318,7 @@ article nav {
 
 footer {
   .container {
-    border-top:1px solid rgba(0,0,0,1);
+    border-top:1px dotted rgba(0,0,0,.3);
   }
   
   line-height: 1.5em;
