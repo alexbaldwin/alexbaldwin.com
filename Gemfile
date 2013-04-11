@@ -9,6 +9,8 @@ gem "redcarpet"
 # For feed.xml.builder
 gem "builder", "~> 3.0.0"
 
+gem "middleman-smusher"
+
 group :development do
   gem "bourbon"
   gem "neat"
