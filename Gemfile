@@ -15,3 +15,7 @@ group :development do
   gem "bourbon"
   gem "neat"
 end
+
+group :production do
+  gem 'heroku-deflater'
+end
