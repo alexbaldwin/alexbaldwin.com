@@ -101,16 +101,19 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 
+  # Uniquely-named assets
+  activate :asset_hash
+
   # Enable cache buster
-  # activate :cache_buster
+  activate :cache_buster
 
   # Use relative URLs
   # activate :relative_assets
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
-  require "middleman-smusher"
-  activate :smusher
+  # require "middleman-smusher"
+  # activate :smusher
 
   activate :gzip
 
