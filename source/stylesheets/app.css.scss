@@ -1,3 +1,4 @@
+@import "normalize";
 @import "compass/vertical_rhythm";
 @import "bourbon/bourbon";
 @import "neat/neat-helpers";
@@ -38,11 +39,11 @@ input, button, select, textarea {
 }
 
 html {
-  
+
 }
 
 body {
-    font-family: "lemonde-journal", Georgia; 
+    font-family: "lemonde-journal", Georgia;
     color:#333;
 }
 
@@ -152,7 +153,7 @@ header {
 
   }
 
-  
+
 
   section {
     @include span-columns(5);
@@ -164,8 +165,8 @@ header {
 }
 
 nav[role="navigation"] {
-  
-  
+
+
   margin-bottom: 1.5em;
   //background: rgba(0,0,0,.05);
 
@@ -207,7 +208,7 @@ nav[role="navigation"] {
         width:100%;
         @include pad(1em default);
         border-top:1px dotted rgba(0,0,0,.3);
-        
+
         &:after {
           content: "";
         }
@@ -250,22 +251,22 @@ article {
 
 footer {
   ol {
-    
+
     list-style-type: none;
-    
+
     li {
       span {
         text-align: right;
         @include span-columns(2);
         color:#999;
       }
-    
+
       a {
         @include span-columns(10);
       }
     }
   }
-  
+
 }
 
 img {
@@ -300,7 +301,7 @@ blockquote {
 
 
   p {
-    
+
     color:#999;
     font-style: italic;
   }
@@ -312,15 +313,15 @@ article nav {
   font-size:.75em;
   line-height: 2.5em;
   padding:.5em;
-  
-  
+
+
 }
 
 footer {
   .container {
     border-top:1px dotted rgba(0,0,0,.3);
   }
-  
+
   line-height: 1.5em;
 
   [role="attribution"] {
@@ -356,7 +357,7 @@ footer {
       }
     }
   }
-  
+
 }
 
 .products {
@@ -367,7 +368,7 @@ footer {
     margin-bottom:1.5em;
 
     a {font-weight: 600;}
-    
+
     p {
       color:rgba(0,0,0,.5);
       font-size:.75em;
@@ -388,7 +389,7 @@ footer {
     list-style-type: none;
     margin-bottom:1em;
     @include clearfix;
-    
+
     li {
       margin-bottom:1.5em;
       @include span-columns(5);
@@ -401,7 +402,7 @@ footer {
         font-size:.75em;
         font-style: italic;
       }
-      
+
       a {
         @include span-columns(3);
         font-weight: 600;
@@ -420,7 +421,7 @@ footer {
     margin:0 auto 1.5em;
     display:block;
   }
-  
+
   p {
     @include span-columns(3);
     @include pad;
