@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
-    <title>Alex Baldwin | Product designer</title>
+    <title>
+      <% if current_article %>
+        <%= "#{current_article.title} | Alex Baldwin" %>
+      <% else %>
+        <%= "Alex Baldwin, Product Designer" %>
+      <% end %>
+    </title>
     <meta name="description" content="Alex Baldwin, product designer based out of San Francisco. Designer of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup's Dashboard.io, and many more fun projects. ">
     <meta name="viewport" content="width=device-width">
     <%= stylesheet_link_tag 'app' %>
@@ -12,7 +18,6 @@
     <header>
       <div class="container">
         <section>
-          <%# image_tag "http://www.thoughtbot.com/assets/people/alex-baldwin.jpg" %>
           <h1><%= link_to "Alex Baldwin", "/" %></h1>
           <h2>Design, lattes, and dope beats.</h2>
         </section>
