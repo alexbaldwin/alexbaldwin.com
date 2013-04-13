@@ -30,7 +30,7 @@ module Rack
 end
 
 use Rack::TryStatic, :root => "build", :urls => %w[/], :try => ['.html', 'index.html', '/index.html']
-
+use Rack::StaticCache, :urls => ["/"], :root => "build"
 # Run your own Rack app here or use this one to serve 404 messages:
 run lambda{ |env|
   not_found_page = File.expand_path("../build/404.html", __FILE__)
