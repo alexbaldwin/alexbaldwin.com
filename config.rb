@@ -84,6 +84,8 @@ set :markdown,  :fenced_code_blocks => true,
 
 page "/lab/*", :layout => "lab"
 
+page "/sitemap.xml", :layout => false
+
 # Pretty URLs
 activate :directory_indexes
 
