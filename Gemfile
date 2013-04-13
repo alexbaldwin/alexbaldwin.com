@@ -17,5 +17,6 @@ group :development do
 end
 
 group :production do
+  # Enables gzipping for Heroku
   gem 'heroku-deflater'
 end
