@@ -6,6 +6,9 @@
 # - `/foo` will try to serve `build/foo` or `build/foo.html` in that order
 # - missing files will try to serve build/404.html or a tiny default 404 page
 
+require 'rack'
+require 'rack/contrib/static_cache'
+require 'rack/contrib/try_static'
 
 module Rack
 
@@ -29,8 +32,12 @@ module Rack
   end
 end
 
-use Rack::TryStatic, :root => "build", :urls => %w[/], :try => ['.html', 'index.html', '/index.html']
+use Rack::TryStatic,
+  :root => "build", :urls => %w[/],
+  :try => ['.html', 'index.html', '/index.html']
+
 use Rack::StaticCache, :urls => ["/"], :root => "build"
+
 # Run your own Rack app here or use this one to serve 404 messages:
 run lambda{ |env|
   not_found_page = File.expand_path("../build/404.html", __FILE__)
