@@ -67,7 +67,7 @@ page "/feed.xml", :layout => false
 ###
 
 # Automatic image dimensions on image_tag helper
-activate :automatic_image_sizes
+# activate :automatic_image_sizes
 
 # Roll out the red carpet to fix XML parsing errors in Markdown
 set :markdown_engine, :redcarpet

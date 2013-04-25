@@ -111,10 +111,8 @@ p {
 }
 
 header {
-  text-align: center;
 
   .container {
-    border-bottom:1px dotted rgba(0,0,0,.3);
     padding:.75em 0;
   }
 
@@ -153,8 +151,6 @@ header {
 
   }
 
-
-
   section {
     @include span-columns(5);
   }
@@ -166,13 +162,11 @@ header {
 
 nav[role="navigation"] {
 
-
   margin-bottom: 1.5em;
-  //background: rgba(0,0,0,.05);
 
   .container {
     padding:.5em 0;
-    border-bottom:1px dotted rgba(0,0,0,.3);
+    border-bottom:1px solid rgba(0,0,0,.3);
 
     @include media($tablet) {
       padding:0;
@@ -185,23 +179,10 @@ nav[role="navigation"] {
 
     li {
       float:left;
-      width:33%;
-      text-align: center;
-      //font-family: "aw-conqueror-sans";
-      text-transform: uppercase;
       font-size:.75em;
       line-height:2.5em;
       letter-spacing: 2px;
-
-      &:after {
-        content: "—";
-        float:right;
-        color:rgba(0,0,0,.3);
-      }
-
-      &:last-child:after {
-        content: "";
-      }
+      margin-right: 2em;
 
       @include media($tablet) {
         float: none;
@@ -326,35 +307,22 @@ footer {
 
   [role="attribution"] {
     @include span-columns(5);
-    text-align: center;
-    padding:1rem;
+    padding:1rem 0;
+    color:rgba(0,0,0,.5);
+    margin-bottom: 0;
+    line-height:1rem;
+    font-size:.75rem;
 
-    p {
-      color:rgba(0,0,0,.5);
-      margin-bottom: 0;
-      line-height:1em;
-      font-size:.75em;
+    ul {
+      li {
+        float: left;
+        margin-right: 1rem;
+        list-style-type: none;
+      }
     }
 
-    li {
-      float:left;
-      list-style-type: none;
-      text-align: center;
-      //font-family: "aw-conqueror-sans";
-      text-transform: uppercase;
-      font-size:.75em;
-      line-height:2.5em;
-      letter-spacing: 2px;
-
-      &:after {
-        content: "—";
-        float:right;
-        color:rgba(0,0,0,.3);
-      }
-
-      &:last-child:after {
-        content: "";
-      }
+    small {
+      float: right;
     }
   }
 
@@ -364,7 +332,6 @@ footer {
   section {
     @include span-columns(2.5);
     @include omega(2n);
-    text-align: center;
     margin-bottom:1.5em;
 
     a {font-weight: 600;}
