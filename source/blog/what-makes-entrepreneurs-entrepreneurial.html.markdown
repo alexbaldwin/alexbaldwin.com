@@ -5,6 +5,8 @@ tags:
 published: true
 ---
 
+*This post is from the Alex Baldwin Posterous Archive*
+
 Normally I hate papers, but this one caught my eye. Especially when a VC comments horseshit.
 
 ![Typical MBA horseshit](khosla-cube.png)
