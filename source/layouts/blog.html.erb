@@ -1,15 +1,15 @@
 <% wrap_layout :layout do %>
 	<div class="article">
 		<h2><%= current_page.title %></h2>
-	    <h3><%= current_page.date.strftime('%B %e, %Y') %></h3>
-	    <h4>By Alex Baldwin</h4>
+	    <h3 class="byline">By Alex Baldwin • <%= current_page.date.strftime('%B %e, %Y') %></h3>
 	    <section>
 	    	<%= yield %>
 	    </section>
 	    <nav>
 		    <% next_article = current_article.previous_article %>
 	    	<% if next_article %>
-	      		NEXT: <%= link_to "#{next_article.title} &raquo;", next_article.url %>
+	    		<label>Next</label>
+	      	<%= link_to "#{next_article.title} &raquo;", next_article.url %>
 	      <% end %>
 	    </nav>
 	</div>
