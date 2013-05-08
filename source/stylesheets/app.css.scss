@@ -93,7 +93,7 @@ h6 {
 }
 p, li {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 1.8em;
     color:#333;
 }
 
@@ -200,13 +200,15 @@ article {
   }
 
   h2 {
-    line-height: 1.5em;
+    line-height: 1.2em;
+    margin-bottom: .5rem;
   }
 
   h3.byline {
     color:rgba(0,0,0,.3);
     font-size: .8em;
     font-weight: normal;
+    margin-bottom: 1rem;
   }
 
   h3 {
