@@ -10,15 +10,11 @@ Growing up GoldenEye had a special place in my heart, it was the first game my p
 
 It's hard to imagine that this game almost didn't exist. Rare's studio head [Mark Betteridge](http://gamerant.com/rare-goldeneye-64-disaster-zak-39369/) was quoted as saying,
 
-> ![Mark Betteridge](http://www.develop-online.net/static/images/features/835/184_1172_Mark%20Betteridge.jpg?i=1269566657)
-
 > When Nintendo asked if we wanted to do it, we said, ‘well not really…we were trying to build our on IP, and film tie-ins meant a lot of ownership by the film company
 
 The team faced insane amounts of adversity and uncertainty. Starting out, they didn't even know what the specs were for the new platform.  [Wikipedia on the game's development](http://alexbaldw.in/Kb0a).
 
-> ![Wikipedia](http://upload.wikimedia.org/wikipedia/commons/6/63/Wikipedia-logo.png) 
-
-> Final N64 specifications and development workstations were not initially available to Rare: a modified Sega Saturn controller was used for some early play testing, and the developers had to estimate what the finalized console's capabilities would be. 
+> Final N64 specifications and development workstations were not initially available to Rare: a modified Sega Saturn controller was used for some early play testing, and the developers had to estimate what the finalized console's capabilities would be.
 
 Getting closer to the release date, the final platform specs were released and they had to make significant graphic cuts to make it work.
 
