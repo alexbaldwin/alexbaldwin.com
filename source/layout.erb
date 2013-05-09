@@ -3,18 +3,18 @@
   <head>
     <meta http-equiv='X-UA-Compatible' content='IE=edge;chrome=1' />
     <meta charset=utf-8>
-      <% if current_article %>
-        <title><%= "#{current_article.title}" %></title>
-        <meta name="twitter:card" content="summary">
-        <meta property="twitter:creator" content="@alexbaldwin">
-        <meta name="twitter:title" content="<%= truncate(current_article.title, length: 70) %>">
-        <meta name="twitter:image" content="<%= "#{current_article.data.image}" %>">
+    <% if current_article %>
+      <title><%= "#{current_article.title}" %></title>
+      <meta name="twitter:card" content="summary">
+      <meta property="twitter:creator" content="@alexbaldwin">
+      <meta name="twitter:title" content="<%= truncate(current_article.title, length: 70) %>">
+      <meta name="twitter:image" content="<%= "#{current_article.data.image}" %>">
 
-        <meta name="twitter:description" content="<%= truncate(strip_tags(current_article.summary), length: 200) %>">
-        <meta name="twitter:domain" content="<%= "http://www.alexbaldwin.com#{current_article.url}" %>">
-      <% else %>
-        <title><%= "Alex Baldwin, Product Designer" %></title>
-      <% end %>
+      <meta name="twitter:description" content="<%= truncate(strip_tags(current_article.summary), length: 200) %>">
+      <meta name="twitter:domain" content="<%= "http://www.alexbaldwin.com#{current_article.url}" %>">
+    <% else %>
+      <title><%= "Alex Baldwin, Product Designer" %></title>
+    <% end %>
     </title>
     <meta name="description" content="Alex Baldwin, product designer based out of San Francisco. Designer of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup's Dashboard.io, and many more fun projects. ">
     <meta name="viewport" content="width=device-width">
