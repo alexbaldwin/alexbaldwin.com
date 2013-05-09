@@ -2,6 +2,7 @@
 title: Goldeneye 64's inspirational startup story
 date: 2012-11-01 12:03 -07:00
 tags:
+image: http://image.jeuxvideo.com/images/64/g/o/goldeneye-007-nintendo-64-n64-016.jpg
 ---
 
 ![GoldenEye 64](http://image.jeuxvideo.com/images/64/g/o/goldeneye-007-nintendo-64-n64-016.jpg)
