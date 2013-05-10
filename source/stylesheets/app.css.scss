@@ -184,7 +184,6 @@ nav[role="navigation"] {
         &:hover {
           color: rgba(0,0,0,1);
         }
-
       }
     }
   }
@@ -287,8 +286,8 @@ article nav {
     top: 10px;
   }
   a {
-    font-size:.75em;
-    line-height: 2.5em;
+    font-size:1rem;
+    line-height: 2.5rem;
     display: block;
     opacity: .5;
     color: #333;
@@ -308,12 +307,19 @@ article nav {
 footer {
   font-family: "ff-meta-sc-web-pro";
   text-transform: lowercase;
+  line-height: 1.5em;
 
   .container {
-    border-top:1px dotted rgba(0,0,0,.3);
+    border-top:1px solid rgba(0,0,0,.1);
   }
 
-  line-height: 1.5em;
+  a {
+      color: rgba(0,0,0,.5);
+
+      &:hover {
+        color: rgba(0,0,0,1);
+      }
+    }
 
   [role="attribution"] {
     @include span-columns(5);
