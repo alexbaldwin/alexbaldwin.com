@@ -1,7 +1,7 @@
 <% wrap_layout :layout do %>
 	<div class="article">
-		<h2><%= current_page.title %></h2>
-	    <h3 class="byline">By Alex Baldwin • <%= current_page.date.strftime('%B %e, %Y') %></h3>
+		<h1 class="title"><%= current_page.title %></h2>
+	    <h2 class="byline">By Alex Baldwin • <%= current_page.date.strftime('%B %e, %Y') %></h3>
 	    <section>
 	    	<%= yield %>
 	    </section>
