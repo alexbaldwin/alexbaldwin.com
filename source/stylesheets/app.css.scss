@@ -196,20 +196,29 @@ article {
     @include pad;
   }
 
-  h2 {
+  .title {
+    font-size: 3em;
     line-height: 1.2em;
     margin-bottom: .5rem;
   }
 
-  h3.byline {
+  .byline {
     color:rgba(0,0,0,.3);
     font-size: .8em;
     font-weight: normal;
     margin-bottom: 1rem;
   }
 
+  h2 {
+    font-weight: normal;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    color: #333;
+  }
+
   h3 {
     font-weight: bold;
+    font-style: italic;
     margin-bottom: .5rem;
     font-size: 1rem;
     color: #333;
