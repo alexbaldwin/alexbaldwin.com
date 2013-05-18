@@ -6,7 +6,7 @@
     <% if current_article %>
       <title><%= "#{current_article.title}" %></title>
       <meta name="description" content="<%= truncate(strip_tags(current_article.summary), length: 150) %>">
-
+      <link rel="canonical" href="<%= "http://www.alexbaldwin.com#{current_article.url}" %>">
       <meta name="twitter:card" content="summary">
       <meta property="twitter:creator" content="alexbaldwin">
       <meta name="og:type" content="article">
