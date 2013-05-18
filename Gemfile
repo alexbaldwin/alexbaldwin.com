@@ -12,8 +12,7 @@ gem 'builder', '~> 3.0.0'
 gem 'middleman-smusher'
 
 # Deployment
-gem 'middleman-sync', '~> 3.0.9'
-gem 'middleman-cloudfront'
+gem 'middleman-fjords'
 
 group :development do
   gem 'bourbon'
