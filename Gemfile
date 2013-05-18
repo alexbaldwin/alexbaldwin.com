@@ -1,22 +1,21 @@
-source :rubygems
+source 'https://rubygems.org'
 
-gem "middleman", "~> 3.0.11"
-gem "middleman-blog", "~> 3.1.1"
+gem 'middleman', '~> 3.0.11'
+gem 'middleman-blog', '~> 3.1.1'
 
 # Way better markdown support, roll out the red carpet
-gem "redcarpet"
+gem 'redcarpet'
 
 # For feed.xml.builder
-gem "builder", "~> 3.0.0"
+gem 'builder', '~> 3.0.0'
 
-gem "middleman-smusher"
+gem 'middleman-smusher'
+
+# Deployment
+gem 'middleman-sync', '~> 3.0.9'
+gem 'middleman-cloudfront'
 
 group :development do
-  gem "bourbon"
-  gem "neat"
-end
-
-group :production do
-  # Enables gzipping for Heroku
-  gem 'heroku-deflater'
+  gem 'bourbon'
+  gem 'neat'
 end
