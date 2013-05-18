@@ -6,18 +6,20 @@
     <% if current_article %>
       <title><%= "#{current_article.title}" %></title>
       <meta name="description" content="<%= truncate(strip_tags(current_article.summary), length: 150) %>">
-      <meta name="twitter:card" content="summary">
-      <meta property="twitter:creator" content="@alexbaldwin">
-      <meta name="twitter:title" content="<%= truncate(current_article.title, length: 70) %>">
-      <meta name="twitter:image" content="<%= "#{current_article.data.image}" %>">
 
-      <meta name="twitter:description" content="<%= truncate(strip_tags(current_article.summary), length: 200) %>">
-      <meta name="twitter:domain" content="<%= "http://www.alexbaldwin.com#{current_article.url}" %>">
+      <meta name="twitter:card" content="summary">
+      <meta property="twitter:creator" content="alexbaldwin">
+      <meta name="og:type" content="blog">
+      <meta name="og:title" content="<%= truncate(current_article.title, length: 70) %>">
+      <meta name="og:image" content="<%= "#{current_article.data.image}" %>">
+      <meta name="og:description" content="<%= truncate(strip_tags(current_article.summary), length: 200) %>">
+      <meta name="og:url" content="<%= "http://www.alexbaldwin.com#{current_article.url}" %>">
     <% else %>
       <title><%= "Alex Baldwin, Product Designer" %></title>
       <meta name="description" content="Alex Baldwin, product designer based out of San Francisco. Designer of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup's Dashboard.io, and many more fun projects.">
     <% end %>
     </title>
+    <meta name="generator" content="MiddlemanApp">
     <meta name="viewport" content="width=device-width">
     <%= stylesheet_link_tag 'app' %>
   </head>
