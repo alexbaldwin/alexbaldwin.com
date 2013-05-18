@@ -9,7 +9,7 @@
 
       <meta name="twitter:card" content="summary">
       <meta property="twitter:creator" content="alexbaldwin">
-      <meta name="og:type" content="blog">
+      <meta name="og:type" content="article">
       <meta name="og:title" content="<%= truncate(current_article.title, length: 70) %>">
       <meta name="og:image" content="<%= "#{current_article.data.image}" %>">
       <meta name="og:description" content="<%= truncate(strip_tags(current_article.summary), length: 200) %>">
@@ -28,7 +28,7 @@
       <div class="container">
         <section>
           <%= image_tag('alexbaldwin-avatar.jpg') %>
-          <h1><%= link_to "Alex Baldwin", "/" %></h1>
+          <h1><%= link_to "Alex Baldwin", "/", rel: "author" %></h1>
           <h2>Why hello there, I'm Alex Baldwin. I design and develop products for the internet using wit & charm. When I'm not doing that, you can find me climbing nature, disc jockeying, drinking lattes, or possibly cartwheeling.</h2>
         </section>
       </div>
