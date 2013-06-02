@@ -117,7 +117,7 @@ configure :build do
   # require "middleman-smusher"
   # activate :smusher
 
-  activate :gzip
+  #activate :gzip
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
