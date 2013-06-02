@@ -97,6 +97,9 @@ set :images_dir, 'images'
 
 # Build-specific configuration
 configure :build do
+  # Squeeze that html down
+  activate :minify_html
+
   # For example, change the Compass output style for deployment
   activate :minify_css
 
@@ -126,5 +129,5 @@ end
 activate :fjords do |fjords|
   fjords.username = ENV["FJORDS_USERNAME"]
   fjords.password = ENV["FJORDS_PASSWORD"]
-  fjords.domain = 'alexbaldwin.com'
+  fjords.domain = 'www.alexbaldwin.com'
 end
