@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'middleman', '~> 3.0.11'
 gem 'middleman-blog', '~> 3.1.1'
+gem 'middleman-minify-html'
 
 # Way better markdown support, roll out the red carpet
 gem 'redcarpet'
