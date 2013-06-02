@@ -2,6 +2,7 @@
 @import "compass/vertical_rhythm";
 @import "bourbon/bourbon";
 @import "neat/neat-helpers";
+@import "//cdn.symbolset.com/4ba23bc57d3e74f2459637e310b658460f3cf9bb/symbolset.css";
 
 //$visual-grid: true;
 //.container {background: url('http://www.baselineme.com/30') center top repeat;}
@@ -354,25 +355,60 @@ footer {
 }
 
 .products {
-  section {
+  .product {
+    @include transition (all .33s ease-in-out);
     @include span-columns(2.5);
     @include omega(2n);
     margin-bottom:1.5em;
+    border: 1px solid rgb(240,240,240);
+    text-align: center;
+    padding: 2rem .5rem;
 
-    a {font-weight: 600;}
+    &:hover {
+      border: 1px solid rgb(220,220,220);
+    }
 
-    p {
-      color:rgba(0,0,0,.5);
-      font-size:.75em;
-      line-height:2em;
-      font-style: italic;
-      margin-bottom:0;
+    &.dead {
+      opacity: .5;
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 
-  .dead {
-    text-decoration: line-through;
-    opacity:.5;
+  i {
+    display: block;
+    margin: 0 auto .5rem;
+    background: red;
+    color: #fff;
+    text-align: center;
+    line-height: 3rem;
+    padding: 3px;
+    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+
+  h3 {
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-weight: 300;
+    color:rgba(0,0,0,.5);
+    font-size:.75em;
+    line-height:2em;
+    font-style: italic;
+    margin-bottom:0;
+
+    &.stat {
+      color:rgba(0,0,0,.3);
+      font-style: normal;
+    }
   }
 }
 
