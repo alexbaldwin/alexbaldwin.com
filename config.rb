@@ -124,6 +124,6 @@ configure :build do
 end
 
 activate :fjords do |fjords|
-  fjords.username = "alexbaldwin"
-  fjords.password = "monkmonk"
+  fjords.username = ENV["FJORDS_USERNAME"]
+  fjords.password = ENV["FJORDS_PASSWORD"]
 end
