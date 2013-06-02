@@ -126,4 +126,5 @@ end
 activate :fjords do |fjords|
   fjords.username = ENV["FJORDS_USERNAME"]
   fjords.password = ENV["FJORDS_PASSWORD"]
+  fjords.domain = 'alexbaldwin.com'
 end
