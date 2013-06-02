@@ -9,8 +9,8 @@
 $visual-grid-color: rgba(255,0,0,.2);
 $visual-grid-index: back;
 
-$mobile: new-breakpoint(max-width 480px 4);
-$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 5);
+$tablet: new-breakpoint(max-width 768px 10);
 
 $column: 9rem;
 $gutter: 3rem;
@@ -358,6 +358,11 @@ footer {
     @include transition (all .33s ease-in-out);
     @include span-columns(2.5);
     @include omega(2n);
+
+    @include media($mobile) {
+      @include span-columns(5);
+    }
+
     margin-bottom:1.5em;
     border: 1px solid rgb(240,240,240);
     text-align: center;
