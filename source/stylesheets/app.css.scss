@@ -44,7 +44,7 @@ html {
 }
 
 body {
-    font-family: "lemonde-journal", Georgia;
+    font-family: 'Whitney A', 'Whitney B';
     color:#333;
 }
 
@@ -127,10 +127,8 @@ header {
     font-size:1em;
     line-height: 1.25em;
     margin-top: 0;
-    text-transform: lowercase;
     font-weight: 600;
     letter-spacing: 4px;
-    font-family: "ff-meta-sc-web-pro";
   }
 
     h2 {
@@ -169,8 +167,6 @@ nav[role="navigation"] {
       padding-bottom: .5em;
       position: relative;
       top: 1px;
-      font-family: "ff-meta-sc-web-pro";
-      text-transform: lowercase;
       float:left;
       font-size:.75em;
       line-height:2.5em;
@@ -286,8 +282,6 @@ blockquote {
 
 article nav {
   label {
-    font-family: "ff-meta-sc-web-pro";
-    text-transform: lowercase;
     display: block;
     font-size: .8rem;
     opacity: .5;
@@ -314,8 +308,6 @@ article nav {
 }
 
 footer {
-  font-family: "ff-meta-sc-web-pro";
-  text-transform: lowercase;
   line-height: 1.5em;
 
   .container {

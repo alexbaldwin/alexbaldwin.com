@@ -70,10 +70,11 @@ page "/feed.xml", :layout => false
 # activate :automatic_image_sizes
 
 # Roll out the red carpet to fix XML parsing errors in Markdown
+set :markdown,  :tables => true,
+                :gh_blockcode => true,
+                :fenced_code_blocks => true,
+                :autolink => true
 set :markdown_engine, :redcarpet
-set :markdown,  :fenced_code_blocks => true,
-                :autolink => true,
-                :smartypants => true
 
 # Methods defined in the helpers block are available in templates
 # helpers do

@@ -73,7 +73,7 @@ p {
 a:link, a:visited {
   color: $base-link-color;
   text-decoration: underline;
-  @include transition(color, 0.1s linear);
+  @include transition(color 0.1s linear);
 
   &:hover {
     color: $hover-link-color;
@@ -81,6 +81,7 @@ a:link, a:visited {
 
   &:active, &:focus {
     color: $hover-link-color;
+    outline: none;
   }
 }
 
