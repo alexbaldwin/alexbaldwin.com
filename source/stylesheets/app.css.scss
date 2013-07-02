@@ -83,6 +83,14 @@ header[role="author"] {
       list-style-type: none;
       padding: 0;
     }
+
+    li {
+      margin-bottom: .25rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
   }
 }
 
