@@ -1,7 +1,7 @@
 <article class="archive">
 	<ul>
 	  <% page_articles.each_with_index do |article, i| %>
-	    <li><span><%= article.date.strftime('%B %e, %Y') %></span><%= link_to article.title, article %></li>
+	    <li><%= link_to article.title, article %><span><%= article.date.strftime('%B %e, %Y') %></span></li>
 	  <% end %>
 	</ul>
 </article>

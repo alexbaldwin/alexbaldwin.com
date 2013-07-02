@@ -5,8 +5,6 @@ tags:
 image: http://image.jeuxvideo.com/images/64/g/o/goldeneye-007-nintendo-64-n64-016.jpg
 ---
 
-![GoldenEye 64](http://image.jeuxvideo.com/images/64/g/o/goldeneye-007-nintendo-64-n64-016.jpg)
-
 Growing up GoldenEye had a special place in my heart, it was the first game my parents wouldn't let me buy. I saved up allowances and dug up couch treasures for months to taste the forbidden fruit. The effort turned into one of the pillars of my childhood experiences. I still vividly remember where to place the proximity mines on Temple to get crazy spawn point kill streaks against my little brother. 15 years later, it's still inspiring me, but not for the proximity mines.
 
 It's hard to imagine that this game almost didn't exist. Rare's studio head [Mark Betteridge](http://gamerant.com/rare-goldeneye-64-disaster-zak-39369/) was quoted as saying,

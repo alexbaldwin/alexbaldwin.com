@@ -2,11 +2,8 @@
 title: Work in progress, a Markdown sample file
 date: 2013-02-16 00:18 -08:00
 tags:
-published: true
+published: false
 ---
-
-GitHub Flavored Markdown
-================================
 
 *View the [source of this content](http://github.github.com/github-flavored-markdown/sample_content.html).*
 
