@@ -1,17 +1,15 @@
 <% wrap_layout :layout do %>
 	<div class="article">
+		<% if current_article.data.image %>
+			<%= image_tag(current_article.data.image, alt: current_page.title) %>
+		<% end %>
 		<h1 class="title"><%= current_page.title %></h2>
 	    <h2 class="byline">By Alex Baldwin • <%= current_page.date.strftime('%B %e, %Y') %></h3>
 	    <section>
 	    	<%= yield %>
 	    </section>
-	    <nav>
-		    <% next_article = current_article.previous_article %>
-	    	<% if next_article %>
-	    		<label>Next</label>
-	      	<%= link_to "#{next_article.title} &raquo;", next_article.url %>
-	      <% end %>
-	    </nav>
+
+	    <%= link_to '&larr; Articles', '#', class: 'article-link' %>
 	</div>
 
 	<script type="text/javascript">

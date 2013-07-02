@@ -2,6 +2,11 @@
 @import "compass/vertical_rhythm";
 @import "bourbon/bourbon";
 @import "neat/neat-helpers";
+@import "bitters/base";
+@import "bitters/variables";
+@import "bitters/typography";
+@import "bitters/tables";
+@import "//cloud.typography.com/6326032/645982/css/fonts.css";
 @import "//cdn.symbolset.com/4ba23bc57d3e74f2459637e310b658460f3cf9bb/symbolset.css";
 
 //$visual-grid: true;
@@ -13,109 +18,59 @@ $mobile: new-breakpoint(max-width 480px 5);
 $tablet: new-breakpoint(max-width 768px 10);
 
 $column: 9rem;
-$gutter: 3rem;
-$grid-columns: 5;
-$max-width: 30rem;
+$gutter: 5rem;
+$grid-columns: 7;
+$max-width: 40rem;
 
-@import "neat/neat";
-
-$color:rgb(46, 137, 196);
-
-a {
-  font-weight: 600;
-}
-
-
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  position: relative;
-}
-
-input, button, select, textarea {
-  font: inherit;
-}
-
-html {
-
-}
-
-body {
-    font-family: 'Whitney A', 'Whitney B';
-    color:#333;
-}
+$base-font-color: #444;
+$light-font-color: lighten($base-font-color, 30%);
 
 $base-font-size:20px;
 $base-line-height:30px;
 
 @include establish-baseline;
 
-a {
-  color:#333;
-  text-decoration: none;
-  &:hover {
-    color: $color;
-  }
-}
+//$brand-color:rgb(46, 137, 196);
 
-h1 {
-    font-size: 1em;
-    line-height: 1.5em;
-    font-weight: 700;
-}
-h2 {
-    font-size: 2em;
-    line-height: 1.5em;
-    font-weight: 600;
-}
-h3 {
-    font-size: 1em;
-    line-height: 1.5em;
-    font-weight: 400;
-}
-h4 {
-    font-size: 1em;
-    line-height: 1.5em;
-    font-weight: normal;
-}
-h5 {
-    font-size: 1em;
-    line-height: 1.5em;
-    font-weight: normal;
-}
-h6 {
-    font-size: 1em;
-    line-height: 1.5em;
-    font-weight: normal;
-}
-p, li {
-    font-size: 1em;
-    line-height: 1.8em;
-    color:#333;
-}
+@import "neat/neat";
 
-p {
-  margin-bottom: 1.5em;
 
-  &+p {
-    //margin-top:-.5em;
-    //text-indent: 1em;
-  }
+body {
+    font-family: 'Whitney A', 'Whitney B';
+    color: $base-font-color;
 }
 
 .container {
   @include outer-container;
 }
 
-header {
-  text-align: center;
-  padding: 1.5rem 0;
+header[role="author"] {
+  @include span-columns(2);
+  @include omega();
+  float: right;
+  margin-top: 6rem;
 
-  .container {
-    padding:.75em 0;
+  section {
+    h1 {
+      font-weight: 700;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      margin: 0;
+    }
+
+    a {
+      color: $base-font-color;
+      text-decoration: none;
+    }
+
+    p {
+      font-weight: 400;
+      color: $light-font-color;
+      font-size: .75rem;
+      line-height: 1rem;
+      font-style: italic;
+      margin-top: 0;
+    }
   }
 
   img {
@@ -123,144 +78,42 @@ header {
     border-radius: 32px;
   }
 
-  h1 {
-    font-size:1em;
-    line-height: 1.25em;
-    margin-top: 0;
-    font-weight: 600;
-    letter-spacing: 4px;
-  }
-
-    h2 {
-    font-size:.75em;
-    line-height: 1.5em;
-    font-weight: 400;
-    color: rgba(0,0,0,.5);
-    font-style: italic;
-    margin: .5rem 0;
-
-    @include media($tablet) {
-      display:none;
+  nav {
+    ul {
+      list-style-type: none;
+      padding: 0;
     }
-  }
-
-  section {
-    @include span-columns(5);
-  }
-
-  @include media($tablet) {
-    padding:0;
   }
 }
 
-nav[role="navigation"] {
-  margin-bottom: 2.5rem;
+article[role="main"] {
+  @include span-columns(5);
 
-  ul {
-    @include span-columns(5);
-    list-style-type: none;
-    border-bottom: 1px solid rgba(0,0,0,.1);
-    border-top: 1px solid rgba(0,0,0,.1);
+  .byline {
+    font-size: 1rem;
+    line-height: 1rem;
+    color: $light-font-color;
+    font-weight: 400;
+  }
 
-
-    li {
-      padding-bottom: .5em;
-      position: relative;
-      top: 1px;
-      float:left;
-      font-size:.75em;
-      line-height:2.5em;
-      letter-spacing: 2px;
-      width: 33%;
-      text-align: center;
-
-      a {
-        color: rgba(0,0,0,.5);
-
-        &:hover {
-          color: rgba(0,0,0,1);
-        }
-      }
-    }
+  h3 {
+    font-weight: 400;
   }
 }
 
 article {
 
-  @include media($tablet) {
-    @include fill-parent;
-    @include pad;
-  }
-
-  .title {
-    font-size: 3em;
-    line-height: 1.2em;
-    margin-bottom: .5rem;
-  }
-
-  .byline {
-    color:rgba(0,0,0,.3);
-    font-size: .8em;
-    font-weight: normal;
-    margin-bottom: 1rem;
-  }
-
-  h2 {
-    font-weight: normal;
-    margin-bottom: .5rem;
-    font-size: 1.5rem;
-    color: #333;
-  }
-
-  h3 {
-    font-weight: bold;
-    font-style: italic;
-    margin-bottom: .5rem;
-    font-size: 1rem;
-    color: #333;
-  }
-
-  [role="article"] {
+  &[role="article"] {
     margin-bottom: 1.5em;
+
+    & > p:first-child {
+      font-size: 4rem;
+    }
   }
 
   ul, ol {
     margin-bottom:1.5rem;
   }
-
-  p, li {
-    color: #666;
-  }
-
-  p a, li a {
-    text-decoration: none;
-    font-weight: normal;
-    border-bottom: 1px solid rgba(0,0,0,.3);
-
-    &:hover {
-      border-bottom: 1px solid $color;
-    }
-  }
-}
-
-footer {
-  ol {
-
-    list-style-type: none;
-
-    li {
-      span {
-        text-align: right;
-        @include span-columns(2);
-        color:#999;
-      }
-
-      a {
-        @include span-columns(10);
-      }
-    }
-  }
-
 }
 
 img {
@@ -268,97 +121,44 @@ img {
 }
 
 blockquote {
-  border-left: .25em solid #efefef;
+  border-left: .25em solid lighten($light-font-color, 35%);
   padding:0 1em;
   margin:1em 0;
 
   p {
-    font-size: .8rem;
-    line-height: 1.5rem;
-    color:#999;
+    color: $light-font-color;
     font-style: italic;
   }
 }
 
-article nav {
-  label {
-    display: block;
-    font-size: .8rem;
-    opacity: .5;
-    position: relative;
-    top: 10px;
-  }
-  a {
-    font-size:1rem;
-    line-height: 2.5rem;
-    display: block;
-    opacity: .5;
-    color: #333;
-    margin-bottom: 1rem;
-
-    &:hover {
-      opacity: 1;
-      color: #333;
-    }
-  }
-}
-
-.archive a, .archive a:hover {
-  border-bottom: none;
-}
 
 footer {
-  line-height: 1.5em;
-
-  .container {
-    border-top:1px solid rgba(0,0,0,.1);
-  }
-
-  a {
-      color: rgba(0,0,0,.5);
-
-      &:hover {
-        color: rgba(0,0,0,1);
-      }
-    }
-
   [role="attribution"] {
     @include span-columns(5);
-    padding:1rem 0;
-    color:rgba(0,0,0,.5);
-    margin-bottom: 0;
-    line-height:1rem;
-    font-size:.75rem;
+    margin: 2rem 0;
+  }
 
-    ul {
-      li {
-        float: left;
-        margin-right: 1rem;
-        list-style-type: none;
-      }
-    }
-
-    small {
-      float: right;
-    }
+  p {
+    color: $light-font-color;
+    font-size: .75rem;
   }
 
 }
 
 .products {
+  margin-top: 3rem;
+
   .product {
     @include transition (all .33s ease-in-out);
-    @include span-columns(2.5);
+
+    @include span-columns(3.5);
     @include omega(2n);
 
-    @include media($mobile) {
-      @include span-columns(5);
-    }
-
+    height: 20rem;
+    padding: 4rem 1rem 1rem;
     margin-bottom:1.5em;
     border: 1px solid rgb(240,240,240);
     text-align: center;
-    padding: 2rem .5rem;
 
     &:hover {
       border: 1px solid rgb(220,220,220);
@@ -371,6 +171,11 @@ footer {
         opacity: 1;
       }
     }
+  }
+
+  a {
+    text-decoration: none;
+    color: $base-font-color;
   }
 
   i {
@@ -388,21 +193,19 @@ footer {
   }
 
   h3 {
-    font-weight: 600;
-    font-style: normal;
+    font-weight: 700;
     margin-bottom: 0;
   }
 
   p {
-    font-weight: 300;
-    color:rgba(0,0,0,.5);
+    font-weight: 400;
+    color: $light-font-color;
     font-size:.75em;
     line-height:2em;
     font-style: italic;
     margin-bottom:0;
 
     &.stat {
-      color:rgba(0,0,0,.3);
       font-style: normal;
     }
   }
@@ -411,47 +214,41 @@ footer {
 .archive {
   ul {
     list-style-type: none;
-    margin-bottom:1em;
     @include clearfix;
+    padding: 0;
+    margin: 3rem 0 0;
 
     li {
       margin-bottom:1.5em;
-      @include span-columns(5);
 
       span {
-        @include span-columns(2);
-        color:rgba(0,0,0,.5);
-        text-align: right;
-        vertical-align: middle;
-        font-size:.75em;
-        font-style: italic;
+        color: $light-font-color;
+        display: block;
       }
 
       a {
-        @include span-columns(3);
-        font-weight: 600;
+        font-weight: 700;
+        color: $base-font-color;
+        font-size: 1.25rem;
+        text-decoration: none;
       }
     }
-  }
-
-  nav {
-    border-top: .25em solid rgba(0,0,0,.3);
   }
 }
 
 .about {
   img {
-    @include span-columns(2);
-    margin:0 auto 1.5em;
-    display:block;
-  }
-
-  p {
-    @include span-columns(3);
-    @include pad;
+    width: 100%;
+    margin-bottom: 1rem;
   }
 }
 
 .hero {
   margin-bottom:1rem;
+}
+
+a.article-link {
+  color: $base-font-color;
+  font-weight: 700;
+  text-decoration: none;
 }
