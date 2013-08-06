@@ -12,6 +12,7 @@
 }
 
 header[role="author"] {
+
   @include span-columns(2);
   @include omega();
   float: right;
