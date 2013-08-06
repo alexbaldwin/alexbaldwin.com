@@ -127,6 +127,9 @@ configure :build do
   # set :http_path, "/Content/images/"
 end
 
+# Livereload action
+activate :livereload
+
 activate :fjords do |fjords|
   fjords.username = ENV["FJORDS_USERNAME"]
   fjords.password = ENV["FJORDS_PASSWORD"]
