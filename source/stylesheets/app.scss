@@ -1,11 +1,13 @@
 @import "normalize";
-@import "compass/vertical_rhythm";
 @import "bourbon/bourbon";
 @import "bitters/base";
-@import "neat/neat-helpers";
 @import "neat/neat";
 @import "//cloud.typography.com/6326032/645982/css/fonts.css";
 @import "//cdn.symbolset.com/4ba23bc57d3e74f2459637e310b658460f3cf9bb/symbolset.css";
+
+html {
+  font-size: 20px;
+}
 
 body {
   @include outer-container;
@@ -17,34 +19,10 @@ body {
 
 header[role="author"] {
   @include clearfix;
-  background: #efefef;
-
-  .avatar {
-    float: left;
-
-    img {
-     width: 64px;
-     border-radius: 32px;  
-    }
-  }
-
-  hgroup {
-    overflow: hidden;
-  }
-
-  h1 {
-    font-size: $base-font-size * 1.2;
-    line-height: $base-line-height;
-    margin: 0;
-
-    a {
-      color: $base-font-color;
-    }
-  }
-
-  p {
-    font-style: italic;
-  }
+  font-family: $header-font-family;
+  border-bottom: 0.5rem solid rgba(0,0,0,0.08);
+  padding: 1rem 0;
+  margin-bottom: 1rem;
 
   nav {
     ul {
@@ -54,6 +32,18 @@ header[role="author"] {
 
     li {
       display: inline;
+      margin-left: 1rem;
+      float: right;
+
+      &.logo {
+        float: left;
+        font-weight: 600;
+        margin: 0 1rem 0 0;
+
+        a {
+          color: $base-font-color;
+        }
+      }
     }
   }
 }
@@ -212,10 +202,12 @@ a.article-link {
   text-decoration: none;
 }
 
-$mobile: new-breakpoint(max-width 500px 6);
+html {
+  @include media(max-width 768px) {
+  }
 
-@include media($mobile) {
-  html { 
-    font-size: 50%;
+  @include media(max-width 480px) {
+    font-size: 95%;
+    @include pad();
   }
 }

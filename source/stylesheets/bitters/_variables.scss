@@ -11,10 +11,7 @@
 $blue: #1d62f0;
 $blue-alt: #1ad6fd;
 $dark-gray: #333;
-$light-gray: #DDD;
-$light-red: #FBE3E4;
-$light-yellow: #FFF6BF;
-$light-green: #E6EFC2;
+$light-gray: #666;
 
 //  Font Colors
 $base-font-color: #444;
@@ -27,28 +24,8 @@ $hover-link-color: $blue-alt;
 // Border color
 $base-border-color: $light-gray;
 
-// Flash Colors
-$error-color: $light-red;
-$notice-color: $light-yellow;
-$success-color: $light-green;
-
-// Breakpoints
-$mobile: new-breakpoint(max-width 480px 5);
-$tablet: new-breakpoint(max-width 768px 10);
-
 // Grid structure
 $column: 9rem;
 $gutter: 5rem;
 $grid-columns: 7;
-$max-width: 30rem;
-
-// Font Sizing
-$base-font-size: 18px;
-$base-line-height:30px;
-@include establish-baseline;
-
-// Visual Grid
-//$visual-grid: true;
-//.container {background: url('http://www.baselineme.com/30') center top repeat;}
-$visual-grid-color: rgba(255,0,0,.2);
-$visual-grid-index: back;
+$max-width: 33rem;
