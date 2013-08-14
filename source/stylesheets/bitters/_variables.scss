@@ -8,7 +8,8 @@
 // Colors
 ///////////////////////////////////////////////////////////////////////////////
 
-$blue: #477DCA;
+$blue: #1d62f0;
+$blue-alt: #1ad6fd;
 $dark-gray: #333;
 $light-gray: #DDD;
 $light-red: #FBE3E4;
@@ -21,7 +22,7 @@ $light-font-color: lighten($base-font-color, 30%);
 
 //  Text Link Colors
 $base-link-color: $blue;
-$hover-link-color: darken($blue, 15%);
+$hover-link-color: $blue-alt;
 
 // Border color
 $base-border-color: $light-gray;
@@ -39,10 +40,10 @@ $tablet: new-breakpoint(max-width 768px 10);
 $column: 9rem;
 $gutter: 5rem;
 $grid-columns: 7;
-$max-width: 40rem;
+$max-width: 30rem;
 
 // Font Sizing
-$base-font-size:20px;
+$base-font-size: 18px;
 $base-line-height:30px;
 @include establish-baseline;
 
