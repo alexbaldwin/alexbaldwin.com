@@ -33,16 +33,21 @@ h1 {
   font-size: em(44);
   line-height: $base-line-height * 2;
   margin: $base-line-height 0;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: em(32);
   line-height: $base-line-height * 1.75;
+  font-size: $base-font-size * 1.2;
   margin: ($base-line-height * .75) 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 h3 {
-  font-size: em(28);
+  font-size: $base-font-size;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   line-height: $base-line-height * 1.5;
   margin: ($base-line-height * .5) 0;
 }

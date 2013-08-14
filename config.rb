@@ -121,7 +121,7 @@ configure :build do
   # require "middleman-smusher"
   # activate :smusher
 
-  #activate :gzip
+  activate :gzip
 
   # Or use a different image path
   # set :http_path, "/Content/images/"
@@ -129,9 +129,3 @@ end
 
 # Livereload action
 activate :livereload
-
-activate :fjords do |fjords|
-  fjords.username = ENV["FJORDS_USERNAME"]
-  fjords.password = ENV["FJORDS_PASSWORD"]
-  fjords.domain = 'www.alexbaldwin.com'
-end
