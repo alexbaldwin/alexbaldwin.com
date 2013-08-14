@@ -26,11 +26,12 @@
   <body>
     <div class="container">
       <header role="author">
-        <section>
-          <%= image_tag('alexbaldwin-avatar.jpg') %>
-          <h1><%= link_to "Alex Baldwin", "/", rel: "author" %></h1>
-          <p>Designer at thoughtbot</p>
-        </section>
+          <div class="avatar">
+            <%= image_tag('alexbaldwin-avatar.jpg') %>
+          </div>
+          <hgroup>
+            <h1><%= link_to "Alex Baldwin", "/", rel: "author" %></h1>
+            <p>Designer at thoughtbot</p>
         <nav role="navigation">
           <ul>
             <li><%= link_to 'Articles', '/archive' %></li>
@@ -38,6 +39,7 @@
             <li><%= link_to 'About', '/about' %></li>
           </ul>
         </nav>
+        </hgroup>
       </header>
       <article role="main">
         <%= yield %>
