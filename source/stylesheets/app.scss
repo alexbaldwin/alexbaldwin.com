@@ -4,7 +4,17 @@
 @import "neat/neat";
 
 html {
-  font-size: 20px;
+  font-size: 22px;
+  border-top: 0.25rem solid rgba(123, 202, 131, 0.5);
+
+  @include media(max-width 768px) {
+    @include pad();
+    font-size: 20px;
+  }
+
+  @include media(max-width 480px) {
+    font-size: 16px;
+  }
 }
 
 body {
@@ -13,12 +23,13 @@ body {
 
 .container {
   @include span-columns(7);
+  @include omega();
 }
 
 header[role="author"] {
   @include clearfix;
   font-family: $header-font-family;
-  border-bottom: 0.5rem solid rgba(0,0,0,0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
   padding: 1rem 0;
   margin-bottom: 1rem;
 
@@ -26,36 +37,45 @@ header[role="author"] {
     ul {
       list-style-type: none;
       padding: 0;
+      margin: 0;
     }
 
     li {
       display: inline;
-      margin-left: 1rem;
+      margin-left: 2rem;
       float: right;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.8rem;
+      line-height: 2rem;
+      font-weight: 600;
+      vertical-align: middle;
+
+      a { color: $light-font-color; }
 
       &.logo {
         float: left;
-        font-weight: 600;
+        font-size: 1.2rem;
+        font-weight: 700;
         margin: 0 1rem 0 0;
 
-        a {
-          color: $base-font-color;
-        }
+        a { color: $base-font-color; }
       }
     }
   }
 }
 
 article[role="main"] {
+  h1 {
+    margin-bottom: 0;
+  }
+
   .byline {
     font-size: 1rem;
     line-height: 1rem;
     color: $light-font-color;
-    font-weight: 400;
-  }
-
-  h3 {
-    font-weight: 400;
+    font-style: italic;
+    font-weight: 500;
   }
 }
 
@@ -84,13 +104,14 @@ blockquote {
 footer {
   [role="attribution"] {
     margin: 2rem 0;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    padding-top: 1rem;
   }
 
   p {
     color: $light-font-color;
-    font-size: .75rem;
+    font-size: 0.8rem;
   }
-
 }
 
 .products {
@@ -98,7 +119,6 @@ footer {
 
   .product {
     @include transition (all .33s ease-in-out);
-
     @include span-columns(3.5);
     @include omega(2n);
 
@@ -195,17 +215,11 @@ footer {
   margin-bottom: 1rem;
 }
 
-a.article-link {
-  color: $light-font-color;
-  text-decoration: none;
-}
+.index {
+  text-align: center;
 
-html {
-  @include media(max-width 768px) {
-  }
-
-  @include media(max-width 480px) {
-    font-size: 95%;
-    @include pad();
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
   }
 }
