@@ -10,7 +10,7 @@ ul, ol {
   padding-left: $base-line-height;
 
   li {
-    line-height: $base-line-height;
+    line-height: $base-line-height + .5;
 
     ul, ol {
       padding-left: $base-line-height * .5;

@@ -22,3 +22,5 @@ group :development do
   gem 'bourbon'
   gem 'neat'
 end
+
+gem 'modular-scale'
