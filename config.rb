@@ -141,7 +141,7 @@ activate :sync do |sync|
   sync.aws_access_key_id = ENV['AWS_ACCESS'] # Your Amazon S3 access key
   sync.aws_secret_access_key = ENV['AWS_SECRET'] # Your Amazon S3 access secret
   sync.existing_remote_files = 'delete' # What to do with your existing remote files? ( keep or delete )
-  # sync.gzip_compression = false # Automatically replace files with their equivalent gzip compressed version
+  sync.gzip_compression = true # Automatically replace files with their equivalent gzip compressed version
   sync.after_build = false # Disable sync to run after Middleman build ( defaults to true )
 end
 
@@ -149,6 +149,5 @@ activate :cloudfront do |cloudfront|
   cloudfront.access_key_id = ENV['AWS_ACCESS']
   cloudfront.secret_access_key = ENV['AWS_SECRET']
   cloudfront.distribution_id = ENV['CF_DISTRIBUTION']
-  # cf.filter = /\.html$/i  # default is /.*/
-  # cf.after_build = false  # default is false
+  cloudfront.filter = /\.html$/i  # default is /.*/
 end
