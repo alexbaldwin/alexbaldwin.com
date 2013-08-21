@@ -105,7 +105,7 @@ configure :build do
   activate :minify_html
 
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
@@ -131,7 +131,7 @@ configure :build do
 end
 
 # Livereload action
-activate :livereload
+# activate :livereload
 
 # Activate sync extension
 activate :sync do |sync|
