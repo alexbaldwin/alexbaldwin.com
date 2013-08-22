@@ -102,6 +102,7 @@ set :images_dir, 'images'
 # Build-specific configuration
 configure :build do
   # Squeeze that html down
+  # NOTE: Creates parsable but invalid HTML.
   activate :minify_html
 
   # For example, change the Compass output style for deployment
