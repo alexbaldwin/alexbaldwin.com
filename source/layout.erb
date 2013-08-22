@@ -26,7 +26,7 @@
   </head>
   <body>
     <div class="container">
-      <header role="author">
+      <header>
         <nav role="navigation">
         <h1 class="logo"><%= link_to 'Alex Baldwin', '/' %></h1>
           <ul>
@@ -35,13 +35,12 @@
             <li><%= link_to 'Articles', '/archive' %></li>
           </ul>
         </nav>
-        </hgroup>
       </header>
       <article role="main">
         <%= yield %>
       </article>
       <footer>
-        <section role="attribution">
+        <section>
           <p>☯ 2005–2013. Direct any questions to my <%= mail_to 'alexbaldwin@gmail.com', 'electronic mail' %>. Keep up with the latest by subscribing to the <%= link_to 'RSS feed', '/feed.xml' %>.</p>
           <a href="https://twitter.com/alexbaldwin" class="twitter-follow-button" data-show-count="true" data-size="large">Follow @alexbaldwin</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>

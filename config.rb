@@ -108,7 +108,7 @@ configure :build do
   #  activate :minify_css
 
   # Minify Javascript on build
-  activate :minify_javascript
+  # activate :minify_javascript
 
   # Uniquely-named assets
   activate :asset_hash
@@ -142,12 +142,13 @@ activate :sync do |sync|
   sync.aws_secret_access_key = ENV['AWS_SECRET'] # Your Amazon S3 access secret
   sync.existing_remote_files = 'delete' # What to do with your existing remote files? ( keep or delete )
   sync.gzip_compression = true # Automatically replace files with their equivalent gzip compressed version
-  sync.after_build = false # Disable sync to run after Middleman build ( defaults to true )
+  sync.after_build = true # Disable sync to run after Middleman build ( defaults to true )
 end
 
 activate :cloudfront do |cloudfront|
   cloudfront.access_key_id = ENV['AWS_ACCESS']
   cloudfront.secret_access_key = ENV['AWS_SECRET']
   cloudfront.distribution_id = ENV['CF_DISTRIBUTION']
-  cloudfront.filter = /\.html$/i  # default is /.*/
+  # cloudfront.filter = /\.html$/i  # default is /.*/
+  cloudfront.after_build = true  # default is false
 end
