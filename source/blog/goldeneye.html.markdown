@@ -5,11 +5,11 @@ tags:
 image: http://image.jeuxvideo.com/images/64/g/o/goldeneye-007-nintendo-64-n64-016.jpg
 ---
 
-Growing up GoldenEye had a special place in my heart, it was the first game my parents wouldn't let me buy. I saved up allowances and dug up couch treasures for months to taste the forbidden fruit. The effort turned into one of the pillars of my childhood experiences. I still vividly remember where to place the proximity mines on Temple to get crazy spawn point kill streaks against my little brother. 15 years later, it's still inspiring me, but not for the proximity mines.
+GoldenEye 64 had a special place in my heart when I was growing up. It was the first game my parents wouldn't let me buy due to violent content. I saved up allowances and dug up couch treasures for months to taste the forbidden fruit. The effort turned into one of the pillars of my childhood experiences. I still vividly remember where to place the proximity mines on Temple to get crazy spawn point kill streaks against my little brother. Fifteen years later, it still inspires me, but not for the proximity mines.
 
-It's hard to imagine that this game almost didn't exist. Rare's studio head [Mark Betteridge](http://gamerant.com/rare-goldeneye-64-disaster-zak-39369/) was quoted as saying,
+It's hard to imagine that this game almost didn't exist. The makers of GoldenEye, Rare, faced a lot of challenges. Rare's studio head said,
 
-> When Nintendo asked if we wanted to do it, we said, ‘well not really…we were trying to build our on IP, and film tie-ins meant a lot of ownership by the film company
+> “When Nintendo asked if we wanted to do it, we said, ‘well not really.’ We were trying to build our own IP, and film tie-ins meant a lot of ownership by the film company.”
 
 The team faced insane amounts of adversity and uncertainty. Starting out, they didn't even know what the specs were for the new platform.  [Wikipedia on the game's development](http://alexbaldw.in/Kb0a).
 
@@ -25,6 +25,6 @@ While doing all this, their team had almost no idea what they were doing when th
 
 Scope was so slim, they didn't even originally plan out the legendary multiplayer mode that arguably made the game so successful. It was done almost exclusively by one guy as an afterthought.
 
-> The game's multiplayer mode was added late in the development process; Martin Hollis described it as "a complete afterthought". According to David Doak, the majority of the work on the multiplayer mode was done by Steve Ellis, who "sat in a room with all the code written for a single-player game and turned GoldenEye into a multiplayer game."
+> The game's multiplayer mode was added late in the development process; Martin Hollis described it as "a complete afterthought." According to David Doak, the majority of the work on the multiplayer mode was done by Steve Ellis, who "sat in a room with all the code written for a single-player game and turned GoldenEye into a multiplayer game."
 
 Despite everything, the game went on to become the third highest selling N64 game, inspire console shooting games, and [win a crazy amount of awards](http://alexbaldw.in/KbGG). Next time you're heading down the wrong way of the [entrepreneurial rollercoaster](http://www.fourhourworkweek.com/blog/2008/10/03/harnessing-entrepreneurial-manic-depression-making-the-rollercoaster-work-for-you/), take a deep breath, make a cup of tea, and remember that you can make it happen. Persevere and dominate.
