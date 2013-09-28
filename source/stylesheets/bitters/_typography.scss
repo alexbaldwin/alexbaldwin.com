@@ -27,8 +27,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: $header-font-color;
-  font-family: $header-font-family;
-  font-weight: 600;
+  font-weight: 500;
   text-rendering: optimizelegibility; // Fix the character spacing for headings
 }
 
@@ -36,21 +35,18 @@ h1 {
   font-size: modular-scale($base-font-size, 7, $scale);
   line-height: 1.1em;
   margin: $base-line-height 0;
-  font-weight: 700;
 }
 
 h2 {
   line-height: $base-line-height * 1.75;
   font-size: modular-scale($base-font-size, 4, $scale);
   margin: ($base-line-height * .75) 0;
-  font-weight: 600;
 }
 
 h3 {
   line-height: $base-line-height * 1.5;
   font-size: modular-scale($base-font-size, 3, $scale);
   margin: ($base-line-height * .5) 0;
-  font-weight: 600;
 }
 
 h4 {
