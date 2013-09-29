@@ -8,8 +8,8 @@
 $sans-serif: $helvetica;
 $serif: $georgia;
 
-$base-font-family: 'Mercury SSm A', 'Mercury SSm B', $serif;
-$header-font-family: 'Whitney A', 'Whitney B', $sans-serif;
+$base-font-family: 'minion-pro', $serif;
+$header-font-family: $sans-serif;
 
 // Font Sizes
 $base-font-size: 1rem; // this isn't supported in IE8
@@ -20,6 +20,7 @@ $scale: 1.1618;
 body {
   font-family: $base-font-family;
   font-size: $base-font-size;
+  font-weight: 400;
   line-height: $base-line-height;
   color: $base-font-color;
   -webkit-font-smoothing: antialiased;
@@ -27,7 +28,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: $header-font-color;
-  font-weight: 500;
+  font-weight: 400;
   text-rendering: optimizelegibility; // Fix the character spacing for headings
 }
 
@@ -70,7 +71,6 @@ h6 {
 p {
   font-size: $base-font-size;
   line-height: $base-line-height * 1.2;
-  font-weight: 500;
   margin: 0 0 ($base-line-height * .5);
 }
 
