@@ -35,6 +35,11 @@ body {
 
 .third {
   @include span-columns(3 of 9);
+
+  @include media(max-width 480px) {
+    @include span-columns(3 of 3);
+    text-align: center;
+  }
 }
 
 .list {
@@ -46,6 +51,11 @@ body {
 .avatar {
   max-width: 50%;
   padding: 0 0 1rem 1rem;
+
+  @include media(max-width 480px) {
+    max-width: 100%;
+    padding: 0 0 1rem;
+  }
 }
 
 .container {
