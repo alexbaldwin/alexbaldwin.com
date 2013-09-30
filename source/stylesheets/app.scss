@@ -151,11 +151,16 @@ blockquote {
     border: 1px solid $blue;
     padding: 0.5rem 1rem;
     margin-left: 0.5rem;
+
+    @include media(max-width 480px) {
+      margin: 0.5rem 0 0 0;
+    }
   }
 }
 
 input {
   -webkit-appearance: none;
+  border-radius: 0;
 }
 
 .archive {
