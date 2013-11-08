@@ -80,11 +80,19 @@ set :markdown,  :tables => true,
 set :markdown_engine, :redcarpet
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def hack_design_users
+    require 'open-uri'
+    require 'json'
+
+    url = 'http://www.hackdesign.org/stats.json'
+    buffer = open(url, "UserAgent" => "Ruby-Wget").read
+    result = JSON.parse(buffer)
+    user_count = result['users'].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse
+
+    user_count
+  end
+end
 
 page "/lab/*", :layout => "lab"
 
