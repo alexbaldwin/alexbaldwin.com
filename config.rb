@@ -94,8 +94,7 @@ helpers do
   end
 end
 
-page "/lab/*", :layout => "lab"
-
+page "/lab/*.html", :layout => false
 page "/sitemap.xml", :layout => false
 
 # Pretty URLs
