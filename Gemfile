@@ -29,3 +29,4 @@ group :development do
 end
 
 gem 'modular-scale'
+gem 'youtube_it'

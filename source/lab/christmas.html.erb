@@ -24,6 +24,7 @@
           </h1>
         </div>
       </header>
+
       <section>
         <div class="wrapper px2">
           <div class="py4">
@@ -33,14 +34,19 @@
             </p>
             <p>
               This page and all the videos contained are private and only sharable to those that have a link to the page. If we missed anyone who would also love to see these amazing moments, please email them a link.
-            </p>
+           </p>
           </div>
-          <h3 class="huge red">2002</h3>
-          <article class="py2">
-            <iframe width="760" height="428" src="//www.youtube-nocookie.com/embed/IqbfNAWi7SM" frameborder="0" allowfullscreen></iframe>
-            <h2>Tyler's fifth grade news report</h2>
-            <p>Those iMacs in the background are just begging to play some Oregon Trail.</p>
-          </article>
+
+          <% family_videos[0..10].each do |video| %>
+
+            <article class="py2">
+              <iframe width="760" height="570" src="<%= video.media_content.first.try(:url) %>" frameborder="0" allowfullscreen></iframe>
+              <h2><%= video.try(:title) %></h2>
+              <p><%= video.try(:description) %></p>
+            </article>
+
+          <% end %>
+
         </div>
       </section>
       <footer class="bb">
