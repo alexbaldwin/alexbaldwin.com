@@ -6,11 +6,9 @@ gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-minify-html'
 gem 'middleman-livereload'
+gem 'middleman-deploy'
 
-# Deploys
 gem 'dotenv-rails', :groups => [:development, :test]
-gem 'middleman-sync', '~> 3.0.11'
-gem 'middleman-cloudfront'
 
 # Way better markdown support, roll out the red carpet
 gem 'redcarpet'
