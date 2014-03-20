@@ -1,6 +1,3 @@
-require 'dotenv'
-Dotenv.load
-
 ###
 # Blog settings
 ###
