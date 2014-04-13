@@ -1,0 +1,5 @@
+%h2.h3 Articles
+- page_articles.each_with_index do |article, i|
+  %h3.p.m0.regular= link_to article.title, article
+  %p.m0.small.light-gray= article.date.strftime('%B %e, %Y')
+  %p.p.mb1= truncate(strip_tags(article.summary), length: 140)
