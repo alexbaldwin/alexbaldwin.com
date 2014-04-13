@@ -1,9 +1,9 @@
 <% wrap_layout :layout do %>
 	<div class="article">
-		<h1 class="title"><%= current_page.title %></h1>
 		<% if current_article.data.image %>
 			<%= image_tag(current_article.data.image, class: 'article-image', alt: current_page.title) %>
 		<% end %>
+		<h1 class="title"><%= current_page.title %></h1>
     <section>
       <%= yield %>
     </section>

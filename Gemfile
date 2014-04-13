@@ -6,6 +6,7 @@ gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-minify-html'
 gem 'middleman-deploy'
+gem 'middleman-livereload', '~> 3.1.0'
 
 # Way better markdown support, roll out the red carpet
 gem 'redcarpet'

@@ -20,43 +20,31 @@
     <% end %>
     </title>
     <meta name="viewport" content="width=device-width">
-    <%= stylesheet_link_tag 'app' %>
+    <%= stylesheet_link_tag '//cloud.typography.com/6326032/769122/css/fonts.css', 'app' %>
   </head>
   <body>
     <!--[if lt IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <div class="container">
-      <header class="site-header">
+      <header class="clearfix leading-3 mb3 px1 border-bottom border-light-gray center wrap">
         <nav role="navigation">
-          <ul>
-            <li><%= link_to 'Alex Baldwin', '/' %></li>
-            <li><%= link_to 'Articles', '/archive' %></li>
-            <li><%= link_to 'Products', '/products' %></li>
-            <li><%= link_to 'About', '/about' %></li>
-          </ul>
+          <%= link_to 'Alex Baldwin', '/', class: 'mr1 mid-gray' %>
+          <%= link_to 'Articles', '/archive', class: 'mr1 light-gray' %>
+          <%= link_to 'Products', '/products', class: 'mr1 light-gray' %>
+          <%= link_to 'About', '/about', class: 'light-gray' %>
         </nav>
       </header>
-      <article role="main">
+      <article role="main" class="measure wrap px-responsive">
         <%= yield %>
       </article>
-      <footer class="site-footer">
-        <section>
-        <p>Get my latest writings in your inbox. Tips for getting more users and designing more effective products.</p>
-        <div id="mc_embed_signup">
-          <form action="http://alexbaldwin.us7.list-manage.com/subscribe/post?u=772a21ec21a471387f298f0ab&amp;id=cd91fde308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-        
-            <div class="mc-field-group">
-              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
-            </div>
-            <div id="mce-responses" class="clear">
-              <div class="response" id="mce-error-response" style="display:none"></div>
-              <div class="response" id="mce-success-response" style="display:none"></div>
-            </div>  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+      <aside class="mb2 measure wrap">
+        <h2 class="p">Newsletter</h2>
+          <form action="http://alexbaldwin.us7.list-manage.com/subscribe/post?u=772a21ec21a471387f298f0ab&amp;id=cd91fde308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form mb2 form-light" target="_blank" novalidate>
+              <input type="email" value="" name="EMAIL" class="input mr1 mb1 mobile-block" id="mce-EMAIL" placeholder="Email">
+              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-blue mobile-block">
           </form>
-        </div>
-        </section>
-      </footer>
+      </aside>
     </div>
   </body>
   <script type="text/javascript">
