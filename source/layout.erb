@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <% if current_article %>
       <title><%= "#{current_article.title}" %></title>
       <meta name="description" content="<%= truncate(strip_tags(current_article.summary), length: 150) %>">
@@ -18,7 +17,6 @@
       <title><%= "Alex Baldwin, Product Designer" %></title>
       <meta name="description" content="Alex Baldwin, product designer based out of San Francisco. Designer of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup's Dashboard.io, and many more fun projects.">
     <% end %>
-    </title>
     <meta name="viewport" content="width=device-width">
     <%= stylesheet_link_tag '//cloud.typography.com/6326032/769122/css/fonts.css', 'app' %>
   </head>
@@ -29,15 +27,13 @@
     <article role="main" class="py2 measure contain wrap px-responsive">
       <%= yield %>
     </article>
-    <%#<aside class="mb2 measure wrap px-responsive">
-      <form action="http://alexbaldwin.us7.list-manage.com/subscribe/post?u=772a21ec21a471387f298f0ab&amp;id=cd91fde308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form mb2 form-light" target="_blank" novalidate>
-          <input type="email" value="" name="EMAIL" class="input mr1 mb1 mobile-block" id="mce-EMAIL" placeholder="Email">
-          <input type="submit" value="Subscribe for updates" name="subscribe" id="mc-embedded-subscribe" class="button button-blue mobile-block">
-      </form>
-    </aside>%>
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+                                                              function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-24725855-1');ga('send','pageview');
+    </script>
   </body>
-  <script type="text/javascript">
-    var analytics=analytics||[];analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);var r=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}},i=["identify","track","trackLink","trackForm","trackClick","trackSubmit","pageview","ab","alias"];for(var s=0;s<i.length;s++)analytics[i[s]]=r(i[s])};
-    analytics.load("pb64pa11e7");
-  </script>
 </html>
