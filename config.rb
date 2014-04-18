@@ -1,5 +1,5 @@
 configure :development do
-  activate :livereload
+  # activate :livereload
   set :debug_assets, true
 end
 
@@ -33,20 +33,6 @@ helpers do
     user_count = result['users'].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse
 
     user_count
-  end
-
-  def family_videos
-    require 'youtube_it'
-    client = YouTubeIt::Client.new(
-      username: 'alexbaldwin@gmail.com',
-      password: 'lejmgpfvdkfaweti',
-      dev_key: 'AI39si7Q8ON9jLp5bDuCZ48rxnMDmBjQzbSBleqQYi07n9s-Ly9efV7vXIkT_Lqb3-1Vk_3wWePB2hQxx3oFUkSXINUpalLVfw'
-    )
-
-    playlist = client.my_videos
-    playlist_videos = playlist.videos
-
-    playlist_videos
   end
 end
 
