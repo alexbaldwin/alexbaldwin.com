@@ -1,4 +1,7 @@
-activate :livereload
+configure :development do
+  activate :livereload
+  set :debug_assets, true
+end
 
 activate :blog do |blog|
   blog.permalink = ":title"
@@ -69,5 +72,6 @@ configure :build do
 end
 
 activate :deploy do |deploy|
+  deploy.build_before = true
   deploy.method = :git
 end
