@@ -24,7 +24,7 @@ h3, .h3, .f3 {
   line-height: 2rem;
 }
 
-p, .p, .f4, h4, h5, h6, dl, ol, ul {
+p, .p, .prose p, .f4, h4, h5, h6, dl, ol, ul {
   font-size: 1.375rem;
   line-height: 1.875rem;
   word-wrap: break-word;
@@ -51,7 +51,7 @@ small, .small, .f5 {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-  .p {
+  .p, .prose p {
     font-size: 1.25rem;
     line-height: 2rem;
   }
@@ -88,6 +88,7 @@ strong, .bold { font-weight: 700; }
 .measure { max-width: 40rem; }
 .measure-narrow { max-width: 32rem; }
 .measure-wide { max-width: 60rem; }
+.contain { overflow: hidden; }
 
 
 // Leading utilities to control line-height

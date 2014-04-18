@@ -26,26 +26,15 @@
     <!--[if lt IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="container">
-      <header class="clearfix leading-3 mb3 px1 border-bottom border-light-gray center wrap">
-        <nav role="navigation">
-          <%= link_to 'Alex Baldwin', '/', class: 'mr1 mid-gray' %>
-          <%= link_to 'Articles', '/archive', class: 'mr1 light-gray' %>
-          <%= link_to 'Products', '/products', class: 'mr1 light-gray' %>
-          <%= link_to 'About', '/about', class: 'light-gray' %>
-        </nav>
-      </header>
-      <article role="main" class="measure wrap px-responsive">
-        <%= yield %>
-      </article>
-      <aside class="mb2 measure wrap">
-        <h2 class="p">Newsletter</h2>
-          <form action="http://alexbaldwin.us7.list-manage.com/subscribe/post?u=772a21ec21a471387f298f0ab&amp;id=cd91fde308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form mb2 form-light" target="_blank" novalidate>
-              <input type="email" value="" name="EMAIL" class="input mr1 mb1 mobile-block" id="mce-EMAIL" placeholder="Email">
-              <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button button-blue mobile-block">
-          </form>
-      </aside>
-    </div>
+    <article role="main" class="py2 measure contain wrap px-responsive">
+      <%= yield %>
+    </article>
+    <%#<aside class="mb2 measure wrap px-responsive">
+      <form action="http://alexbaldwin.us7.list-manage.com/subscribe/post?u=772a21ec21a471387f298f0ab&amp;id=cd91fde308" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="form mb2 form-light" target="_blank" novalidate>
+          <input type="email" value="" name="EMAIL" class="input mr1 mb1 mobile-block" id="mce-EMAIL" placeholder="Email">
+          <input type="submit" value="Subscribe for updates" name="subscribe" id="mc-embedded-subscribe" class="button button-blue mobile-block">
+      </form>
+    </aside>%>
   </body>
   <script type="text/javascript">
     var analytics=analytics||[];analytics.load=function(e){var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=("https:"===document.location.protocol?"https://":"http://")+"d2dq2ahtl5zl1z.cloudfront.net/analytics.js/v1/"+e+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);var r=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}},i=["identify","track","trackLink","trackForm","trackClick","trackSubmit","pageview","ab","alias"];for(var s=0;s<i.length;s++)analytics[i[s]]=r(i[s])};

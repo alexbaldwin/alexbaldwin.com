@@ -1,19 +1,10 @@
 <% wrap_layout :layout do %>
-	<div class="article">
-		<% if current_article.data.image %>
-			<%= image_tag(current_article.data.image, class: 'article-image', alt: current_page.title) %>
-		<% end %>
-		<h1 class="title"><%= current_page.title %></h1>
-    <section>
-      <%= yield %>
-    </section>
-    <%= link_to '&larr; Articles', '/archive', class: 'article-link' %>
-	</div>
-
-	<script type="text/javascript">
-	analytics.track('Read an article', {
-    	article        : <%= current_page.title %>,
-	});
-</script>
-
+  <% if current_article.data.image %>
+    <%= image_tag(current_article.data.image, alt: current_page.title) %>
+  <% end %>
+  <h1 class="h2 regular py1 "><%= current_page.title %></h1>
+  <section class="prose">
+    <%= yield %>
+  </section>
+  <%= link_to '&larr; Articles', '/articles', class: 'p' %>
 <% end %>

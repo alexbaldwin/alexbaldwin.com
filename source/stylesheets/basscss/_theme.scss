@@ -4,8 +4,9 @@
 
 
 $blue: #0096cc;
-$light-gray: #A0AAB0;
-$mid-gray: #777;
+$very-light-gray: #E6E6E6;
+$light-gray: #999;
+$mid-gray: #666;
 $dark-gray: #333;
 
 $red: #f52;
@@ -49,6 +50,11 @@ a {
   }
 }
 
+// Type styling
+
+blockquote {
+  color: $mid-gray;
+}
 
 // Buttons
 
@@ -136,7 +142,35 @@ a {
   border-color: $light-gray;
 }
 
+.border-very-light-gray {
+  border-color: $very-light-gray;
+}
+
 // Utilities
 .rounded { border-radius: .25rem; }
 .transition-all { transition: all .2s ease; }
 
+
+.crossbar {
+  display: table;
+  position: relative;
+  padding-right: 1rem;
+  width: auto;
+  background: #fff;
+
+  &:after, &:before {
+    z-index: -1;
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 9999%;
+    height: 1px;
+    overflow: hidden;
+    background: $very-light-gray;
+  }
+
+  &:after {
+    right: -9999%;
+  }
+}
