@@ -22,12 +22,15 @@ set :markdown,  :tables => true,
                 :autolink => true
 set :markdown_engine, :redcarpet
 
+page "/lab/*.html", :layout => false
+page "/sitemap.xml", :layout => false
+
 helpers do
   def hack_design_users
     require 'open-uri'
     require 'json'
 
-    url = 'http://www.hackdesign.org/stats.json'
+    url = 'https://hackdesign.org/stats.json'
     buffer = open(url, "UserAgent" => "Ruby-Wget").read
     result = JSON.parse(buffer)
     user_count = result['users'].to_s.reverse.gsub(/(\d{3})(?=\d)/, '\\1,').reverse
@@ -35,9 +38,6 @@ helpers do
     user_count
   end
 end
-
-page "/lab/*.html", :layout => false
-page "/sitemap.xml", :layout => false
 
 # Pretty URLs
 activate :directory_indexes
