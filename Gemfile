@@ -1,12 +1,10 @@
-ruby '2.0.0'
-
 source 'https://rubygems.org'
 
 gem 'middleman'
 gem 'middleman-blog'
 gem 'middleman-minify-html'
 gem 'middleman-deploy'
-gem 'middleman-livereload', '~> 3.1.0'
+gem 'middleman-livereload'
 
 # Way better markdown support, roll out the red carpet
 gem 'redcarpet'

@@ -138,7 +138,7 @@ DEPENDENCIES
   middleman
   middleman-blog
   middleman-deploy
-  middleman-livereload (~> 3.1.0)
+  middleman-livereload
   middleman-minify-html
   nokogiri
   redcarpet
