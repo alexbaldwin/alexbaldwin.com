@@ -39,7 +39,6 @@ $orange: #fc2;
 
 body {
   color: $dark-gray;
-  background-color: #fff;
 }
 
 a {
@@ -48,12 +47,6 @@ a {
   &:hover {
     color: darken($blue, 10%);
   }
-}
-
-// Type styling
-
-blockquote {
-  color: $mid-gray;
 }
 
 // Buttons
@@ -172,5 +165,34 @@ blockquote {
 
   &:after {
     right: -9999%;
+  }
+}
+
+.prose {
+  h2 {
+    margin-top: 2em;
+    font-size: 3em;
+    line-height: 1.2;
+  }
+
+  h3 {
+    margin-top: 1rem;
+    line-height: 1.2;
+    font-size: 2em;
+  }
+
+  p {
+  }
+
+  blockquote {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  blockquote p {
+    color: $light-gray;
+    padding: 0;
+    font-style: italic;
   }
 }

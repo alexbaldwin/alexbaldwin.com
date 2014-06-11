@@ -1,8 +1,3 @@
-configure :development do
-  # activate :livereload
-  set :debug_assets, true
-end
-
 activate :blog do |blog|
   blog.permalink = ":title"
   blog.sources = "blog/:title"
@@ -10,20 +5,6 @@ activate :blog do |blog|
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 end
-
-page "/feed.xml", :layout => false
-
-activate :automatic_image_sizes
-
-# Roll out the red carpet to fix XML parsing errors in Markdown
-set :markdown,  :tables => true,
-                :gh_blockcode => true,
-                :fenced_code_blocks => true,
-                :autolink => true
-set :markdown_engine, :redcarpet
-
-page "/lab/*.html", :layout => false
-page "/sitemap.xml", :layout => false
 
 helpers do
   def hack_design_users
@@ -39,13 +20,21 @@ helpers do
   end
 end
 
-# Pretty URLs
-activate :directory_indexes
-set :trailing_slash, false
+page "/feed.xml", :layout => false
+page "/lab/*.html", :layout => false
+page "/sitemap.xml", :layout => false
 
+activate :automatic_image_sizes
+activate :directory_indexes
+
+set :trailing_slash, false
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+
+configure :development do
+  activate :livereload
+end
 
 configure :build do
   activate :minify_html

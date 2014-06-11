@@ -1,16 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'builder', '~> 3.0.0'
 gem 'middleman'
 gem 'middleman-blog'
-gem 'middleman-minify-html'
 gem 'middleman-deploy'
 gem 'middleman-livereload'
-
-# Way better markdown support, roll out the red carpet
-gem 'redcarpet'
-
-# Blog post summaries
+gem 'middleman-minify-html'
 gem 'nokogiri'
-
-# For feed.xml.builder
-gem 'builder', '~> 3.0.0'

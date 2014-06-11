@@ -204,13 +204,10 @@ Don't be afraid to fail.
 
 ## Edward Tufte, Author
 
-*The Thinking Eye*
-
-> Code is now design and design is code.
-
-> What was observed by us in the third place is the nature or matter of the Milky Way itself, which, with the aid of the spyglass, may be observed so well that all the disputes that for so many generations have vexed philosophers are destroyed by **visible certainty**, and we are liberated from wordy arguments. - <cite>Galileo Galilei</cite>
-
-> Organizations which design systems... are constrained to produce designs which are copies of the communication structures of these organizations - <cite>Melvin E. Conway</cite>
+* *The Thinking Eye*
+* > Code is now design and design is code.
+* > What was observed by us in the third place is the nature or matter of the Milky Way itself, which, with the aid of the spyglass, may be observed so well that all the disputes that for so many generations have vexed philosophers are destroyed by **visible certainty**, and we are liberated from wordy arguments. - <cite>Galileo Galilei</cite>
+* > Organizations which design systems... are constrained to produce designs which are copies of the communication structures of these organizations - <cite>Melvin E. Conway</cite>
 
 1. Seek verbs and actions.
 2. See now, words later.
@@ -218,31 +215,19 @@ Don't be afraid to fail.
 5. Seek forever knowledge with a taste for excellence.
 6. Understanding the difference between evidence and inference.
 
-> Only two industries refer to customers as users; software and the drug industry.
-
-Silence sharpens and deepens seeing.
-
-*Most* of social science studies are false. Social science is harder than rocket science. It does not have the fundamental truths of nature's laws.
-
-[Image quilts.](http://imagequilts.com/)
-
-Distribution of excellence is extremely logarithmic.
-
-> A hard look at the practice and results of conventional asymptotic theory easily leads one to three points:
-> 1. We ought not to expect it to be widely useful (since it refers to the ultimate oversimplification).
-> 2. Rather often it has been useful (surprise!)
-> 3. We have developed no basis for telling when it is likely to help and when it is not...﻿.. 123 - <cite>John W. Tukey</cite>
-
-Standards of graphical excellence: Google Maps and Swiss Mountain maps.
-
-Future is maps moving in time.
-
-> How do you know that?
-
-> How does what I see come to be seen by me?
-
-Real science has it easy because they have forever laws.
-
-Begin with a question, a problem, then measure.
-
-> You can have your own point of view, but not your own facts. - <cite>Daniel Patrick Moynihan</cite>
+* > Only two industries refer to customers as users; software and the drug industry.
+* Silence sharpens and deepens seeing.
+* *Most* of social science studies are false. Social science is harder than rocket science. It does not have the fundamental truths of nature's laws.
+* [Image quilts.](http://imagequilts.com/)
+* Distribution of excellence is extremely logarithmic.
+* > A hard look at the practice and results of conventional asymptotic theory easily leads one to three points:
+  1. We ought not to expect it to be widely useful (since it refers to the ultimate oversimplification).
+  2. Rather often it has been useful (surprise!)
+  3. We have developed no basis for telling when it is likely to help and when it is not...﻿.. 123 - <cite>John W. Tukey</cite>
+* Standards of graphical excellence: Google Maps and Swiss Mountain maps.
+* Future is maps moving in time.
+* > How do you know that?
+* > How does what I see come to be seen by me?
+* Real science has it easy because they have forever laws.
+* Begin with a question, a problem, then measure.
+* > You can have your own point of view, but not your own facts. - <cite>Daniel Patrick Moynihan</cite>
