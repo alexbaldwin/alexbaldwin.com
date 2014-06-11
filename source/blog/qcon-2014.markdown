@@ -1,8 +1,8 @@
 ---
-title: Reflecting on a year of product design sprints - QCon 2014
-date: 2014-06-11 12:03 -07:00
+title: Product Design Sprints - QCon 2014
+date: 2014-06-11 14:07 UTC
 tags:
-image: /images/goldeneye.jpg
+image: /images/product-design-reflection.jpg
 ---
 
 When I started at thoughtbot a year and a half ago, my first project was given to me within an hour of getting my laptop’s dev environment set up. We kicked off a green field project for a non-profit in the education space. They wanted to raise funds digitally for public schools. From our armchairs we talked everything out and drew up the blueprints for a sensible solution. We even clearly defined what success should look like, a working app that could take money and specify what school it should go to. But at the end of the engagement with our working app and success met, if someone asked me if I thought it was going to be a successful endeavor, I would have responded with a greatly exaggerated shrug.
@@ -202,8 +202,9 @@ Future of design sprints at thoughtbot:
 
 More info:
 
-* [The Product Design Sprint: A Five-Day Recipe for Startups](http://www.gv.com/lib/the-product-design-sprint-a-five-day-recipe-for-startups)
-* [The Product Design Sprint](http://robots.thoughtbot.com/the-product-design-sprint)
+* [The Product Design Sprint: A Five-Day Recipe for Startups](http://www.gv.com/lib/the-product-design-sprint-a-five-day-recipe-for-startups) by Jake Knapp, Google Ventures
+* [The Product Design Sprint](http://robots.thoughtbot.com/the-product-design-sprint) by Galen Frechette, thoughtbot
 * [IDEO Human Centered Design Toolkit](http://www.ideo.com/work/human-centered-design-toolkit/)
 * [Stanford d.School Bootcamp Bootleg](http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf)
 * [thoughtbot playbook](http://playbook.thoughtbot.com/)
+
