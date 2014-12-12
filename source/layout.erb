@@ -18,18 +18,15 @@
       <meta name="description" content="Alex Baldwin, product designer based out of San Francisco. Designer of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup's Dashboard.io, and many more fun projects.">
     <% end %>
     <meta name="viewport" content="width=device-width">
-    <%= stylesheet_link_tag '//cloud.typography.com/6326032/769122/css/fonts.css', 'app' %>
+    <%= stylesheet_link_tag "//cloud.typography.com/6326032/747646/css/fonts.css", "//d2v52k3cl9vedd.cloudfront.net/basscss/4.1.2/basscss.min.css", "app" %>
   </head>
   <body>
-    <!--[if lt IE 8]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
     <article role="main" class="py2 measure contain wrap px-responsive">
       <%= yield %>
     </article>
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-                                                              function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
       e=o.createElement(i);r=o.getElementsByTagName(i)[0];
       e.src='//www.google-analytics.com/analytics.js';
       r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
