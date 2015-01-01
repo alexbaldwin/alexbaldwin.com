@@ -1,1 +1,63 @@
-@import "basscss/basscss";
+body {
+  font-family: 'Mercury SSm A', 'Mercury SSm B', Georgia, serif;
+  font-weight: 400;
+  font-style: normal;
+    -ms-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+    -moz-font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+  font-feature-settings: "liga" 1, "onum" 1, "kern" 1;
+    -webkit-font-kerning: normal;
+    -moz-font-kerning: normal;
+  font-kerning: normal;
+  background-color: #FFF;
+  color: #3D464D;
+}
+
+figure {
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+blockquote {
+  border-left: .25rem solid currentColor;
+}
+
+dl, ol, p, ul, blockquote p {
+  font-size: 1.125rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Mercury SSm A', 'Mercury SSm B', Georgia, serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+h2, h3, h4, h5, h6{
+  text-transform: uppercase;
+}
+
+.prose > p:first-of-type {
+  font-size: 1.375rem;
+}
+
+//.prose {
+//  -webkit-column-count: 2; /* Chrome, Safari, Opera */
+//j  -moz-column-count: 2; /* Firefox */
+//j  column-count: 2;
+//}
+
+.container {
+  max-width: 40rem;
+}

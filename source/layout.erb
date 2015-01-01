@@ -18,10 +18,21 @@
       <meta name="description" content="Alex Baldwin, product designer based out of San Francisco. Designer of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup's Dashboard.io, and many more fun projects.">
     <% end %>
     <meta name="viewport" content="width=device-width">
-    <%= stylesheet_link_tag "//cloud.typography.com/6326032/747646/css/fonts.css", "//d2v52k3cl9vedd.cloudfront.net/basscss/4.1.2/basscss.min.css", "app" %>
+    <%= stylesheet_link_tag "//cloud.typography.com/6326032/747646/css/fonts.css", "basscss.min", "app" %>
   </head>
   <body>
-    <article role="main" class="py2 measure contain wrap px-responsive">
+    <div class="mb2 border-bottom">
+      <nav class="container p2">
+        <div class="clearfix">
+          <%= link_to "Alex Baldwin, Designer", "/", class: "dark-gray mr2" %>
+          <span class="right">
+            <%= link_to "Articles", "/articles", class: "mid-gray mr2" %>
+            <%= link_to "About", "/about", class: "mid-gray" %>
+          </span>
+        </div> 
+      </nav>
+    </div>
+    <article role="main" class="container px2">
       <%= yield %>
     </article>
     <script>

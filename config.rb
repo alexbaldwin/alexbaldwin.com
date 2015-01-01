@@ -24,7 +24,7 @@ page "/feed.xml", :layout => false
 page "/lab/*.html", :layout => false
 page "/sitemap.xml", :layout => false
 
-activate :automatic_image_sizes
+# activate :automatic_image_sizes
 activate :directory_indexes
 
 set :trailing_slash, false
