@@ -1,33 +1,28 @@
-%h1 About
 %figure
-  = image_tag("exposure-meetup.jpg", alt: 'Alex Baldwin')
-  %figcaption Photo by Luke Beard
+  = image_tag("exposure-meetup.jpg", alt: 'Alex Baldwin, photo by Luke Beard')
 .prose
   %p
-    <em>Why hello there</em>, I'm Alex Baldwin, a product designer, a co-creator of #{link_to 'Hack Design', 'http://hackdesign.org'}, and founder of #{link_to 'Console.fm', 'http://console.fm'}. I live and work in San Francisco, California.
+    <em>Why hello there</em>, I'm Alex Baldwin, a product designer, a co-creator of Hack Design, and founder of Console.fm. I live and work in San Francisco, California.
   %p
     Previously I've worked as a designer-in-residence with Techstars and 500 Startups running design sessions, prepping pitch decks, and shipping an insane amount of landing pages. My focus is in product design (a combination of user interface, interaction, marketing, and graphic design), however, when I'm not doing that, you can find me climbing nature, disc jockeying, drinking lattes, or possibly cartwheeling.
-.col.col-6
-  %h4 Projects
-  %ul.list-reset.mid-gray
-    %li
-      #{link_to "Taco Week", "//tacoweek.org"}
-      %br
-      November 2014
-    %li
-      #{link_to "Rave Robot", "//raverobot.com"}
-      %br
-      October 2014
-    %li
-      #{link_to "Latte Up", "//latteup.com"}
-      %br
-      March 2014
-    %li
-      #{link_to "Hack Design", "//hackdesign.org"}
-      %br
-      December 2012
-.col.col-6
-  %h4 Published
+  %h4.light-gray Projects
+  %h3 #{link_to "Taco Week", "//tacoweek.org"}
+  %p 
+    Like shark week, but for tacos.
+    %span.light-gray November 2014
+  %h3 #{link_to "Rave Robot", "//raverobot.com"}
+  %p
+    Gifs at 128 BPM.
+    %span.light-gray October 2014
+  %h3 #{link_to "Latte Up", "//latteup.com"}
+  %p
+    Hipster Austin coffee tour map.
+    %span.light-gray March 2014
+  %h3 #{link_to "Hack Design", "//hackdesign.org"}
+  %p
+    Introduction to design course for developers.
+    %span.light-gray December 2012
+  %h4.light-gray Published
   %ul.list-reset.mid-gray
     %li
       #{link_to 'Product Psychology: Lesson 11', 'http://www.productpsychology.com/lesson-11-developing-user-empathy-with-design-sprints/'}

@@ -45,7 +45,16 @@ h1 {
 }
 
 h2, h3, h4, h5, h6{
+}
+
+h4 {
   text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.875rem;
+}
+
+.light-gray {
+  color: #b3b3b3;
 }
 
 .prose > p:first-of-type {
@@ -60,4 +69,8 @@ h2, h3, h4, h5, h6{
 
 .container {
   max-width: 40rem;
+}
+
+a, a:visited {
+  color: #F012BE;
 }
