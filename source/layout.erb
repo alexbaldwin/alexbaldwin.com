@@ -21,18 +21,7 @@
     <%= stylesheet_link_tag "//cloud.typography.com/6326032/747646/css/fonts.css", "basscss.min", "app" %>
   </head>
   <body>
-    <div class="mb2 border-bottom">
-      <nav class="container p2">
-        <div class="clearfix">
-          <%= link_to "Alex Baldwin, Designer", "/", class: "dark-gray mr2" %>
-          <span class="right">
-            <%= link_to "Articles", "/articles", class: "mid-gray mr2" %>
-            <%= link_to "About", "/about", class: "mid-gray" %>
-          </span>
-        </div> 
-      </nav>
-    </div>
-    <article role="main" class="container px2">
+    <article role="main" class="py2 px4 container">
       <%= yield %>
     </article>
     <script>

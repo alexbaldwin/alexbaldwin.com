@@ -44,9 +44,6 @@ h1 {
   font-size: 3rem;
 }
 
-h2, h3, h4, h5, h6{
-}
-
 h4 {
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -61,16 +58,30 @@ h4 {
   font-size: 1.375rem;
 }
 
-//.prose {
-//  -webkit-column-count: 2; /* Chrome, Safari, Opera */
-//j  -moz-column-count: 2; /* Firefox */
-//j  column-count: 2;
-//}
-
 .container {
   max-width: 40rem;
+  margin: 0;
 }
 
 a, a:visited {
-  color: #F012BE;
+  color: darken(#0074D9, 8%);
+}
+
+.sans-serif {
+  font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li::before {
+  content: '—';
+  color: #DDDDDD;
+  padding-right: 0.5em;
+}
+
+hr {
+  border-bottom-color: lighten(#DDDDDD, 8%);
 }
