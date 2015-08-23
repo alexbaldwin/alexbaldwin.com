@@ -1,6 +1,7 @@
 body {
-  font-family: 'Mercury SSm A', 'Mercury SSm B', Georgia, serif;
-  font-weight: 400;
+  font-size: 14px;
+  font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", Georgia, serif;
+  font-weight: 300;
   font-style: normal;
     -ms-text-size-adjust: none;
     -webkit-text-size-adjust: none;
@@ -35,19 +36,8 @@ dl, ol, p, ul, blockquote p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Mercury SSm A', 'Mercury SSm B', Georgia, serif;
-  font-weight: 400;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 3rem;
-}
-
-h4 {
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 0.875rem;
+  font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", Georgia, serif;
+  font-weight: 500;
 }
 
 .light-gray {
@@ -60,7 +50,6 @@ h4 {
 
 .container {
   max-width: 40rem;
-  margin: 0;
 }
 
 a, a:visited {
