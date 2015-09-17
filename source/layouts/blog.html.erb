@@ -1,13 +1,9 @@
 <% wrap_layout :layout do %>
-  <h1><%= current_page.title %></h1>
   <% if current_article.data.image %>
-    <figure>
-      <%= image_tag(current_article.data.image, alt: current_page.title) %>
-      <figcaption>Illustration by Alexandra Bond</figcaption>
-    </figure>
+    <%= image_tag(current_article.data.image, alt: current_page.title) %>
   <% end %>
+  <h1 class="h1"><%= current_page.title %></h1>
   <section class="prose">
     <%= yield %>
   </section>
-  <%= link_to '&larr; Articles', '/articles', class: 'p' %>
 <% end %>
