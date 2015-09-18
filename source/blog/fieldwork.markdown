@@ -2,6 +2,7 @@
 title: User testing is bullshit, do fieldwork instead
 date: 2015-05-07 15:50 -07:00
 tags:
+published: false
 ---
 
 Steve Krug's infusion of usability testing into the web design realm was

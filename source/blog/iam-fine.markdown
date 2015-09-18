@@ -1,0 +1,9 @@
+---
+title: IAM FINE
+date: 2015-09-18 18:38 UTC
+external: https://ruby.fm/alexbaldwin/iam-fine
+---
+
+While in Korea, I used Shazam to record all the songs played in coffee shops.
+Here's a mix I put together of all the discovered tracks.
+

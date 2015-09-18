@@ -1,6 +1,9 @@
 - page_articles.each_with_index do |article, i|
   %section.mb3
-    %h3.regular= link_to article.title, article
+    - if article.data.external?
+      %h3.regular= link_to "#{article.title} →", article.data.external
+    - else
+      %h3.regular= link_to article.title, article
     %p
       = truncate(strip_tags(article.summary), length: 140)
       %br
