@@ -1,5 +1,5 @@
 ---
-title: IAM FINE
+title: IAM FINE Mix
 date: 2015-09-18 18:38 UTC
 external: https://ruby.fm/alexbaldwin/iam-fine
 ---
