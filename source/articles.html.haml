@@ -2,9 +2,9 @@
   %section.mb3
     - if article.data.external?
       %h3.regular= link_to "#{article.title} →", article.data.external
+      %p
+        = strip_tags(article.summary)
     - else
       %h3.regular= link_to article.title, article
-    %p
-      = truncate(strip_tags(article.summary), length: 140)
-      %br
-      %span.small.light-gray= article.date.strftime('%B %e, %Y')
+      %p
+        = truncate(strip_tags(article.summary), length: 140)

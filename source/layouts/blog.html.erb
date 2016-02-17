@@ -2,7 +2,7 @@
   <% if current_article.data.image %>
     <%= image_tag(current_article.data.image, alt: current_page.title) %>
   <% end %>
-  <h1 class="h1"><%= current_page.title %></h1>
+  <h1 class="h4 caps center mb2"><%= current_page.title %></h1>
   <section class="prose">
     <%= yield %>
   </section>
