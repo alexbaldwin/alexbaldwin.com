@@ -5,7 +5,7 @@
     <% if current_article %>
       <title><%= "#{current_article.title}" %></title>
       <meta name="description" content="<%= truncate(strip_tags(current_article.summary), length: 150) %>">
-      <link rel="canonical" href="<%= "http://alexbaldwin.com#{current_article.url}" %>">
+      <link rel="canonical" href="<%= "https://alexbaldwin.com#{current_article.url}" %>">
       <meta name="twitter:card" content="summary">
       <meta property="twitter:creator" content="alexbaldwin">
       <meta property="og:locale" content="en_US" />
@@ -13,7 +13,7 @@
       <meta name="og:title" content="<%= truncate(current_article.title, length: 70) %>">
       <meta name="og:image" content="<%= "#{current_article.data.image}" %>">
       <meta name="og:description" content="<%= truncate(strip_tags(current_article.summary), length: 200) %>">
-      <meta name="og:url" content="<%= "http://alexbaldwin.com#{current_article.url}" %>">
+      <meta name="og:url" content="<%= "https://alexbaldwin.com#{current_article.url}" %>">
     <% else %>
       <title><%= "Alex Baldwin, Product Designer" %></title>
       <meta name="description" content="Alex Baldwin, product designer based out of San Francisco. Designer of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup's Dashboard.io, and many more fun projects.">

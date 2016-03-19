@@ -1,5 +1,5 @@
 feed_name = 'Alex Baldwin'
-site_url = 'http://alexbaldwin.com/'
+site_url = 'https://alexbaldwin.com/'
 author_name = 'Alex Baldwin'
 
 xml.instruct!
