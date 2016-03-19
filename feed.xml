@@ -1,642 +1,1686 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Alex Baldwin</title>
-  <subtitle>Blog subtitle</subtitle>
-  <id>http://www.alexbaldwin.com/</id>
-  <link href="http://www.alexbaldwin.com/"/>
-  <link href="http://www.alexbaldwin.com/feed.xml" rel="self"/>
-  <updated>2015-09-29T20:10:00-07:00</updated>
+  <id>http://alexbaldwin.com/</id>
+  <link href="http://alexbaldwin.com/"/>
+  <link href="http://alexbaldwin.com/feed.xml" rel="self"/>
   <author>
     <name>Alex Baldwin</name>
   </author>
+  <updated>2015-09-29T20:10:00-07:00</updated>
   <entry>
     <title>Taco Week</title>
-    <link rel="alternate" href="/taco-week"/>
-    <id>/taco-week</id>
+    <link href="http://alexbaldwin.com/taco-week" rel="alternate"/>
+    <id>http://alexbaldwin.com/taco-week</id>
     <published>2015-09-29T20:10:00-07:00</published>
-    <updated>2015-09-29T20:10:00-07:00</updated>
+    <updated>2015-09-29T20:12:18-07:00</updated>
     <author>
       <name>Alex Baldwin</name>
     </author>
-    <summary type="html">&lt;p&gt;Live every week like it's Taco Week. Last year's articles are now up on Medium.&lt;/p&gt;
+    <summary type="html">Live every week like it's Taco Week. Last year's articles are now up on Medium.
 
 </summary>
-    <content type="html">&lt;p&gt;Live every week like it's Taco Week. Last year's articles are now up on Medium.&lt;/p&gt;
+    <content type="html">Live every week like it's Taco Week. Last year's articles are now up on Medium.
 
 </content>
   </entry>
   <entry>
     <title>Rave Robot</title>
-    <link rel="alternate" href="/rave-robot"/>
-    <id>/rave-robot</id>
+    <link href="http://alexbaldwin.com/rave-robot" rel="alternate"/>
+    <id>http://alexbaldwin.com/rave-robot</id>
     <published>2015-09-27T19:11:00-07:00</published>
-    <updated>2015-09-27T19:11:00-07:00</updated>
+    <updated>2015-09-27T19:14:53-07:00</updated>
     <author>
       <name>Alex Baldwin</name>
     </author>
-    <summary type="html">&lt;p&gt;Full-screen gif mayhem. Worked on this one day last year with CH Albach in order
+    <summary type="html">Full-screen gif mayhem. Worked on this one day last year with CH Albach in order
 to show it off for a Halloween party. Since the domain is expiring, I'd prefer
-it live on in the lab. It was truly ahead of it's time, but now &lt;a href="https://staringispolite.github.io/cochlea/"&gt;Cochlea&lt;/a&gt; and
-&lt;a href="http://gj.giphy.com/"&gt;Giphy GJ&lt;/a&gt; have...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;Full-screen gif mayhem. Worked on this one day last year with CH Albach in order
+it live on in the lab. It was truly ahead of it's time, but now Cochlea and
+Giphy GJ have...</summary>
+    <content type="html">Full-screen gif mayhem. Worked on this one day last year with CH Albach in order
 to show it off for a Halloween party. Since the domain is expiring, I'd prefer
-it live on in the lab. It was truly ahead of it's time, but now &lt;a href="https://staringispolite.github.io/cochlea/"&gt;Cochlea&lt;/a&gt; and
-&lt;a href="http://gj.giphy.com/"&gt;Giphy GJ&lt;/a&gt; have surpassed it's meager feature list.&lt;/p&gt;
+it live on in the lab. It was truly ahead of it's time, but now Cochlea and
+Giphy GJ have surpassed it's meager feature list.
 
 </content>
   </entry>
   <entry>
     <title>Belly B-sides Mix</title>
-    <link rel="alternate" href="/belly-bside"/>
-    <id>/belly-bside</id>
+    <link href="http://alexbaldwin.com/belly-bside" rel="alternate"/>
+    <id>http://alexbaldwin.com/belly-bside</id>
     <published>2015-09-24T10:36:00-07:00</published>
-    <updated>2015-09-24T10:36:00-07:00</updated>
+    <updated>2015-09-27T19:08:00-07:00</updated>
     <author>
       <name>Alex Baldwin</name>
     </author>
-    <summary type="html">&lt;p&gt;All the non-Korean tracks from our Seoul coffee shops Shazamming sessions.&lt;/p&gt;
+    <summary type="html">All the non-Korean tracks from our Seoul coffee shops Shazamming sessions.
 
 </summary>
-    <content type="html">&lt;p&gt;All the non-Korean tracks from our Seoul coffee shops Shazamming sessions.&lt;/p&gt;
+    <content type="html">All the non-Korean tracks from our Seoul coffee shops Shazamming sessions.
 
 </content>
   </entry>
   <entry>
     <title>IAM FINE Mix</title>
-    <link rel="alternate" href="/iam-fine"/>
-    <id>/iam-fine</id>
+    <link href="http://alexbaldwin.com/iam-fine" rel="alternate"/>
+    <id>http://alexbaldwin.com/iam-fine</id>
     <published>2015-09-18T11:38:00-07:00</published>
-    <updated>2015-09-18T11:38:00-07:00</updated>
+    <updated>2015-09-27T19:08:00-07:00</updated>
     <author>
       <name>Alex Baldwin</name>
     </author>
-    <summary type="html">&lt;p&gt;While in Korea, I used Shazam to record all the songs played in coffee shops.
-Here's a mix I put together of all the discovered tracks.&lt;/p&gt;
+    <summary type="html">While in Korea, I used Shazam to record all the songs played in coffee shops.
+Here's a mix I put together of all the discovered tracks.
 
 </summary>
-    <content type="html">&lt;p&gt;While in Korea, I used Shazam to record all the songs played in coffee shops.
-Here's a mix I put together of all the discovered tracks.&lt;/p&gt;
+    <content type="html">While in Korea, I used Shazam to record all the songs played in coffee shops.
+Here's a mix I put together of all the discovered tracks.
 
 </content>
   </entry>
   <entry>
     <title>Product Design Sprints - QCon 2014</title>
-    <link rel="alternate" href="/qcon-2014"/>
-    <id>/qcon-2014</id>
+    <link href="http://alexbaldwin.com/qcon-2014" rel="alternate"/>
+    <id>http://alexbaldwin.com/qcon-2014</id>
     <published>2014-06-11T07:07:00-07:00</published>
-    <updated>2014-06-11T07:07:00-07:00</updated>
+    <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
       <name>Alex Baldwin</name>
     </author>
-    <summary type="html">&lt;p&gt;When I started at thoughtbot a year and a half ago, my first project was given to me within an hour of getting my laptop’s dev environment set up. We kicked off a green field project for a non-profit in the education space. They wanted to raise funds...&lt;/p&gt;</summary>
-    <content type="html">&lt;p&gt;When I started at thoughtbot a year and a half ago, my first project was given to me within an hour of getting my laptop’s dev environment set up. We kicked off a green field project for a non-profit in the education space. They wanted to raise funds digitally for public schools. From our armchairs we talked everything out and drew up the blueprints for a sensible solution. We even clearly defined what success should look like, a working app that could take money and specify what school it should go to. But at the end of the engagement with our working app and success met, if someone asked me if I thought it was going to be a successful endeavor, I would have responded with a greatly exaggerated shrug.&lt;/p&gt;
+    <summary type="html">When I started at thoughtbot a year and a half ago, my first project was given to me within an hour of getting my laptop’s dev environment set up. We kicked off a green field project for a non-profit in the education space. They wanted to raise funds...</summary>
+    <content type="html">When I started at thoughtbot a year and a half ago, my first project was given to me within an hour of getting my laptop’s dev environment set up. We kicked off a green field project for a non-profit in the education space. They wanted to raise funds digitally for public schools. From our armchairs we talked everything out and drew up the blueprints for a sensible solution. We even clearly defined what success should look like, a working app that could take money and specify what school it should go to. But at the end of the engagement with our working app and success met, if someone asked me if I thought it was going to be a successful endeavor, I would have responded with a greatly exaggerated shrug.
 
-&lt;p&gt;The goal of Product Design Sprints is to get from zero to a high confidence ratio in a really quick and collaborative manner. Making a golf analogy, this is hitting off the tee with a driver. You’re doing the bulk of the work in a single stroke and need to aim yourself in alignment with the core problem.&lt;/p&gt;
+The goal of Product Design Sprints is to get from zero to a high confidence ratio in a really quick and collaborative manner. Making a golf analogy, this is hitting off the tee with a driver. You’re doing the bulk of the work in a single stroke and need to aim yourself in alignment with the core problem.
 
-&lt;p&gt;Product Design Sprints as we know them, are an invention of Google Ventures' design team. Their intention is to improve the chances of making something people want, reliably. We want to go from shrug to smug.&lt;/p&gt;
+Product Design Sprints as we know them, are an invention of Google Ventures' design team. Their intention is to improve the chances of making something people want, reliably. We want to go from shrug to smug.
 
-&lt;p&gt;A formal Product Design Sprint is a five-phase exercise which uses design thinking to reduce the total level of risk in a project by thinking about it holistically and attacking it in a linear fashion. We started doing product design sprints at thoughtbot last year and it’s become integral to our design process. They’ve been so successful, that we started requiring them for green field projects and the exercises used in the sprints have started creeping into the rest of our workflows.&lt;/p&gt;
+A formal Product Design Sprint is a five-phase exercise which uses design thinking to reduce the total level of risk in a project by thinking about it holistically and attacking it in a linear fashion. We started doing product design sprints at thoughtbot last year and it’s become integral to our design process. They’ve been so successful, that we started requiring them for green field projects and the exercises used in the sprints have started creeping into the rest of our workflows.
 
-&lt;p&gt;Participating in a Design Sprint orients the entire team and aims their efforts at hitting a clearly defined goal. Sprints are useful starting points when kicking off a new feature, workflow, product, business or solving problems within an existing product.&lt;/p&gt;
+Participating in a Design Sprint orients the entire team and aims their efforts at hitting a clearly defined goal. Sprints are useful starting points when kicking off a new feature, workflow, product, business or solving problems within an existing product.
 
-&lt;p&gt;Integrating design sprints and design thinking into our product development process keeps us aligned with our goals, and helps us invest our time and money wisely.&lt;/p&gt;
+Integrating design sprints and design thinking into our product development process keeps us aligned with our goals, and helps us invest our time and money wisely.
 
-&lt;p&gt;We’re really grateful for Google Ventures releasing documentation on how they run their sprints, but they are far from first to the game here. Doing historical design research we’ve discovered that small dedicated task forces focused on outcomes appears at least as far back in the 1960s within architecture.&lt;/p&gt;
+We’re really grateful for Google Ventures releasing documentation on how they run their sprints, but they are far from first to the game here. Doing historical design research we’ve discovered that small dedicated task forces focused on outcomes appears at least as far back in the 1960s within architecture.
 
-&lt;p&gt;The first literature I found about applying the Design Sprint mentality to a digital design problem was actually applied to game design by Valve for their first project, &lt;em&gt;Half-Life&lt;/em&gt;. Here’s a very in-depth example of how even with no design sprint experience and a little process, Valve was able to run totally change the game.&lt;/p&gt;
+The first literature I found about applying the Design Sprint mentality to a digital design problem was actually applied to game design by Valve for their first project, Half-Life. Here’s a very in-depth example of how even with no design sprint experience and a little process, Valve was able to run totally change the game.
 
-&lt;h3 id="cabal"&gt;Cabal&lt;/h3&gt;
+Cabal
 
-&lt;p&gt;Valve’s target ship date was November 1997, a year before the game actually would ship. In development for a year was a Quake total conversion with all new levels and art. Pretty simple, take the existing working concept and make it something novel. But by late September, two months before the original ship date, there was a major problem — the game just wasn’t any fun.&lt;/p&gt;
+Valve’s target ship date was November 1997, a year before the game actually would ship. In development for a year was a Quake total conversion with all new levels and art. Pretty simple, take the existing working concept and make it something novel. But by late September, two months before the original ship date, there was a major problem — the game just wasn’t any fun.
 
-&lt;p&gt;There were good things and bad things. Cool monsters, but if you strayed out of the intended play style, the monsters did dumb things. Individually there were interesting levels, but as a whole they didn’t fit together well. Great technology, that was only shown off in one or two levels. As a cohesive whole, it wasn’t working.&lt;/p&gt;
+There were good things and bad things. Cool monsters, but if you strayed out of the intended play style, the monsters did dumb things. Individually there were interesting levels, but as a whole they didn’t fit together well. Great technology, that was only shown off in one or two levels. As a cohesive whole, it wasn’t working.
 
-&lt;p&gt;The obvious answer for Valve, was to work a few more months, gloss over the worst of the problems and ship what they had. For most companies who are left at the whim of their publishers, this is usually the route taken — with obvious results. Since Valve is independent studio, and their team didn’t believe the end result would be something they would want to play themselves, they chose a different route. A very painful route — they decided to start over and rework every stage of the game.&lt;/p&gt;
+The obvious answer for Valve, was to work a few more months, gloss over the worst of the problems and ship what they had. For most companies who are left at the whim of their publishers, this is usually the route taken — with obvious results. Since Valve is independent studio, and their team didn’t believe the end result would be something they would want to play themselves, they chose a different route. A very painful route — they decided to start over and rework every stage of the game.
 
-&lt;p&gt;So what was it that took this game that objectively sucked, and within the same time frame, make it into what IGN called “the best first-person shooter of all time”.&lt;/p&gt;
+So what was it that took this game that objectively sucked, and within the same time frame, make it into what IGN called “the best first-person shooter of all time”.
 
-&lt;p&gt;Their solution was to boil the best parts of the existing game into a short single level prototype demo and iterate until it was fun. Then scale it up to about 100 cohesive levels. Valve formed a small group of people to work on the prototype, specialists representing different departments, while the rest of the organization sat around for the month.&lt;/p&gt;
+Their solution was to boil the best parts of the existing game into a short single level prototype demo and iterate until it was fun. Then scale it up to about 100 cohesive levels. Valve formed a small group of people to work on the prototype, specialists representing different departments, while the rest of the organization sat around for the month.
 
-&lt;p&gt;When making the prototype, if any feature didn’t directly add to the outcome of being fun, it was cut. Features that needed to be added were hacked together the minimum needed to proceed. In the end, they had a short level where Die Hard met Evil Dead, it was perfect.&lt;/p&gt;
+When making the prototype, if any feature didn’t directly add to the outcome of being fun, it was cut. Features that needed to be added were hacked together the minimum needed to proceed. In the end, they had a short level where Die Hard met Evil Dead, it was perfect.
 
-&lt;p&gt;After making the prototype level their dream come true, they were able to extract some theory as to what made it so great.&lt;/p&gt;
+After making the prototype level their dream come true, they were able to extract some theory as to what made it so great.
 
-&lt;ul&gt;
-  &lt;li&gt;Pacing was distance based, not time based. Allowing players to go through at their own speed.&lt;/li&gt;
-  &lt;li&gt;Player acknowledgement, anything a player did would affect the game world.&lt;/li&gt;
-  &lt;li&gt;Success and failure was based on player input, not an unfair game engine.&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;During their first failed year, they search for a mythical “game designer” that could oversee the entire process and make it all come together. Problem was that despite looking at hundreds of applicants, no single person lived up to the mythical unicorn like standards they had created. Finally they came to the conclusion that this single person didn’t exist, but they could create a cross-sectional team to combine strengths. This formed their working group called the “Cabal”. Which is a great vocab word, meaning a secret political clique.&lt;/p&gt;
+  Pacing was distance based, not time based. Allowing players to go through at their own speed.
+  Player acknowledgement, anything a player did would affect the game world.
+  Success and failure was based on player input, not an unfair game engine.
 
-&lt;p&gt;The Cabal’s task was to come up with a complete product spec including all the game’s monsters, level design, special effects, and design standards. It was to be a massive paper prototype.&lt;/p&gt;
 
-&lt;p&gt;The Cabal would meet four days a week for six hours a day with minimum five people in the room. One of which would be a dedicated note-taker, the others were engineers or designers that were responsible for shipping components of the game. Throughout the formal Cabal process people rotated in and out to contribute.&lt;/p&gt;
+During their first failed year, they search for a mythical “game designer” that could oversee the entire process and make it all come together. Problem was that despite looking at hundreds of applicants, no single person lived up to the mythical unicorn like standards they had created. Finally they came to the conclusion that this single person didn’t exist, but they could create a cross-sectional team to combine strengths. This formed their working group called the “Cabal”. Which is a great vocab word, meaning a secret political clique.
 
-&lt;p&gt;Cabal meetings went for five months straight and then off and on until the end of the project. By the second month, there was enough of a foundation to begin development on key areas. Into the third month, they were able to start play testing. Play testing was critical, a two-hour session would lead to about 100 action items that would need to be dealt with and feedback was given to the Cabal team. Early feedback allowed them to remove what wasn’t working and expand the best parts.&lt;/p&gt;
+The Cabal’s task was to come up with a complete product spec including all the game’s monsters, level design, special effects, and design standards. It was to be a massive paper prototype.
 
-&lt;p&gt;They learned some things about running the Cabal:&lt;/p&gt;
+The Cabal would meet four days a week for six hours a day with minimum five people in the room. One of which would be a dedicated note-taker, the others were engineers or designers that were responsible for shipping components of the game. Throughout the formal Cabal process people rotated in and out to contribute.
 
-&lt;ul&gt;
-  &lt;li&gt;Everyone contributed, but not every day. Having many different perspectives is what allowed them to not stall out.&lt;/li&gt;
-  &lt;li&gt;Artificial constraints caused them to create their best work.&lt;/li&gt;
-  &lt;li&gt;Sessions couldn’t last longer than six hours because everyone would be completely drained.&lt;/li&gt;
-&lt;/ul&gt;
+Cabal meetings went for five months straight and then off and on until the end of the project. By the second month, there was enough of a foundation to begin development on key areas. Into the third month, they were able to start play testing. Play testing was critical, a two-hour session would lead to about 100 action items that would need to be dealt with and feedback was given to the Cabal team. Early feedback allowed them to remove what wasn’t working and expand the best parts.
 
-&lt;p&gt;Their final document was over 200 pages detailing everything from how buttons worked to what time of day it was in each of the levels. Included tons of rough sketches for level design and specified which technologies, sounds, and animations were required. The script was larger than a 30-hour movie and was showing maintenance problems, so they ended up bringing in a professional writer to maintain the document and craft cohesion amongst the entire work.&lt;/p&gt;
+They learned some things about running the Cabal:
 
-&lt;p&gt;Within six months of the Cabal at Valve finishing their massive outline, &lt;em&gt;Half-Life&lt;/em&gt; shipped and games haven’t been the same sine. Looking back "When you look at the history of first-person shooters, it all breaks down pretty cleanly into pre-Half-Life and post-Half-Life eras.” Clearly it’s a monumental game and the processes Valve created can be attributed to their continued success.&lt;/p&gt;
 
-&lt;p&gt;This story about the Cabal system was first published in 1999, not too long after the release. What I love so much about it is that it describes a process for solving the ultimate problem, what do we do when the individual pieces work great, but the cohesive whole doesn’t work. In software of all flavors, we struggle with this zoomed-out outcome perspective all the time. This is exactly what product design exercises are meant to overcome, look at individual pieces and evaluate them in the context of the whole.&lt;/p&gt;
+  Everyone contributed, but not every day. Having many different perspectives is what allowed them to not stall out.
+  Artificial constraints caused them to create their best work.
+  Sessions couldn’t last longer than six hours because everyone would be completely drained.
 
-&lt;h3 id="phases"&gt;Phases&lt;/h3&gt;
 
-&lt;ol&gt;
-  &lt;li&gt;Understand&lt;/li&gt;
-  &lt;li&gt;Diverge&lt;/li&gt;
-  &lt;li&gt;Converge&lt;/li&gt;
-  &lt;li&gt;Prototype&lt;/li&gt;
-  &lt;li&gt;Validate&lt;/li&gt;
-&lt;/ol&gt;
+Their final document was over 200 pages detailing everything from how buttons worked to what time of day it was in each of the levels. Included tons of rough sketches for level design and specified which technologies, sounds, and animations were required. The script was larger than a 30-hour movie and was showing maintenance problems, so they ended up bringing in a professional writer to maintain the document and craft cohesion amongst the entire work.
 
-&lt;p&gt;There’s five key phases to a design sprint, but they are really more types of activities. Viewing the activities of Valve’s Cabal from a product design sprint perspective, they align in the following ways.&lt;/p&gt;
+Within six months of the Cabal at Valve finishing their massive outline, Half-Life shipped and games haven’t been the same sine. Looking back "When you look at the history of first-person shooters, it all breaks down pretty cleanly into pre-Half-Life and post-Half-Life eras.” Clearly it’s a monumental game and the processes Valve created can be attributed to their continued success.
 
-&lt;ul&gt;
-  &lt;li&gt;Understand: Figure out which existing pieces were adding to fun experiences and what core technologies would power them.&lt;/li&gt;
-  &lt;li&gt;Diverge: Try out as many monsters, sound effects, level options, story lines, characters as possible.&lt;/li&gt;
-  &lt;li&gt;Converge: Decide which elements were the most fun in the game and fulfilling the purpose while being congruent within the spec.&lt;/li&gt;
-  &lt;li&gt;Prototype: Create a master script that will guide the entire game’s development cycle.&lt;/li&gt;
-  &lt;li&gt;Validate: First with the prototype and then with added levels, get direct user feedback from play testing sessions.&lt;/li&gt;
-&lt;/ul&gt;
+This story about the Cabal system was first published in 1999, not too long after the release. What I love so much about it is that it describes a process for solving the ultimate problem, what do we do when the individual pieces work great, but the cohesive whole doesn’t work. In software of all flavors, we struggle with this zoomed-out outcome perspective all the time. This is exactly what product design exercises are meant to overcome, look at individual pieces and evaluate them in the context of the whole.
 
-&lt;p&gt;To be clear, it’s obvious that this is very non-linear process and in application this is almost always how it is. For our formal design sprints we try to focus the process to be as linear as possible to meet deadlines and have a set schedule but in the future I think it will be much more fluid.&lt;/p&gt;
+Phases
 
-&lt;p&gt;Within the different design sprint phases, we have tested and written scripts for a handful of exercises and then per project choose which we think are the best suited for the particular problems. This is done in a rough pass before beginning work and then refined on the fly as we go through and learn more about individual client needs.&lt;/p&gt;
 
-&lt;p&gt;Now, I want to share with you a bit more about each individual phases and the exercises that we commonly do during each phase with examples.&lt;/p&gt;
+  Understand
+  Diverge
+  Converge
+  Prototype
+  Validate
 
-&lt;h3 id="prepare"&gt;Prepare&lt;/h3&gt;
 
-&lt;p&gt;Start the process for sourcing user study subjects before you begin. We have some templates through our playbook on how to do this through Craigslist. Having people scheduled to come in on a certain time is the ticking time bomb you need to create a sense of urgency and get full compliance in the sprint process.&lt;/p&gt;
+There’s five key phases to a design sprint, but they are really more types of activities. Viewing the activities of Valve’s Cabal from a product design sprint perspective, they align in the following ways.
 
-&lt;p&gt;You need a few other things when starting to do your own sprints. Make sure to have a dedicated conference room. It’s especially important that everyone can leave their stuff in one place and not have to worry about it being moved before the next day of the sprint.&lt;/p&gt;
 
-&lt;p&gt;Invite the whole team. Bring marketing, business, design, developer, customer support, really anyone who has thought or is affected by the product together. You’ll want to make sure that results are actually feasible and those that will be producing the solution understand enough of the background to build it. If possible, try to have a dedicated facilitator and note-taker for running the sessions. Ideally people not involved in production of the product afterwards, this frees up the actual team to contribute as much as possible and focus on the sprint exercises.&lt;/p&gt;
+  Understand: Figure out which existing pieces were adding to fun experiences and what core technologies would power them.
+  Diverge: Try out as many monsters, sound effects, level options, story lines, characters as possible.
+  Converge: Decide which elements were the most fun in the game and fulfilling the purpose while being congruent within the spec.
+  Prototype: Create a master script that will guide the entire game’s development cycle.
+  Validate: First with the prototype and then with added levels, get direct user feedback from play testing sessions.
 
-&lt;p&gt;Schedule it on everyone’s calendar for the full day. Since things move so fast, having people coming and going makes it to easy to lose track of what’s going on.&lt;/p&gt;
 
-&lt;p&gt;We’ve found it enormously helpful to go low-tech. Ditch the laptops, with the exception of the dedicated note-taker. Anything that can be printed should be. Take all notes and display them on the wall. By the end of a week, you’re covered in a cocoon of insanity, but being able to quickly filter and sort the results on a wall has led us to some of our greatest insights.&lt;/p&gt;
+To be clear, it’s obvious that this is very non-linear process and in application this is almost always how it is. For our formal design sprints we try to focus the process to be as linear as possible to meet deadlines and have a set schedule but in the future I think it will be much more fluid.
 
-&lt;p&gt;For each phase of the sprint, you’ll be going through structured exercises. This structure is what separates a design sprint from a randomly assembled meeting. Each of these exercises should have a recommended time to completion. We enforce this by using a phone timer. Trust me, do not let any of these go over time. Deadlines are wonderful for creativity.&lt;/p&gt;
+Within the different design sprint phases, we have tested and written scripts for a handful of exercises and then per project choose which we think are the best suited for the particular problems. This is done in a rough pass before beginning work and then refined on the fly as we go through and learn more about individual client needs.
 
-&lt;p&gt;You do need someone to play the role of editor, for most of our client projects this is the CEO or some type of manager. This is what separates design sprints from design-by-committee. You’ll be making product decisions based on fitness and informed by the data the entire team has.&lt;/p&gt;
+Now, I want to share with you a bit more about each individual phases and the exercises that we commonly do during each phase with examples.
 
-&lt;p&gt;Each phase concludes with distinct deliverables before moving on, it’s the facilitator and note-taker’s responsibilities to make sure that these are shared before moving on to the next phase.&lt;/p&gt;
+Prepare
 
-&lt;h3 id="understand"&gt;Understand&lt;/h3&gt;
+Start the process for sourcing user study subjects before you begin. We have some templates through our playbook on how to do this through Craigslist. Having people scheduled to come in on a certain time is the ticking time bomb you need to create a sense of urgency and get full compliance in the sprint process.
 
-&lt;p&gt;The understand phase is a huge kickoff meeting. For us this is what broke the Google Ventures mold. Some of our clients just have too much existing research to go through in a single day. Thus why at thoughtbot, we split our sprints by phase, not day.&lt;/p&gt;
+You need a few other things when starting to do your own sprints. Make sure to have a dedicated conference room. It’s especially important that everyone can leave their stuff in one place and not have to worry about it being moved before the next day of the sprint.
 
-&lt;p&gt;The goal of the understand phase is to develop common thoughts including the problem, the business, the customer, the value proposition, and how success will be determined. By the end of this phase, we also aim to have identified some of our biggest risks and started to make plans for reducing them.&lt;/p&gt;
+Invite the whole team. Bring marketing, business, design, developer, customer support, really anyone who has thought or is affected by the product together. You’ll want to make sure that results are actually feasible and those that will be producing the solution understand enough of the background to build it. If possible, try to have a dedicated facilitator and note-taker for running the sessions. Ideally people not involved in production of the product afterwards, this frees up the actual team to contribute as much as possible and focus on the sprint exercises.
 
-&lt;p&gt;Clients that come in with existing research rock at this part. We love to review any kind of competitive analysis or ideally any user studies done in the past. One client even brought in her first ten list of companies she had already sold and wanted to onboard to a new product, this made designing a solution for that group of companies much more realistic.&lt;/p&gt;
+Schedule it on everyone’s calendar for the full day. Since things move so fast, having people coming and going makes it to easy to lose track of what’s going on.
 
-&lt;p&gt;Activities for this phase include:&lt;/p&gt;
+We’ve found it enormously helpful to go low-tech. Ditch the laptops, with the exception of the dedicated note-taker. Anything that can be printed should be. Take all notes and display them on the wall. By the end of a week, you’re covered in a cocoon of insanity, but being able to quickly filter and sort the results on a wall has led us to some of our greatest insights.
 
-&lt;ul&gt;
-  &lt;li&gt;Writing a definitive challenge statement. This is a lot harder than it sounds. A great scaffolding for a challenge statement is “Design a way for [specific group of people] to better [situation]”. In example, “Design a way for iPhone owners to better find their keys”.&lt;/li&gt;
-  &lt;li&gt;Definitions of key terms. Making a huge dictionary of all proprietary words. You would be surprised with how diluted the word user becomes.&lt;/li&gt;
-  &lt;li&gt;Running through competitors products and doing short demos to gauge the space.&lt;/li&gt;
-&lt;/ul&gt;
+For each phase of the sprint, you’ll be going through structured exercises. This structure is what separates a design sprint from a randomly assembled meeting. Each of these exercises should have a recommended time to completion. We enforce this by using a phone timer. Trust me, do not let any of these go over time. Deadlines are wonderful for creativity.
 
-&lt;p&gt;A key deliverable for understanding the product is filling out a business model canvas. This is to get a top down view on generally how all the pieces of the business fit together.&lt;/p&gt;
+You do need someone to play the role of editor, for most of our client projects this is the CEO or some type of manager. This is what separates design sprints from design-by-committee. You’ll be making product decisions based on fitness and informed by the data the entire team has.
 
-&lt;p&gt;By putting the pieces together here, we usually get our first indications of what’s been previously tested or ignored. We’ve commonly had to use two special sections for findings here that are used throughout the sprint. The first is the assumptions board, this is used to mark things that are wild guesses this early in development. Later we can sort those by what we deem the riskiest or critical and then focus on them. The other special board is for “ideas”. For the sake of time, we can’t spend hours going into some pet ideas, however, we do want to acknowledge them and then refer to them later in the process during our divergence.&lt;/p&gt;
+Each phase concludes with distinct deliverables before moving on, it’s the facilitator and note-taker’s responsibilities to make sure that these are shared before moving on to the next phase.
 
-&lt;h3 id="diverge"&gt;Diverge&lt;/h3&gt;
+Understand
 
-&lt;p&gt;The goal of diverging is to generate insights and potential solutions to our challenge statement.&lt;/p&gt;
+The understand phase is a huge kickoff meeting. For us this is what broke the Google Ventures mold. Some of our clients just have too much existing research to go through in a single day. Thus why at thoughtbot, we split our sprints by phase, not day.
 
-&lt;p&gt;Explore as many ways of solving the problems as possible, regardless of how realistic, feasible, or viable they may or may not be. It allows you to get rather crazy about what solutions might or might not work. Even the ones least likely to succeed have an aspect of merit to them.&lt;/p&gt;
+The goal of the understand phase is to develop common thoughts including the problem, the business, the customer, the value proposition, and how success will be determined. By the end of this phase, we also aim to have identified some of our biggest risks and started to make plans for reducing them.
 
-&lt;ul&gt;
-  &lt;li&gt;Constantly ask, “How might we…”. It doesn’t have to fit all the constraints. My favorite example of this was a coworker in design school was tasked to come up with 100s of sketches for solutions to a better walker for the elderly. He drew up a plan for a backpack attached to seagulls mid-flight. Seriously let your “How might we…”s be insane and pull out anything that’s relevant.&lt;/li&gt;
-  &lt;li&gt;Generate, develop, and communicate new ideas. It’s guaranteed that someone will come up with something wild and unexpected.&lt;/li&gt;
-  &lt;li&gt;Group sketching on whiteboards.&lt;/li&gt;
-  &lt;li&gt;Mind Mapping individually and as a group.&lt;/li&gt;
-&lt;/ul&gt;
+Clients that come in with existing research rock at this part. We love to review any kind of competitive analysis or ideally any user studies done in the past. One client even brought in her first ten list of companies she had already sold and wanted to onboard to a new product, this made designing a solution for that group of companies much more realistic.
 
-&lt;p&gt;The major deliverable for diverge is the critical path diagram. It’s goal is to highlight the critical path or outline the most important steps required from a user starting to finishing the task at hand. We want to specify what needs to happen, but not exactly how.&lt;/p&gt;
+Activities for this phase include:
 
-&lt;p&gt;For generating lots of ideas to use with along our critical path we do quick and iterative individual sketching. Specifically the crazy-eights exercise, which is just dastardly to run with people. You have them fold 8x10 paper twice over to create eight panels, then draw eight different sketches representing ideas for solutions to a small aspect of a problem. Usually giving them less than 5 or 10 minutes. I like to be a bit devious and not specify how many rounds. Three rounds of this gets people groaning like crazy, but has led to some of our most creative solutions. These panels are definitely reused and referred to throughout the entire project.&lt;/p&gt;
 
-&lt;h3 id="converge"&gt;Converge&lt;/h3&gt;
+  Writing a definitive challenge statement. This is a lot harder than it sounds. A great scaffolding for a challenge statement is “Design a way for [specific group of people] to better [situation]”. In example, “Design a way for iPhone owners to better find their keys”.
+  Definitions of key terms. Making a huge dictionary of all proprietary words. You would be surprised with how diluted the word user becomes.
+  Running through competitors products and doing short demos to gauge the space.
 
-&lt;p&gt;The goal of converging is to take all of the possibilities exposed, eliminate the currently unfeasible and hone in on the ideas we feel have the best chance for success.&lt;/p&gt;
 
-&lt;p&gt;These ideas will guide the implementation of a prototype that will be tested with existing or potential customers.&lt;/p&gt;
+A key deliverable for understanding the product is filling out a business model canvas. This is to get a top down view on generally how all the pieces of the business fit together.
 
-&lt;p&gt;When converging, we want to:&lt;/p&gt;
+By putting the pieces together here, we usually get our first indications of what’s been previously tested or ignored. We’ve commonly had to use two special sections for findings here that are used throughout the sprint. The first is the assumptions board, this is used to mark things that are wild guesses this early in development. Later we can sort those by what we deem the riskiest or critical and then focus on them. The other special board is for “ideas”. For the sake of time, we can’t spend hours going into some pet ideas, however, we do want to acknowledge them and then refer to them later in the process during our divergence.
 
-&lt;ul&gt;
-  &lt;li&gt;Identify the ideas that aim to solve the same problem in different ways.&lt;/li&gt;
-  &lt;li&gt;Eliminate solutions that can’t be pursued currently.&lt;/li&gt;
-  &lt;li&gt;Vote for good ideas, we usually do this posting up crazy-eights and doing silent votes with stickers.&lt;/li&gt;
-&lt;/ul&gt;
+Diverge
 
-&lt;p&gt;Our main deliverable for this stage is the final storyboard that we’re going to prototype and pit against the challenge statement. It’s nice to work with previous crazy-eight’s panels that can piece together some of the key steps with the team’s best ideas, then you can fill in the gaps. It’s the mediator’s job to make sure the end result is something that can actually be built, fits the challenge statement, and gets final client sign-off.&lt;/p&gt;
+The goal of diverging is to generate insights and potential solutions to our challenge statement.
 
-&lt;h3 id="prototype"&gt;Prototype&lt;/h3&gt;
+Explore as many ways of solving the problems as possible, regardless of how realistic, feasible, or viable they may or may not be. It allows you to get rather crazy about what solutions might or might not work. Even the ones least likely to succeed have an aspect of merit to them.
 
-&lt;p&gt;Build a prototype that can be tested with existing or potential customers.&lt;/p&gt;
 
-&lt;p&gt;The prototype should be designed to learn about specific unknowns and assumptions. Its medium should be determined by time constraints and learning goals. Paper, Keynote, and simple HTML/CSS are all good prototyping media.&lt;/p&gt;
+  Constantly ask, “How might we…”. It doesn’t have to fit all the constraints. My favorite example of this was a coworker in design school was tasked to come up with 100s of sketches for solutions to a better walker for the elderly. He drew up a plan for a backpack attached to seagulls mid-flight. Seriously let your “How might we…”s be insane and pull out anything that’s relevant.
+  Generate, develop, and communicate new ideas. It’s guaranteed that someone will come up with something wild and unexpected.
+  Group sketching on whiteboards.
+  Mind Mapping individually and as a group.
 
-&lt;p&gt;The prototype storyboard and the first three phases of the sprint should make prototype-building fairly straight forward. There shouldn’t be much uncertainty at this point around what needs to be done.&lt;/p&gt;
 
-&lt;p&gt;For this phase we work individually, having half a dozen people in Photoshop at the same time isn’t super productive. We’ll let our clients go back to their office and do a final review of the prototype at the end of the day.&lt;/p&gt;
+The major deliverable for diverge is the critical path diagram. It’s goal is to highlight the critical path or outline the most important steps required from a user starting to finishing the task at hand. We want to specify what needs to happen, but not exactly how.
 
-&lt;p&gt;&lt;a href="https://www.flinto.com/p/b96f20e0"&gt;Here’s an example that was made using Flinto&lt;/a&gt;, which is great for rapid prototyping iOS apps. The brief was “Tinder for sports recruiting”. This was made pre-sales to make sure that we were on the same page. Short answer was that we weren’t, but she was impressed by how quickly we moved and were able to iterate.&lt;/p&gt;
+For generating lots of ideas to use with along our critical path we do quick and iterative individual sketching. Specifically the crazy-eights exercise, which is just dastardly to run with people. You have them fold 8x10 paper twice over to create eight panels, then draw eight different sketches representing ideas for solutions to a small aspect of a problem. Usually giving them less than 5 or 10 minutes. I like to be a bit devious and not specify how many rounds. Three rounds of this gets people groaning like crazy, but has led to some of our most creative solutions. These panels are definitely reused and referred to throughout the entire project.
 
-&lt;p&gt;Flinto is great because you can send it directly to your users and then it’s installed like a home screen app with it’s own app icon and everything. It’s perfect because it allows them to use the prototype on their own device. My preference is to get as close to the real thing as possible, but still have it be throw-away-able. Seriously avoid the sunk cost fallacy with these things, it’s too easy with a solid code base to say well, it works well enough let’s build on top of this. For that reason I usually don’t recommend using HTML &amp;amp; CSS prototypes unless your team is really comfortable with it and using a framework to speed things up.&lt;/p&gt;
+Converge
 
-&lt;p&gt;Keynote is another brilliant option. You get all the Apple transitions and effects you need to fake something looking native, there’s great support with Keynotopia for stock elements, and with iCloud sharing you can give others access to it to tweak copy really easily. Keeping it out of git control is a great way to get everyone on board. Keynote’s a really accessible option.&lt;/p&gt;
+The goal of converging is to take all of the possibilities exposed, eliminate the currently unfeasible and hone in on the ideas we feel have the best chance for success.
 
-&lt;p&gt;Your results will ultimately only be as good as your testing script. This document should specify what the requirements are and be specific enough with wording that can be used consistently across your team. It’s also great because you’ll have it for the next testing session if you’re going to try and improve a baseline experiment from before.&lt;/p&gt;
+These ideas will guide the implementation of a prototype that will be tested with existing or potential customers.
 
-&lt;p&gt;I’m personally pretty fanatical about creating accurate and reusable scripts. For me the testing phase is the closest design gets to science, which is so much fun. If you can’t repeat your experiment, you will be all over the place and not able to use the result of the entire sprint. We’ve had to throw out data points before and it’s usually for asking inherently leading questions.&lt;/p&gt;
+When converging, we want to:
 
-&lt;h3 id="validate"&gt;Validate&lt;/h3&gt;
 
-&lt;p&gt;For the validation phase, we typically set up to run three to six people through a very specific script. These are far from statistically significant sample sizes, but are enough to find the major strengths and gaps in the prototypes.&lt;/p&gt;
+  Identify the ideas that aim to solve the same problem in different ways.
+  Eliminate solutions that can’t be pursued currently.
+  Vote for good ideas, we usually do this posting up crazy-eights and doing silent votes with stickers.
 
-&lt;p&gt;The smallest research team can possibly be is two people, a facilitator and a note-taker. When we run our studies, we actually don’t allow the rest of the team to participate or watch. For us, we just don’t have the space and that’s okay. Our research team’s goal is to synthesize the information into a TL;DR: and provide access to the raw data for those interested.&lt;/p&gt;
 
-&lt;p&gt;Typically research sessions will go in two phases. One’s more of an interview, where I’ll ask them general questions about the problem. Starting with the baseline of having them talk through how they would solve it without technology. Then after a handful of questions around the problem, we will present them with the prototype and a handful of tasks.&lt;/p&gt;
+Our main deliverable for this stage is the final storyboard that we’re going to prototype and pit against the challenge statement. It’s nice to work with previous crazy-eight’s panels that can piece together some of the key steps with the team’s best ideas, then you can fill in the gaps. It’s the mediator’s job to make sure the end result is something that can actually be built, fits the challenge statement, and gets final client sign-off.
 
-&lt;p&gt;This photo was taken during a session with one of my favorite participants. She ended up pitching me on her Kickstarter afterwards, which I gladly backed.&lt;/p&gt;
+Prototype
 
-&lt;p&gt;For this particular client, we were doing research for their product which added “Find my phone” like functionality to household objects, like car keys, using small fobs. We had half a dozen variants for their companion apps to test. Our critical learning was that any visual interface actually distracted them from the task at hand. It didn’t matter how pretty or what information was on the screen. The best thing to do to minimize time to finding the objects was to make the devices ring loudly, letting their ears help them search. It’s a good thing we had a challenge statement that was “How might we minimize the time people who have lost their keys take to find them” and not “How can we improve our visual interface finder”.&lt;/p&gt;
+Build a prototype that can be tested with existing or potential customers.
 
-&lt;p&gt;Our final deliverable is a summary of research. This has proved to be the quickest way to digest an entire day’s worth of research. I like to create a PDF of each of the views and then overlay the information over it. Then summarize with bullet points of the good, bad, and things that just don’t work.&lt;/p&gt;
+The prototype should be designed to learn about specific unknowns and assumptions. Its medium should be determined by time constraints and learning goals. Paper, Keynote, and simple HTML/CSS are all good prototyping media.
 
-&lt;p&gt;By the way if you want your team to practice doing user research, I highly suggest Soundcloud as a demo. It’s an all-around confusing interface that jumps around with different templates depending on what part of the site you’re on. You can learn a lot about how much people hate software by forcing them to use Soundcloud for a few minutes. By the way, I love them, you can a handful of my DJ mixes there at http://soundcloud.com/alexbaldwin, wonderful service with a terrible interface for new users.&lt;/p&gt;
+The prototype storyboard and the first three phases of the sprint should make prototype-building fairly straight forward. There shouldn’t be much uncertainty at this point around what needs to be done.
 
-&lt;p&gt;Reflecting on a year of design sprints has led to a lot of insights into how we’ve adapted them for our needs. First off, it led to a distinctly different behavior in our clients. No longer was it acceptable to give feature requests without significant reasoning and research.&lt;/p&gt;
+For this phase we work individually, having half a dozen people in Photoshop at the same time isn’t super productive. We’ll let our clients go back to their office and do a final review of the prototype at the end of the day.
 
-&lt;p&gt;Aspects of a design sprint:&lt;/p&gt;
+Here’s an example that was made using Flinto, which is great for rapid prototyping iOS apps. The brief was “Tinder for sports recruiting”. This was made pre-sales to make sure that we were on the same page. Short answer was that we weren’t, but she was impressed by how quickly we moved and were able to iterate.
 
-&lt;ul&gt;
-  &lt;li&gt;Starts with a challenge statement.&lt;/li&gt;
-  &lt;li&gt;Structured collaborations with set expectations.&lt;/li&gt;
-  &lt;li&gt;Many contributors involved across disciplines.&lt;/li&gt;
-  &lt;li&gt;Has key deliverables with a feedback mechanism.&lt;/li&gt;
-&lt;/ul&gt;
+Flinto is great because you can send it directly to your users and then it’s installed like a home screen app with it’s own app icon and everything. It’s perfect because it allows them to use the prototype on their own device. My preference is to get as close to the real thing as possible, but still have it be throw-away-able. Seriously avoid the sunk cost fallacy with these things, it’s too easy with a solid code base to say well, it works well enough let’s build on top of this. For that reason I usually don’t recommend using HTML &amp;amp; CSS prototypes unless your team is really comfortable with it and using a framework to speed things up.
 
-&lt;p&gt;Future of design sprints at thoughtbot:&lt;/p&gt;
+Keynote is another brilliant option. You get all the Apple transitions and effects you need to fake something looking native, there’s great support with Keynotopia for stock elements, and with iCloud sharing you can give others access to it to tweak copy really easily. Keeping it out of git control is a great way to get everyone on board. Keynote’s a really accessible option.
 
-&lt;ul&gt;
-  &lt;li&gt;Design thinking exercises shouldn’t be confined to only be used the formal sprint process. It won’t be a sprint any more, these techniques should be used at all points in the development process.&lt;/li&gt;
-  &lt;li&gt;Templates should be available that are customizable to your organization and needs.&lt;/li&gt;
-  &lt;li&gt;Better preparation will come in time with ability to anticipate needs of different exercises. For example, with crazy-eights, we’ve printed out pads of work sheets that are custom tailored for that exercise. It feels way more official and structured. The business model canvas is a great example of how useful, repeatable, and flexible these work sheets could be. IDEO’s Human Centered Design Handbook has lots of really nice examples.&lt;/li&gt;
-  &lt;li&gt;I can imagine a toolbox of exercises to get you unstuck. Like little open-source UNIX tools for creative collaboration.&lt;/li&gt;
-&lt;/ul&gt;
+Your results will ultimately only be as good as your testing script. This document should specify what the requirements are and be specific enough with wording that can be used consistently across your team. It’s also great because you’ll have it for the next testing session if you’re going to try and improve a baseline experiment from before.
 
-&lt;p&gt;More info:&lt;/p&gt;
+I’m personally pretty fanatical about creating accurate and reusable scripts. For me the testing phase is the closest design gets to science, which is so much fun. If you can’t repeat your experiment, you will be all over the place and not able to use the result of the entire sprint. We’ve had to throw out data points before and it’s usually for asking inherently leading questions.
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href="http://www.gv.com/lib/the-product-design-sprint-a-five-day-recipe-for-startups"&gt;The Product Design Sprint: A Five-Day Recipe for Startups&lt;/a&gt; by Jake Knapp, Google Ventures&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://robots.thoughtbot.com/the-product-design-sprint"&gt;The Product Design Sprint&lt;/a&gt; by Galen Frechette, thoughtbot&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://www.ideo.com/work/human-centered-design-toolkit/"&gt;IDEO Human Centered Design Toolkit&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://dschool.stanford.edu/wp-content/uploads/2011/03/BootcampBootleg2010v2SLIM.pdf"&gt;Stanford d.School Bootcamp Bootleg&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://playbook.thoughtbot.com/"&gt;thoughtbot playbook&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+Validate
+
+For the validation phase, we typically set up to run three to six people through a very specific script. These are far from statistically significant sample sizes, but are enough to find the major strengths and gaps in the prototypes.
+
+The smallest research team can possibly be is two people, a facilitator and a note-taker. When we run our studies, we actually don’t allow the rest of the team to participate or watch. For us, we just don’t have the space and that’s okay. Our research team’s goal is to synthesize the information into a TL;DR: and provide access to the raw data for those interested.
+
+Typically research sessions will go in two phases. One’s more of an interview, where I’ll ask them general questions about the problem. Starting with the baseline of having them talk through how they would solve it without technology. Then after a handful of questions around the problem, we will present them with the prototype and a handful of tasks.
+
+This photo was taken during a session with one of my favorite participants. She ended up pitching me on her Kickstarter afterwards, which I gladly backed.
+
+For this particular client, we were doing research for their product which added “Find my phone” like functionality to household objects, like car keys, using small fobs. We had half a dozen variants for their companion apps to test. Our critical learning was that any visual interface actually distracted them from the task at hand. It didn’t matter how pretty or what information was on the screen. The best thing to do to minimize time to finding the objects was to make the devices ring loudly, letting their ears help them search. It’s a good thing we had a challenge statement that was “How might we minimize the time people who have lost their keys take to find them” and not “How can we improve our visual interface finder”.
+
+Our final deliverable is a summary of research. This has proved to be the quickest way to digest an entire day’s worth of research. I like to create a PDF of each of the views and then overlay the information over it. Then summarize with bullet points of the good, bad, and things that just don’t work.
+
+By the way if you want your team to practice doing user research, I highly suggest Soundcloud as a demo. It’s an all-around confusing interface that jumps around with different templates depending on what part of the site you’re on. You can learn a lot about how much people hate software by forcing them to use Soundcloud for a few minutes. By the way, I love them, you can a handful of my DJ mixes there at http://soundcloud.com/alexbaldwin, wonderful service with a terrible interface for new users.
+
+Reflecting on a year of design sprints has led to a lot of insights into how we’ve adapted them for our needs. First off, it led to a distinctly different behavior in our clients. No longer was it acceptable to give feature requests without significant reasoning and research.
+
+Aspects of a design sprint:
+
+
+  Starts with a challenge statement.
+  Structured collaborations with set expectations.
+  Many contributors involved across disciplines.
+  Has key deliverables with a feedback mechanism.
+
+
+Future of design sprints at thoughtbot:
+
+
+  Design thinking exercises shouldn’t be confined to only be used the formal sprint process. It won’t be a sprint any more, these techniques should be used at all points in the development process.
+  Templates should be available that are customizable to your organization and needs.
+  Better preparation will come in time with ability to anticipate needs of different exercises. For example, with crazy-eights, we’ve printed out pads of work sheets that are custom tailored for that exercise. It feels way more official and structured. The business model canvas is a great example of how useful, repeatable, and flexible these work sheets could be. IDEO’s Human Centered Design Handbook has lots of really nice examples.
+  I can imagine a toolbox of exercises to get you unstuck. Like little open-source UNIX tools for creative collaboration.
+
+
+More info:
+
+
+  The Product Design Sprint: A Five-Day Recipe for Startups by Jake Knapp, Google Ventures
+  The Product Design Sprint by Galen Frechette, thoughtbot
+  IDEO Human Centered Design Toolkit
+  Stanford d.School Bootcamp Bootleg
+  thoughtbot playbook
+
 
 </content>
   </entry>
   <entry>
     <title>See, Think, Design, Produce</title>
-    <link rel="alternate" href="/see-think-design-produce"/>
-    <id>/see-think-design-produce</id>
+    <link href="http://alexbaldwin.com/see-think-design-produce" rel="alternate"/>
+    <id>http://alexbaldwin.com/see-think-design-produce</id>
     <published>2014-05-07T15:30:00-07:00</published>
-    <updated>2014-05-07T15:30:00-07:00</updated>
+    <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
       <name>Alex Baldwin</name>
     </author>
-    <summary type="html">&lt;h2 id="jonathan-corum-new-york-times"&gt;Jonathan Corum, New York Times&lt;/h2&gt;
+    <summary type="html">Jonathan Corum, New York Times
 
-&lt;h3 id="see"&gt;See&lt;/h3&gt;
+See
 
-&lt;p&gt;Practice until your &lt;strong&gt;eyes&lt;/strong&gt; can see it&lt;/p&gt;
+Practice until your eyes can see it
 
-&lt;p&gt;See what &lt;strong&gt;others&lt;/strong&gt; have done&lt;/p&gt;
+See what others have done
 
-&lt;p&gt;&lt;a href="https://github.com/mbostock/d3/wiki/Gallery"&gt;See what's &lt;strong&gt;possible&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+See what's possible
 
-&lt;p&gt;Look at &lt;strong&gt;more&lt;/strong&gt; than you can use&lt;/p&gt;
+Look at more than you can use
 
-&lt;h3 id="think"&gt;Think&lt;/h3&gt;
+Think
 
-&lt;p&gt;Find a clear &lt;strong&gt;thought&lt;/strong&gt; and get it on paper&lt;/p&gt;
+Find a clear thought and get it on paper
 
-&lt;p&gt;Sketching is visual &lt;strong&gt;problem solving&lt;/strong&gt;&lt;/p&gt;
+Sketching is visual problem solving
 
-&lt;p&gt;Sketches...&lt;/p&gt;</summary>
-    <content type="html">&lt;h2 id="jonathan-corum-new-york-times"&gt;Jonathan Corum, New York Times&lt;/h2&gt;
+Sketches...</summary>
+    <content type="html">Jonathan Corum, New York Times
 
-&lt;h3 id="see"&gt;See&lt;/h3&gt;
+See
 
-&lt;p&gt;Practice until your &lt;strong&gt;eyes&lt;/strong&gt; can see it&lt;/p&gt;
+Practice until your eyes can see it
 
-&lt;p&gt;See what &lt;strong&gt;others&lt;/strong&gt; have done&lt;/p&gt;
+See what others have done
 
-&lt;p&gt;&lt;a href="https://github.com/mbostock/d3/wiki/Gallery"&gt;See what's &lt;strong&gt;possible&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+See what's possible
 
-&lt;p&gt;Look at &lt;strong&gt;more&lt;/strong&gt; than you can use&lt;/p&gt;
+Look at more than you can use
 
-&lt;h3 id="think"&gt;Think&lt;/h3&gt;
+Think
 
-&lt;p&gt;Find a clear &lt;strong&gt;thought&lt;/strong&gt; and get it on paper&lt;/p&gt;
+Find a clear thought and get it on paper
 
-&lt;p&gt;Sketching is visual &lt;strong&gt;problem solving&lt;/strong&gt;&lt;/p&gt;
+Sketching is visual problem solving
 
-&lt;p&gt;Sketches are not &lt;strong&gt;commitments&lt;/strong&gt;&lt;/p&gt;
+Sketches are not commitments
 
-&lt;p&gt;What are you trying to &lt;strong&gt;do&lt;/strong&gt;?&lt;/p&gt;
+What are you trying to do?
 
-&lt;p&gt;Set the pattern, then show the variations&lt;/p&gt;
+Set the pattern, then show the variations
 
-&lt;p&gt;Ugly is &lt;strong&gt;fine&lt;/strong&gt;&lt;/p&gt;
+Ugly is fine
 
-&lt;p&gt;Sketch with &lt;strong&gt;data&lt;/strong&gt;&lt;/p&gt;
+Sketch with data
 
-&lt;p&gt;Sketch in the &lt;strong&gt;browser&lt;/strong&gt;&lt;/p&gt;
+Sketch in the browser
 
-&lt;p&gt;&lt;a href="http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html"&gt;Find something your &lt;strong&gt;brain&lt;/strong&gt; recognizes&lt;/a&gt;&lt;/p&gt;
+Find something your brain recognizes
 
-&lt;p&gt;Remember that &lt;strong&gt;aha!&lt;/strong&gt; moment&lt;/p&gt;
+Remember that aha! moment
 
-&lt;p&gt;Communicate that &lt;strong&gt;understanding&lt;/strong&gt;&lt;/p&gt;
+Communicate that understanding
 
-&lt;h3 id="design"&gt;Design&lt;/h3&gt;
+Design
 
-&lt;blockquote&gt;
-  &lt;p&gt;Good design is clear thinking made visible. - &lt;cite&gt;Edward Tufte&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
 
-&lt;p&gt;Design for someone &lt;strong&gt;else&lt;/strong&gt;&lt;/p&gt;
+  Good design is clear thinking made visible. - Edward Tufte
 
-&lt;p&gt;Don't be your own &lt;strong&gt;audience&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;If you're talking to yourself, you're not communicating&lt;/p&gt;
+Design for someone else
 
-&lt;p&gt;&lt;a href="http://www.nytimes.com/interactive/2013/10/08/science/the-higgs-boson.html#/?g=true"&gt;Remember what it's like &lt;strong&gt;not&lt;/strong&gt; to understand&lt;/a&gt;&lt;/p&gt;
+Don't be your own audience
 
-&lt;blockquote&gt;
-  &lt;p&gt;If I could have gone back in time, what would help me get to understanding.&lt;/p&gt;
-&lt;/blockquote&gt;
+If you're talking to yourself, you're not communicating
 
-&lt;p&gt;&lt;a href="http://www.nytimes.com/imagepages/2007/12/10/science/20071211_WHALE_GRAPHIC.html"&gt;Explain &lt;strong&gt;overview&lt;/strong&gt; + relevant &lt;strong&gt;detail&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+Remember what it's like not to understand
 
-&lt;blockquote&gt;
-  &lt;p&gt;In order to get anything out of this [research paper], it's going to be a translation project.&lt;/p&gt;
-&lt;/blockquote&gt;
 
-&lt;p&gt;Show &lt;strong&gt;change&lt;/strong&gt;&lt;/p&gt;
+  If I could have gone back in time, what would help me get to understanding.
 
-&lt;p&gt;Don't collect &lt;strong&gt;trivia&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;There's a reason that I'm collecting that and then presenting it.&lt;/p&gt;
-&lt;/blockquote&gt;
+Explain overview + relevant detail
 
-&lt;p&gt;&lt;a href="http://13pt.com/projects/nyt110705/"&gt;Collections should &lt;strong&gt;add up&lt;/strong&gt; to something&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href="http://projects.nytimes.com/guantanamo"&gt;Visualization &lt;strong&gt;≠&lt;/strong&gt; counting&lt;/a&gt;&lt;/p&gt;
+  In order to get anything out of this [research paper], it's going to be a translation project.
 
-&lt;p&gt;Find and show meaningful &lt;strong&gt;patterns&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Avoid the &lt;strong&gt;language&lt;/strong&gt; of infographics&lt;/p&gt;
+Show change
 
-&lt;blockquote&gt;
-  &lt;p&gt;Avoid the &lt;a href="https://vimeo.com/64377100"&gt;facade of communication&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
+Don't collect trivia
 
-&lt;p&gt;Don't introduce &lt;strong&gt;false patterns&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Is this pattern a true pattern or an artifact of how I arranged the data?&lt;/p&gt;
-&lt;/blockquote&gt;
+  There's a reason that I'm collecting that and then presenting it.
 
-&lt;p&gt;Visualization &lt;strong&gt;≠&lt;/strong&gt; explanation&lt;/p&gt;
 
-&lt;p&gt;Don't count &lt;strong&gt;diapers&lt;/strong&gt;!&lt;/p&gt;
+Collections should add up to something
 
-&lt;p&gt;Be skeptical of &lt;a href="https://www.facebook.com/Yankees"&gt;&lt;strong&gt;vanity&lt;/strong&gt; data&lt;/a&gt;&lt;/p&gt;
+Visualization ≠ counting
 
-&lt;p&gt;&lt;a href="http://www.nytimes.com/interactive/2014/04/24/upshot/facebook-baseball-map.html"&gt;Compared to &lt;strong&gt;what&lt;/strong&gt;?&lt;/a&gt;&lt;/p&gt;
+Find and show meaningful patterns
 
-&lt;h3 id="produce"&gt;Produce&lt;/h3&gt;
+Avoid the language of infographics
 
-&lt;blockquote&gt;
-  &lt;p&gt;When your idea hits the real world.&lt;/p&gt;
-&lt;/blockquote&gt;
 
-&lt;p&gt;&lt;a href="http://www.nytimes.com/interactive/2014/02/19/sports/olympics/olympics-frame-by-frame.html?gwh=90E8664173E76317ED3987083E4E07B3&amp;amp;gwt=pay"&gt;Embrace &lt;strong&gt;limitations&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+  Avoid the facade of communication.
 
-&lt;p&gt;Point and &lt;strong&gt;annotate&lt;/strong&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Put the text where it's relevant.&lt;/p&gt;
-&lt;/blockquote&gt;
+Don't introduce false patterns
 
-&lt;p&gt;Combine &lt;strong&gt;art&lt;/strong&gt; + &lt;strong&gt;label&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Anticipate &lt;strong&gt;confusion&lt;/strong&gt;&lt;/p&gt;
+  Is this pattern a true pattern or an artifact of how I arranged the data?
 
-&lt;blockquote&gt;
-  &lt;p&gt;It doesn't say here's some lines, now you figure it out.&lt;/p&gt;
-&lt;/blockquote&gt;
 
-&lt;p&gt;Help the &lt;strong&gt;reader&lt;/strong&gt; through&lt;/p&gt;
+Visualization ≠ explanation
 
-&lt;p&gt;Keep &lt;strong&gt;honing&lt;/strong&gt; your ideas&lt;/p&gt;
+Don't count diapers!
 
-&lt;blockquote&gt;
-  &lt;p&gt;We are not designers! - &lt;cite&gt;Matthew Ericson&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+Be skeptical of vanity data
 
-&lt;p&gt;Ruthlessly apply &lt;strong&gt;common sense&lt;/strong&gt;&lt;/p&gt;
+Compared to what?
 
-&lt;p&gt;Brute &lt;strong&gt;force&lt;/strong&gt; works but &lt;strong&gt;tools&lt;/strong&gt; can help&lt;/p&gt;
+Produce
 
-&lt;p&gt;Understand every &lt;strong&gt;step&lt;/strong&gt; &lt;em&gt;in the process&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;Understand what you can &lt;strong&gt;control&lt;/strong&gt;: &lt;em&gt;accuracy, clarity, legibility, empathy, and simplicity&lt;/em&gt;&lt;/p&gt;
+  When your idea hits the real world.
 
-&lt;p&gt;What might &lt;strong&gt;emerge&lt;/strong&gt;? &lt;em&gt;Understanding, elegance, and beauty.&lt;/em&gt;&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;What if I am tricked? What if I believe in this just because it is beautiful? - &lt;cite&gt;Andre Lim&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+Embrace limitations
 
-&lt;p&gt;See &amp;amp; think = understand&lt;/p&gt;
+Point and annotate
 
-&lt;p&gt;Design &amp;amp; product = explain&lt;/p&gt;
 
-&lt;p&gt;Understand then explain&lt;/p&gt;
+  Put the text where it's relevant.
 
-&lt;p&gt;Respect the &lt;strong&gt;reader&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id="bret-victor-worrydream"&gt;Bret Victor, worrydream&lt;/h2&gt;
+Combine art + label
 
-&lt;p&gt;&lt;a href="worrydream.com/2014-05-06"&gt;Links to examples&lt;/a&gt;&lt;/p&gt;
+Anticipate confusion
 
-&lt;ol&gt;
-  &lt;li&gt;Static displays&lt;/li&gt;
-  &lt;li&gt;Dynamic displays&lt;/li&gt;
-  &lt;li&gt;Dynamic data&lt;/li&gt;
-&lt;/ol&gt;
 
-&lt;h3 id="dynamic-displays"&gt;Dynamic Displays&lt;/h3&gt;
+  It doesn't say here's some lines, now you figure it out.
 
-&lt;p&gt;Summary and detail graphics - Two levels of questions for different readers. In the example it's "what are the main contributing pollutants to global warming", with the follow up being "what are the causes of each pollutant".&lt;/p&gt;
 
-&lt;p&gt;Slice and filter - Every decision is put within context. Where you see information, you can interact to filter by that aspect.&lt;/p&gt;
+Help the reader through
 
-&lt;p&gt;Narrative context - While going through the data, you're going through a story. These real world events are tied to the chart.&lt;/p&gt;
+Keep honing your ideas
 
-&lt;p&gt;Emotion - Switching between datasets that can tell a story from different perspectives. Don't let readers sleepwalk through the graphic.&lt;/p&gt;
 
-&lt;p&gt;When you have the interactive medium you can design a learning curve, similar to game design. Starting a reader off with a basic task and then after awhile let actions grow in complexity.&lt;/p&gt;
+  We are not designers! - Matthew Ericson
 
-&lt;h3 id="dynamic-data"&gt;Dynamic Data&lt;/h3&gt;
 
-&lt;p&gt;Black box explanations - you don't care about what's going on under the hood, you just want the output. Elements you can adjust and see the consequences of those adjustments.&lt;/p&gt;
+Ruthlessly apply common sense
 
-&lt;p&gt;Open box explanations - what's under the hood is exactly what you care about. Explaining how an algorithm works. Nouns are data objects, verbs are the transitions. Series of interactive graphics explaining each step of the process.&lt;/p&gt;
+Brute force works but tools can help
 
-&lt;p&gt;Making a graphic is not about putting a large spreadsheet in the middle of the page with the data. It's much more so like show and tell. Each cell telling a piece of the story, much like a comic strip.&lt;/p&gt;
+Understand every step in the process
 
-&lt;p&gt;Representations for systems design - Show comparisons between original and intended change. Show the state of the individual steps in a system. Come up with a design language and then show the steps through the system.&lt;/p&gt;
+Understand what you can control: accuracy, clarity, legibility, empathy, and simplicity
 
-&lt;h3 id="ladder-of-abstraction"&gt;Ladder of Abstraction&lt;/h3&gt;
+What might emerge? Understanding, elegance, and beauty.
 
-&lt;p&gt;The graphics we make for displays must be better than their paper counterparts. By showing an animation, you take away the control that interaction allows.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;Animations are the pie charts of interactive graphics.&lt;/p&gt;
-&lt;/blockquote&gt;
+  What if I am tricked? What if I believe in this just because it is beautiful? - Andre Lim
 
-&lt;p&gt;First, give readers control over time. Let them move at their own pace and answer their own questions as they arise.&lt;/p&gt;
 
-&lt;p&gt;Second, give control over each of the parameters while abstracting time. When you control a parameter, you need to be able to see the result. Be able to see the entire behavior over time.&lt;/p&gt;
+See &amp;amp; think = understand
 
-&lt;p&gt;Third, give control back by letting the reader control time and variable by marrying them together.&lt;/p&gt;
+Design &amp;amp; product = explain
 
-&lt;p&gt;See also — &lt;a href="acko.net"&gt;Steven Wittens&lt;/a&gt;, &lt;a href="redblobgames.com"&gt;Amit Patel&lt;/a&gt;&lt;/p&gt;
+Understand then explain
 
-&lt;h2 id="mike-bostock-new-york-times"&gt;Mike Bostock, New York Times&lt;/h2&gt;
+Respect the reader
 
-&lt;p&gt;If one of the best designers of all time doesn't know if what he makes is good, how can anyone else expect to?&lt;/p&gt;
+Bret Victor, worrydream
 
-&lt;blockquote&gt;
-  &lt;p&gt;Good design is as little design as possible. - &lt;cite&gt;Dieter Rams&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+Links to examples
 
-&lt;p&gt;&lt;a href="http://en.wikipedia.org/wiki/Fitts's_law"&gt;Fitt's law&lt;/a&gt;, it's easier to click on targets that are closer and bigger.&lt;/p&gt;
 
-&lt;p&gt;Two phases: create and edit.&lt;/p&gt;
+  Static displays
+  Dynamic displays
+  Dynamic data
 
-&lt;p&gt;Get fresh eyes frequently; invite criticism.&lt;/p&gt;
 
-&lt;p&gt;New York Times Preview tool, displays all of the ongoing work. Can switch between each branch and interact with works in progress. Takes a snapshot of each commit on each branch.&lt;/p&gt;
+Dynamic Displays
 
-&lt;p&gt;Prototypes should emphasize speed over polish.&lt;/p&gt;
+Summary and detail graphics - Two levels of questions for different readers. In the example it's "what are the main contributing pollutants to global warming", with the follow up being "what are the causes of each pollutant".
 
-&lt;p&gt;Transition from exploring to &lt;a href="http://en.wikipedia.org/wiki/Voronoi_diagram"&gt;refining near deadline&lt;/a&gt;.&lt;/p&gt;
+Slice and filter - Every decision is put within context. Where you see information, you can interact to filter by that aspect.
 
-&lt;p&gt;Delete code as you go. Be ruthless.&lt;/p&gt;
+Narrative context - While going through the data, you're going through a story. These real world events are tied to the chart.
 
-&lt;p&gt;&lt;strong&gt;Make&lt;/strong&gt; your process reproducible.&lt;/p&gt;
+Emotion - Switching between datasets that can tell a story from different perspectives. Don't let readers sleepwalk through the graphic.
 
-&lt;p&gt;Try bad ideas deliberately.&lt;/p&gt;
+When you have the interactive medium you can design a learning curve, similar to game design. Starting a reader off with a basic task and then after awhile let actions grow in complexity.
 
-&lt;p&gt;Don't be afraid to fail.&lt;/p&gt;
+Dynamic Data
 
-&lt;p&gt;&lt;a href="http://bost.ocks.org/mike/bubble-map/"&gt;Let's make a bubble map.&lt;/a&gt;&lt;/p&gt;
+Black box explanations - you don't care about what's going on under the hood, you just want the output. Elements you can adjust and see the consequences of those adjustments.
 
-&lt;p&gt;&lt;code&gt;pbpaste&lt;/code&gt; allows terminal to access system clipboard.&lt;/p&gt;
+Open box explanations - what's under the hood is exactly what you care about. Explaining how an algorithm works. Nouns are data objects, verbs are the transitions. Series of interactive graphics explaining each step of the process.
 
-&lt;h2 id="edward-tufte-author"&gt;Edward Tufte, Author&lt;/h2&gt;
+Making a graphic is not about putting a large spreadsheet in the middle of the page with the data. It's much more so like show and tell. Each cell telling a piece of the story, much like a comic strip.
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;The Thinking Eye&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Code is now design and design is code.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;What was observed by us in the third place is the nature or matter of the Milky Way itself, which, with the aid of the spyglass, may be observed so well that all the disputes that for so many generations have vexed philosophers are destroyed by &lt;strong&gt;visible certainty&lt;/strong&gt;, and we are liberated from wordy arguments. - &lt;cite&gt;Galileo Galilei&lt;/cite&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Organizations which design systems… are constrained to produce designs which are copies of the communication structures of these organizations - &lt;cite&gt;Melvin E. Conway&lt;/cite&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+Representations for systems design - Show comparisons between original and intended change. Show the state of the individual steps in a system. Come up with a design language and then show the steps through the system.
 
-&lt;ol&gt;
-  &lt;li&gt;Seek verbs and actions.&lt;/li&gt;
-  &lt;li&gt;See now, words later.&lt;/li&gt;
-  &lt;li&gt;A sense of the relevant.&lt;/li&gt;
-  &lt;li&gt;Seek forever knowledge with a taste for excellence.&lt;/li&gt;
-  &lt;li&gt;Understanding the difference between evidence and inference.&lt;/li&gt;
-&lt;/ol&gt;
+Ladder of Abstraction
 
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;Only two industries refer to customers as users; software and the drug industry.&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Silence sharpens and deepens seeing.&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;Most&lt;/em&gt; of social science studies are false. Social science is harder than rocket science. It does not have the fundamental truths of nature's laws.&lt;/li&gt;
-  &lt;li&gt;&lt;a href="http://imagequilts.com/"&gt;Image quilts.&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Distribution of excellence is extremely logarithmic.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;A hard look at the practice and results of conventional asymptotic theory easily leads one to three points:&lt;/p&gt;
-    &lt;/blockquote&gt;
-    &lt;ol&gt;
-      &lt;li&gt;We ought not to expect it to be widely useful (since it refers to the ultimate oversimplification).&lt;/li&gt;
-      &lt;li&gt;Rather often it has been useful (surprise!)&lt;/li&gt;
-      &lt;li&gt;We have developed no basis for telling when it is likely to help and when it is not…﻿.. 123 - &lt;cite&gt;John W. Tukey&lt;/cite&gt;&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Standards of graphical excellence: Google Maps and Swiss Mountain maps.&lt;/li&gt;
-  &lt;li&gt;Future is maps moving in time.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;How do you know that?&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;How does what I see come to be seen by me?&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Real science has it easy because they have forever laws.&lt;/li&gt;
-  &lt;li&gt;Begin with a question, a problem, then measure.&lt;/li&gt;
-  &lt;li&gt;
-    &lt;blockquote&gt;
-      &lt;p&gt;You can have your own point of view, but not your own facts. - &lt;cite&gt;Daniel Patrick Moynihan&lt;/cite&gt;&lt;/p&gt;
-    &lt;/blockquote&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+The graphics we make for displays must be better than their paper counterparts. By showing an animation, you take away the control that interaction allows.
+
+
+  Animations are the pie charts of interactive graphics.
+
+
+First, give readers control over time. Let them move at their own pace and answer their own questions as they arise.
+
+Second, give control over each of the parameters while abstracting time. When you control a parameter, you need to be able to see the result. Be able to see the entire behavior over time.
+
+Third, give control back by letting the reader control time and variable by marrying them together.
+
+See also — Steven Wittens, Amit Patel
+
+Mike Bostock, New York Times
+
+If one of the best designers of all time doesn't know if what he makes is good, how can anyone else expect to?
+
+
+  Good design is as little design as possible. - Dieter Rams
+
+
+Fitt's law, it's easier to click on targets that are closer and bigger.
+
+Two phases: create and edit.
+
+Get fresh eyes frequently; invite criticism.
+
+New York Times Preview tool, displays all of the ongoing work. Can switch between each branch and interact with works in progress. Takes a snapshot of each commit on each branch.
+
+Prototypes should emphasize speed over polish.
+
+Transition from exploring to refining near deadline.
+
+Delete code as you go. Be ruthless.
+
+Make your process reproducible.
+
+Try bad ideas deliberately.
+
+Don't be afraid to fail.
+
+Let's make a bubble map.
+
+pbpaste allows terminal to access system clipboard.
+
+Edward Tufte, Author
+
+
+  The Thinking Eye
+  
+    
+      Code is now design and design is code.
+    
+  
+  
+    
+      What was observed by us in the third place is the nature or matter of the Milky Way itself, which, with the aid of the spyglass, may be observed so well that all the disputes that for so many generations have vexed philosophers are destroyed by visible certainty, and we are liberated from wordy arguments. - Galileo Galilei
+    
+  
+  
+    
+      Organizations which design systems… are constrained to produce designs which are copies of the communication structures of these organizations - Melvin E. Conway
+    
+  
+
+
+
+  Seek verbs and actions.
+  See now, words later.
+  A sense of the relevant.
+  Seek forever knowledge with a taste for excellence.
+  Understanding the difference between evidence and inference.
+
+
+
+  
+    
+      Only two industries refer to customers as users; software and the drug industry.
+    
+  
+  Silence sharpens and deepens seeing.
+  Most of social science studies are false. Social science is harder than rocket science. It does not have the fundamental truths of nature's laws.
+  Image quilts.
+  Distribution of excellence is extremely logarithmic.
+  
+    
+      A hard look at the practice and results of conventional asymptotic theory easily leads one to three points:
+    
+    
+      We ought not to expect it to be widely useful (since it refers to the ultimate oversimplification).
+      Rather often it has been useful (surprise!)
+      We have developed no basis for telling when it is likely to help and when it is not…﻿.. 123 - John W. Tukey
+    
+  
+  Standards of graphical excellence: Google Maps and Swiss Mountain maps.
+  Future is maps moving in time.
+  
+    
+      How do you know that?
+    
+  
+  
+    
+      How does what I see come to be seen by me?
+    
+  
+  Real science has it easy because they have forever laws.
+  Begin with a question, a problem, then measure.
+  
+    
+      You can have your own point of view, but not your own facts. - Daniel Patrick Moynihan
+    
+  
+
+</content>
+  </entry>
+  <entry>
+    <title>Waking up, ready for creativity</title>
+    <link href="http://alexbaldwin.com/morning-routine" rel="alternate"/>
+    <id>http://alexbaldwin.com/morning-routine</id>
+    <published>2013-09-30T23:08:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">This post is part of Startup Edition 21.  Sign up to the weekly newsletter  to get the response to a single question each week from a curated gathering of bloggers in the startup community.
+
+Since January, when I joined thoughtbot as a designer, I...</summary>
+    <content type="html">This post is part of Startup Edition 21.  Sign up to the weekly newsletter  to get the response to a single question each week from a curated gathering of bloggers in the startup community.
+
+Since January, when I joined thoughtbot as a designer, I've shipped a new product every 6-8 weeks. Creating new products is my job and I can't be lollygagging around waiting for my muse. Sticking to a routine allows me to avoid early morning decision fatigue and get to the office ready for anything. Here's my morning game plan for consistent creative output.
+
+Wake up without an alarm clock.
+
+Measuring my output using iDoneThis for months, I noticed that I was prone to getting into morning fogs (not unlike Karl). These would essentially paralyze me for half the day and I was forced to compensate with copious amounts of coffee that put me on edge until the end of the day.
+
+Eliminating the alarm clock allows you to wake up when your body is ready and avoid the fog.
+
+Make eggs and drink two cups of water.
+
+After experimenting with oatmeal, cereal, and other easy to make breakfasts, I've settled on eggs for the last few years. They fill me up until lunch time and keep me feeling good. In general, I avoid sugar during the workday to keep from crashing hard.
+
+Shower and wet shave.
+
+Since discovering the art of the wet shave, it's become a ritual. It forces you to slow down and concentrate on the process providing for a moment of manly zen.
+
+Cycle into the office and bask in the mayhem of Market street.
+
+Riding bikes into the office gives a great opportunity for much needed fresh air. I've also been a streak of serendipitously running into friends on the road.
+
+Make a Chemex and socialize.
+
+Coffee has become a huge part of my life since moving out to Silicon Valley. When I was prepping for 500 Startup's demo day I was on a regiment of six cappuccinos a day to keep cruising. Since then, I go through ups and downs of abuse. Right now I've hit a sweet spot of two cups a day. The Chemex is amazing for it's ability to make many delicious cups at once. It's great to get together two other coworkers and make a pot together.
+
+Put headphones on at my desk and let the beats flow.
+
+Research shows that listening to music increases productivity. If you're looking for a source of working music, I'd recommend Console.fm
+
+Your morning routine runs everything around you. Have one and stick to it.
+</content>
+  </entry>
+  <entry>
+    <title>Growth Hackers Conference Notes</title>
+    <link href="http://alexbaldwin.com/growth-hackers" rel="alternate"/>
+    <id>http://alexbaldwin.com/growth-hackers</id>
+    <published>2013-05-10T15:50:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">Growth vs Growth Hacking
+
+Keith Rabois
+
+Value =&amp;gt; Growth =&amp;gt; Growth Hacking
+
+Lessons
+
+
+  First grow based on real value
+  Growth hacking is an observational science
+  Feature design is the new marketing
+
+
+Hacks on hacks
+
+
+  LinkedIn submitting personal...
+</summary>
+    <content type="html">Growth vs Growth Hacking
+
+Keith Rabois
+
+Value =&amp;gt; Growth =&amp;gt; Growth Hacking
+
+Lessons
+
+
+  First grow based on real value
+  Growth hacking is an observational science
+  Feature design is the new marketing
+
+
+Hacks on hacks
+
+
+  LinkedIn submitting personal profiles to Google
+  Pay me with Paypal buttons on eBay
+  YouTube embeddable player
+  Facebook will proactively send you a new password when you fail to login a few times
+  Yammer would get users to sign up and then call their IT department with "Your data is insecure…" once a few users from a company started using the product
+
+
+
+  At Square, the brand is more important than any short-term gain.
+
+
+Organic growth loop at Square was the transaction itself, which was a branded experience. You could actually treat the interaction like an ad impression, and it converted accordingly.
+
+
+  My job is to add zeroes to the dashboard.
+
+
+Understanding the stages of growth
+
+Sean Ellis
+
+
+  Product / market fit
+  Transition to growth
+  Growth
+
+
+How do you know you're at PM/fit?
+
+
+  40%+ users must be disappointed without it
+
+
+Transition activities
+
+
+  Implement user analytics
+  Identify must have benefit
+  Map benefit to effective hooks
+  Optimize business model
+  Optimize conversions
+  Hire growth team
+
+
+
+  Conversion rate = desire - friction
+  Optimize funnel on delivering must-have benefit
+
+
+Ask freeform "What is the primary benefit from this product?", after you see patterns emerge, switch to multiple choice.
+
+Free products create demand over-time for premium features.
+
+How to make your first dollar
+
+Noah Kagan
+
+Put a tweet on it, no one still wants to get their shoes tied.
+
+Hustle today
+
+
+  Coffee challenge: Go to Starbucks and ask for 10% off.
+
+
+Try it and see what happens. Most people can't even do it. This is step one for aspiring entrepreneurs.
+
+Validate
+
+
+  Do they want it?
+  Will they pay you?
+
+
+You can validate any product within 48 hours, you don't need code, a business degree, or a co-founder. Just get a yes to those two questions and move onto the next step. Quit wasting months of your time to validate radically simple ideas.
+
+Habits from inception to adoption
+
+Josh Elman
+
+
+  Purpose: What need do you solve?
+  Inception: How can you make users aware?
+  Adoption: How can you teach users to use it?
+  Habits: How can we keep them using it?
+
+
+
+  SMS is the most underutilized communication medium.
+
+
+When using invitation emails hint at the solution and benefit to hint at how potential users should use the platform.
+
+Building the growth machine
+
+Elliot Shmukler
+
+
+  Set growth goal
+  Understand drivers
+  Optimize
+
+
+Goals
+
+
+  must be measurable
+  be measurable quickly (Facebook's 10 friends in 13 days)
+  align goal with product / business
+  make it a single number
+
+
+Understand drivers
+
+Draw a diagram of all the possible flows of getting to the purpose
+
+
+  work backwards from the goal
+  understand the steps to get there
+
+
+Optimize
+
+
+  Reduce friction, make it simpler
+  Increase incentive, give me a better reason
+  Increase exposure, more often, more prominently, or in more places
+
+
+Micro-questions, reduce friction by breaking out forms. You need all the data, but not all at once. Chip away at the problem.
+
+Email: unglamorous, difficult, effective
+
+Mike Greenfield
+
+Fix your email funnel and optimize in the order of magnitude of holes in your funnel. For example, only 20% of our emails got to Yahoo Mail users, by switching service providers we were able to get that number to 100%.
+
+
+  Inbox delivery, make sure everyone is getting your email
+  One item focus, have one main hero piece of content
+  Quality, highly curated content &amp;gt; user generated
+  Subject optimization, test many lines and send the best one
+  Winners and losers, quit sending loser emails
+  Personalization, use relevant segmenting
+  Frequency, send more than you think
+
+</content>
+  </entry>
+  <entry>
+    <title>Life is in beta</title>
+    <link href="http://alexbaldwin.com/life-is-in-beta" rel="alternate"/>
+    <id>http://alexbaldwin.com/life-is-in-beta</id>
+    <published>2013-04-30T18:10:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+Source: TYPO
+
+Erik Spiekermann goes through his firm's entire design process. Decades of knowledge in less than an hour.
+
+Writing copy
+
+
+  no ornamental adjectives
+  no self-praise
+  hard facts as proof of concept
+  no words written whens pictures...
+</summary>
+    <content type="html">
+Source: TYPO
+
+Erik Spiekermann goes through his firm's entire design process. Decades of knowledge in less than an hour.
+
+Writing copy
+
+
+  no ornamental adjectives
+  no self-praise
+  hard facts as proof of concept
+  no words written whens pictures suffice
+  present tense, active language
+  subheads as teasers
+  800-1200 characters (200 words)
+  one editor who writes final version
+
+
+Design ethos
+
+
+  speed and deep are not opposites
+  cooperation doesn't mean consensus
+  idea generation is not idea selection
+  failure is part of the process
+  everything restarts as soon as it is finished
+
+
+Product roles
+
+
+  no project manager
+  Product owner is the CEO, they manage product and deadlines (doesn't matter who it actually is)
+  Scrum master is the facilitator, coach, and bulldozer, they manage process
+  Team self-manages to the owner for delivering as promised
+
+</content>
+  </entry>
+  <entry>
+    <title>Kill the alarm clock</title>
+    <link href="http://alexbaldwin.com/alarm-clock" rel="alternate"/>
+    <id>http://alexbaldwin.com/alarm-clock</id>
+    <published>2013-03-15T15:20:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+  There is only one formula for healthy and refreshing sleep: Go to sleep only when you are very tired. Not earlier. Not later. Wake up naturally without an alarm clock.
+
+
+In response to the resurgance of Supermemo's popular free running sleep article...</summary>
+    <content type="html">
+  There is only one formula for healthy and refreshing sleep: Go to sleep only when you are very tired. Not earlier. Not later. Wake up naturally without an alarm clock.
+
+
+In response to the resurgance of Supermemo's popular free running sleep article, it was time for a test run. Previously I've tried polyphasic and biphasic sleep to optimize my life with varying degress of success.
+
+Here's the rules I set for a two-week free running sleep experiment;
+
+
+  No alarm clock
+  Retire nightly around 9pm
+  No caffiene after 11am
+  Only drink alcohol that will metabolize before sleep
+  Move exercise to the morning
+
+
+After two weeks, what I found is that free running sleep forces me to assume responsibility for my sleep, rather than simply relying on the alarm and accepting that I will be groggy all day. Normally I ended up going to bed around 11pm and waking up before 8am, which never happens. Usually I would consider myself a late riser, working until 2am and then sleeping in until the crack of noon. At no point during my experiment did I sleep past 10am and that was one time due to breaking my alcohol rule.
+
+Unexpectedly my dream recall was near flawless, twelve out of fourteen mornings I was able to record a dream journal entry. Not only was my recall more frequent, but more descriptive as well. Looking back at my entries they were quite a bit longer than normal.
+
+It's been about a month since I started the experiment and I'm still going strong. I found myself to have better control over my sleep, dream recall, and energy during the day.
+
+Remove the first annoyance of your day and be better for it.
+</content>
+  </entry>
+  <entry>
+    <title>Ask me anything</title>
+    <link href="http://alexbaldwin.com/ask-me-anything" rel="alternate"/>
+    <id>http://alexbaldwin.com/ask-me-anything</id>
+    <published>2013-02-16T00:07:00-08:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">Get some Clarity, ask me anything.
+
+
+
+
+</summary>
+    <content type="html">Get some Clarity, ask me anything.
+
+
+
+
+</content>
+  </entry>
+  <entry>
+    <title>2012 in review</title>
+    <link href="http://alexbaldwin.com/2012-review" rel="alternate"/>
+    <id>http://alexbaldwin.com/2012-review</id>
+    <published>2012-12-31T14:21:00-08:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+  New year's 2012 at Lights All Night in Dallas
+  Finished last handful of business undergrad classes from UTSA and graduated
+  Killed off Free Testbank after a five year run
+  Participated in Techstars as a Cloud program design Hackstar 
+
+  Spent...
+</summary>
+    <content type="html">
+  New year's 2012 at Lights All Night in Dallas
+  Finished last handful of business undergrad classes from UTSA and graduated
+  Killed off Free Testbank after a five year run
+  Participated in Techstars as a Cloud program design Hackstar 
+  Spent six months at 99designs, building out a new product
+  Got back into blogging, however casually, thanks to Svbtle inspiration
+  Moved permanently to San Francisco in a lovely place overlooking the park 
+  Learned to appreciate espresso drinks and the craft behind them
+  Wore the Halloween costume of my childhood dreams 
+  Discovered that you can play glow-in-the-dark golf
+  Had my first Coachella experience 
+  Was lucky enough to experience winter in Melbourne
+  Roasted lots and lots of coffee
+  Spoke at 500 Startups on design testing
+  Collaborated with Wells and Ian to release Retina Mac Apps which did some gangbusters traffic
+  Crashed the Warm Gun after party
+  Played a DJ set at SXSW for the Austin on Rails crew
+  Finished work on the initial release of 500 Startup's founder network, Dashboard
+  Released a group chat app for my friends and I, Latte 
+  Was so jet-lagged I barely interacted at my family reunion in Michigan after 72 hours of straight travel from Melbourne
+  Worked with AppSumo for a day
+  Found excellent hiking spots around the bay area 
+  Commissioned an adorable Cat
+  Ran in Tough Mudder with some of my best friends 
+  Grew a dirtstache for Movember 
+  Started mentoring on Clarity.fm, got questions? Call me on there
+
+
+At the end of last year things got messy, Console's business operations were winding down, I spent weeks making sure that our team moved on to their dream jobs, was single for the first time in a few years, was almost completely broke, and had two classes left to finish my undergrad. I was enough of a wreck to go through a complete Skyrim depression, locking myself in a room, turning my phone off, and living vicariously through a fire mage for a week.
+
+Thankfully Jason Seats offered me an opportunity to work with Techstars while I finished my degree in San Antonio. It ended up being the opportunity of a lifetime to view an accelerator from the opposite perspective. Through helping those startups get to demo day, I met quite a few of what I'm sure will be lifetime friends.
+
+Bringing closure to my time in Texas brought me another level of joy and a diploma to boot. The low course load gave me time to experiment on side projects, grill with my roommate, and enjoy the sights along the way. When it came time to walk the stage, I opted to fly back to California two days sooner rather than walk. Shortly after moving back I interviewed at around three dozen companies ultimately choosing 99designs to work on an unreleased project. Was lucky enough to work with some of the brightest developers of my life on something that we were all passionate about. In December we parted ways and I'm happy to announce that I'll be joining Thoughtbot's new San Francisco dream team office this coming January. I've been working with their open-source software since 2007 and have talked about their playbook ad nauseam since it was released. Seriously could not ask for a better place or people to start off the new year with.
+
+Thank you so much to my friends, family, coworkers, and posse for this past year. I want the world for each and every one of you, always let me know how I can help you out.
+
+2012 has honestly been the best of my life, but something tells me next year we can top it.
+
+</content>
+  </entry>
+  <entry>
+    <title>Goldeneye 64's inspirational startup story</title>
+    <link href="http://alexbaldwin.com/goldeneye" rel="alternate"/>
+    <id>http://alexbaldwin.com/goldeneye</id>
+    <published>2012-11-01T12:03:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">GoldenEye 64 had a special place in my heart when I was growing up. It was the first game my parents wouldn't let me buy due to violent content. I saved up allowances and dug up couch treasures for months to taste the forbidden fruit. The effort turned...</summary>
+    <content type="html">GoldenEye 64 had a special place in my heart when I was growing up. It was the first game my parents wouldn't let me buy due to violent content. I saved up allowances and dug up couch treasures for months to taste the forbidden fruit. The effort turned into one of the pillars of my childhood experiences. I still vividly remember where to place the proximity mines on Temple to get crazy spawn point kill streaks against my little brother. Fifteen years later, it still inspires me, but not for the proximity mines.
+
+It's hard to imagine that this game almost didn't exist. The makers of GoldenEye, Rare, faced a lot of challenges. Rare's studio head said,
+
+
+  “When Nintendo asked if we wanted to do it, we said, ‘well not really.’ We were trying to build our own IP, and film tie-ins meant a lot of ownership by the film company.”
+
+
+The team faced insane amounts of adversity and uncertainty. Starting out, they didn't even know what the specs were for the new platform.  Wikipedia on the game's development.
+
+
+  Final N64 specifications and development workstations were not initially available to Rare: a modified Sega Saturn controller was used for some early play testing, and the developers had to estimate what the finalized console's capabilities would be.
+
+
+Getting closer to the release date, the final platform specs were released and they had to make significant graphic cuts to make it work.
+
+
+  The final Nintendo 64 hardware could render polygons faster than the SGI Onyx workstations they had been using, but the game's textures had to be cut down by half. Karl Hilton explained one method of improving the game's performance: "A lot of GoldenEye is in black and white. RGB color textures cost a lot more in terms of processing power. You could do double the resolution if you used greyscale, so a lot was done like that. If I needed a bit of color, I'd add it in the vertex."
+
+
+While doing all this, their team had almost no idea what they were doing when they started out. Sound familiar?
+
+
+  GoldenEye 007 was developed by an inexperienced team, eight of whom had never previously worked on video games. David Doak commented in 2004, "Looking back, there are things I'd be wary of attempting now, but as none of the people working on the code, graphics, and game design had worked on a game before, there was this joyful naïveté."
+
+
+Scope was so slim, they didn't even originally plan out the legendary multiplayer mode that arguably made the game so successful. It was done almost exclusively by one guy as an afterthought.
+
+
+  The game's multiplayer mode was added late in the development process; Martin Hollis described it as "a complete afterthought." According to David Doak, the majority of the work on the multiplayer mode was done by Steve Ellis, who "sat in a room with all the code written for a single-player game and turned GoldenEye into a multiplayer game."
+
+
+Despite everything, the game went on to become the third highest selling N64 game, inspire console shooting games, and win a crazy amount of awards. Next time you're heading down the wrong way of the entrepreneurial rollercoaster, take a deep breath, make a cup of tea, and remember that you can make it happen. Persevere and dominate.
+
+Thanks to Andy Parker for editing. Illustration by Alexandra Bond.
+</content>
+  </entry>
+  <entry>
+    <title>FF Chartwell</title>
+    <link href="http://alexbaldwin.com/ff-chartwell" rel="alternate"/>
+    <id>http://alexbaldwin.com/ff-chartwell</id>
+    <published>2012-05-17T15:38:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+Web fonts are slowly taking over, despite the lack of pixel perfection on the web. Cameron Moll posted about the new FF Chartwell, which turns number values into beautiful information graphics. The appeal of using this only in Photoshop is huge,...</summary>
+    <content type="html">
+
+Web fonts are slowly taking over, despite the lack of pixel perfection on the web. Cameron Moll posted about the new FF Chartwell, which turns number values into beautiful information graphics. The appeal of using this only in Photoshop is huge, but add in the possibility of using it on the web and we just eliminated the need for another few javascript libraries in our apps. Designer, Yaron Schoen created a demo of a what the web version could  be. Although it's not quite ready for production use, the author states that OT support in browsers is currently holding FF Chartwell back from a web version, I'm looking forward to having a charting tool I can use universally despite what device I'm designing for. You have to see FontFont's video to believe it.
+
+
+  
+    
+      See more demos
+      Buy the font set
+    
+  
+
+</content>
+  </entry>
+  <entry>
+    <title>RubyMotion brings MacRuby to life</title>
+    <link href="http://alexbaldwin.com/rubymotion" rel="alternate"/>
+    <id>http://alexbaldwin.com/rubymotion</id>
+    <published>2012-05-06T15:41:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+
+  RubyMotion is a revolutionary toolchain for iOS. 
+It lets you quickly develop and test native iOS applications for iPhone or iPad, all using the awesome Ruby language you know and love.
+
+
+Going to be great seeing the Ruby community come out with...</summary>
+    <content type="html">
+
+
+  RubyMotion is a revolutionary toolchain for iOS. 
+It lets you quickly develop and test native iOS applications for iPhone or iPad, all using the awesome Ruby language you know and love.
+
+
+Going to be great seeing the Ruby community come out with apps for iOS now. Check it out and make some Ruby iOS babies.
+
+</content>
+  </entry>
+  <entry>
+    <title>How typing on an iPad should be</title>
+    <link href="http://alexbaldwin.com/how-typing-on-an-ipad-should-be" rel="alternate"/>
+    <id>http://alexbaldwin.com/how-typing-on-an-ipad-should-be</id>
+    <published>2012-05-04T15:42:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+It's always been slightly frustrating to type on an iPad. Writing notes and jotting in a bit of information isn't too bad, but you would never want to have it be your primary coding machine. The problem goes away when you have a physical keyboard...</summary>
+    <content type="html">
+
+It's always been slightly frustrating to type on an iPad. Writing notes and jotting in a bit of information isn't too bad, but you would never want to have it be your primary coding machine. The problem goes away when you have a physical keyboard for the most part, but selecting text was still awful. (Daniel Hooper)[http://twitter.com/danielchooper] has come up with a truly elegant solution worthy of Apple's attention. Please take a minute and help this come to your iPad.
+
+
+  
+    Go to bugreport.apple.com, sign in and click "New Problem"
+    Set the Title to "Editing Text on iPad (duplicate of rdar://11365152)"
+    Set the Product to "iPad", Version Number to "N/A", Classification to "Feature (New)" and Is It Reproducible to "Not Applicable"
+    Copy the letter below and paste it in the Problem Details section then click submit
+  
+
+
+</content>
+  </entry>
+  <entry>
+    <title>Why Instagram is so damn fast at uploading photos</title>
+    <link href="http://alexbaldwin.com/why-instagram-is-so-damn-fast-at-uploading-photos" rel="alternate"/>
+    <id>http://alexbaldwin.com/why-instagram-is-so-damn-fast-at-uploading-photos</id>
+    <published>2012-05-01T15:42:00-07:00</published>
+    <updated>2016-03-18T20:27:35-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">This Speakerdeck shows how Instagram skips a few steps.
+
+
+
+</summary>
+    <content type="html">This Speakerdeck shows how Instagram skips a few steps.
+
+
+
+</content>
+  </entry>
+  <entry>
+    <title>Idea inertia</title>
+    <link href="http://alexbaldwin.com/idea-intertia" rel="alternate"/>
+    <id>http://alexbaldwin.com/idea-intertia</id>
+    <published>2012-04-29T15:43:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">There's a funny thing about ideas no one talks about. An idea at rest, tends to stay at rest. The longer it stays sitting, the less likely it ever it to come to fruition.
+
+As you stare at your queue, cherry-picking the lowest hanging fruit, consider...</summary>
+    <content type="html">There's a funny thing about ideas no one talks about. An idea at rest, tends to stay at rest. The longer it stays sitting, the less likely it ever it to come to fruition.
+
+As you stare at your queue, cherry-picking the lowest hanging fruit, consider an alternative strategy; ruthlessly push forward on ideas you have faith in. Even getting the smallest next action step done each day.
+
+For example, last summer living with my cofounders, my role as designer / CEO had become that of a single mom. I worked two jobs and then came home to cook and clean for the team. It wasn't bad work by any means, but thinking of my hourly wage, it was for sure not as good of a use of my time as talking to customers. It would have taken maybe an hour and $500 to implement this idea and measure results for a week long experiment. Instead, I let the "startup babysitter" thought slip through to the ether. Now when I have the resolve to do it, I don't have the need anymore.
+
+Learning from that small mistake, I keep a list of my ideas and every day choose which to work on not by which can be most easily accomplished, but rather what has the highest impact or running them through the regret minimization framework.
+
+The time value of ideas is too precious to waste, don't squander them.
+
+P.S. If anyone wants to run the "startup babysitter" experiment, I'd love to hear how it works out. Bonus points if you can find an Indian grandma to make you daily startup naan-ergy.
+
+</content>
+  </entry>
+  <entry>
+    <title>Export all your Photoshop layer groups as images, simply</title>
+    <link href="http://alexbaldwin.com/export-all-your-photoshop-layer-groups-as-images-simply" rel="alternate"/>
+    <id>http://alexbaldwin.com/export-all-your-photoshop-layer-groups-as-images-simply</id>
+    <published>2012-04-04T15:45:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+
+  To turn PSD elements into images for the Web and for Apps, simply name your layer groups once and let Layer Cake do its magic. Bye bye, “Save for Web/Devices”. Hello, boost in productivity and creativity!
+
+
+
+  Designers and Developers, rejoice...
+</summary>
+    <content type="html">
+
+
+  To turn PSD elements into images for the Web and for Apps, simply name your layer groups once and let Layer Cake do its magic. Bye bye, “Save for Web/Devices”. Hello, boost in productivity and creativity!
+
+
+
+  Designers and Developers, rejoice — exporting is no longer a workflow killer. Name layer groups like the files you want to create, and Layer Cake will extract them individually. Enjoy complete freedom to move, obscure and even hide these named layer groups without affecting the extracted images.
+
+
+This fixes one of the biggest problems with the Photoshop workflow, exporting all those images. Even with slicing, updating an iOS app design can take quite awhile to update and then export. For web design, this messy export is one of the reasons I prefer to work in pure CSS. Just do yourself a favor, save a ton of time, and download it right now.
+
+Also it's from MacRabbit, the awesome team that makes Espresso. Download Layer Cake from the Mac App Store.
+
+</content>
+  </entry>
+  <entry>
+    <title>Day in the life of Google Glass</title>
+    <link href="http://alexbaldwin.com/day-in-the-life-of-google-glass" rel="alternate"/>
+    <id>http://alexbaldwin.com/day-in-the-life-of-google-glass</id>
+    <published>2012-04-04T15:44:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+Sure beats the hell out of Google Goggles.
+
+</summary>
+    <content type="html">
+
+Sure beats the hell out of Google Goggles.
+
+</content>
+  </entry>
+  <entry>
+    <title>Field studies for product designers</title>
+    <link href="http://alexbaldwin.com/field-studies-for-product-designers" rel="alternate"/>
+    <id>http://alexbaldwin.com/field-studies-for-product-designers</id>
+    <published>2012-04-02T15:45:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+Where do you go to learn product design? It's a constant juggling act between many subdiciplines of design and development that no one does quite the same as the next. Enter Three Point Line, where they are releasing field studies of other product...</summary>
+    <content type="html">
+
+Where do you go to learn product design? It's a constant juggling act between many subdiciplines of design and development that no one does quite the same as the next. Enter Three Point Line, where they are releasing field studies of other product designers and documenting their thought processes.
+
+Their first field study with Skillshare is launching this spring. Be notified when they launch.
+</content>
+  </entry>
+  <entry>
+    <title>Paper makes me smile while I pay them</title>
+    <link href="http://alexbaldwin.com/paper-makes-me-smile" rel="alternate"/>
+    <id>http://alexbaldwin.com/paper-makes-me-smile</id>
+    <published>2012-03-30T15:45:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+From FiftyThree, Paper is a drawing app for iPad. It's simple, useful, and their business model makes me happy.
+
+As a designer you're always making concepts and interfaces more human. What doesn't get as much love is a business model that's user...</summary>
+    <content type="html">
+
+From FiftyThree, Paper is a drawing app for iPad. It's simple, useful, and their business model makes me happy.
+
+As a designer you're always making concepts and interfaces more human. What doesn't get as much love is a business model that's user centered.  This is what separates the team behind Paper. You download the app for free and start with a single tool, the pen. From there you can play with the watercolor brush, outline marker, and sketching pencil, but you can't use them in your drawings until you in-app purchase each individually or as a set. Personally I was sold on watercolor (my favorite art medium). Paid apps on the Apple store must be really compelling or highly recommended to purchase, but here I have all the benefits of the free trial period with an obvious upgrade path. It's the ultimate in show, don't tell.
+
+Learning makes selling obsolete, but you probably already knew that.
+
+Download Paper for iPad
+
+</content>
+  </entry>
+  <entry>
+    <title>Gaug.es embodies Edward Tufte's principles</title>
+    <link href="http://alexbaldwin.com/gaug-dot-es-embodies-edward-tuftes-principles" rel="alternate"/>
+    <id>http://alexbaldwin.com/gaug-dot-es-embodies-edward-tuftes-principles</id>
+    <published>2012-03-28T14:29:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+Edward Tufte's six principles, from Double Think.
+
+
+  
+
+
+
+  
+    The representation of numbers, as physically measured on the surface of the graph itself, should be directly proportional to the numerical quantities represented
+    Clear, detailed...
+
+</summary>
+    <content type="html">
+
+Edward Tufte's six principles, from Double Think.
+
+
+  
+
+
+
+  
+    The representation of numbers, as physically measured on the surface of the graph itself, should be directly proportional to the numerical quantities represented
+    Clear, detailed and thorough labeling should be used to defeat graphical distortion and ambiguity.  Write out explanations of the data on the graph itself.  Label important events in the data.
+    Show data variation, not design variation.
+    In time-series displays of money, deflated and standardized units of monetary measurement are nearly always better than nominal units.
+    The number of information carrying (variable) dimensions depicted should not exceed the number of dimensions in the data.
+    Graphics must not quote data out of context.
+  
+
+
+
+
+Their data visuals hit the right chord of function and beauty. Gauges really lives up to their claim of, "the basics done right". If that isn't enough, they're owned by Github now. Sign up for an account and get chart inspired while you're at it.
+
+</content>
+  </entry>
+  <entry>
+    <title>Multi touch light table for DJs</title>
+    <link href="http://alexbaldwin.com/multi-touch-light-table-for-djs" rel="alternate"/>
+    <id>http://alexbaldwin.com/multi-touch-light-table-for-djs</id>
+    <published>2012-03-27T14:32:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+Great design thinking on evolving traditional turntables. I wish Numark, Native Instruments, and others  were working on solutions this creative rather than being stuck in the past of hardware.
+
+</summary>
+    <content type="html">
+
+Great design thinking on evolving traditional turntables. I wish Numark, Native Instruments, and others  were working on solutions this creative rather than being stuck in the past of hardware.
+
+</content>
+  </entry>
+  <entry>
+    <title>Startup Advice</title>
+    <link href="http://alexbaldwin.com/startup-advice" rel="alternate"/>
+    <id>http://alexbaldwin.com/startup-advice</id>
+    <published>2012-03-27T14:32:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+
+  Don't fuck up. - Paul Singh
+
+
+</summary>
+    <content type="html">
+
+
+  Don't fuck up. - Paul Singh
+
+
+</content>
+  </entry>
+  <entry>
+    <title>DHH on bike shedding</title>
+    <link href="http://alexbaldwin.com/dhh-on-bike-shedding" rel="alternate"/>
+    <id>http://alexbaldwin.com/dhh-on-bike-shedding</id>
+    <published>2012-03-27T14:29:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">Think about this DHH quote before next time you start creeping towards the bike shed.
+
+
+  The best developers aren't the ones who can write the most code in the shortest amount of time or out-reason anyone on the internets. They are the ones that only...
+</summary>
+    <content type="html">Think about this DHH quote before next time you start creeping towards the bike shed.
+
+
+  The best developers aren't the ones who can write the most code in the shortest amount of time or out-reason anyone on the internets. They are the ones that only write the code that's most valuable to execute and only enter the debates of high substance.
+
+
+Amen.
+</content>
+  </entry>
+  <entry>
+    <title>DJ Spirograph</title>
+    <link href="http://alexbaldwin.com/dj-spirograph" rel="alternate"/>
+    <id>http://alexbaldwin.com/dj-spirograph</id>
+    <published>2012-03-26T14:32:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">Artist Robert Howsare calls it a drawing apparatus and it is fascinating.
+
+
+
+See also, DJ Roomba.
+
+</summary>
+    <content type="html">Artist Robert Howsare calls it a drawing apparatus and it is fascinating.
+
+
+
+See also, DJ Roomba.
+
+</content>
+  </entry>
+  <entry>
+    <title>Colourlovers acquires Forrst</title>
+    <link href="http://alexbaldwin.com/colourlovers-acquires-forrst" rel="alternate"/>
+    <id>http://alexbaldwin.com/colourlovers-acquires-forrst</id>
+    <published>2012-03-26T14:32:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+  Design community Colourlovers has acquired another design community called Forrst in a bid to create the preeminent place on the Web where creative types can come together, make pretty things, help each other get better at making pretty things,...
+</summary>
+    <content type="html">
+  Design community Colourlovers has acquired another design community called Forrst in a bid to create the preeminent place on the Web where creative types can come together, make pretty things, help each other get better at making pretty things, share pretty things and ultimately monetize them. The combined site wants to make great design simple and accessible and create a lucrative business doing that.
+
+
+Team 500 is on a roll this week, first Fee Fighters, now Forrst. Here's founder Kyle Bragger's take on the acquisition.
+
+Full disclosure: Kyle and Keith carpool with us to go rock climbing.
+
+</content>
+  </entry>
+  <entry>
+    <title>Spotify's protection money</title>
+    <link href="http://alexbaldwin.com/spotify" rel="alternate"/>
+    <id>http://alexbaldwin.com/spotify</id>
+    <published>2012-03-24T14:33:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">
+
+Rumors are that Spotify is raising a war chest to combat record labels imminent price rise.
+
+
+  In the seven months since Spotify launched in the U.S. it’s made huge strides, signing up over 3 million paying  subscribers, and hitting 17.4 million...
+</summary>
+    <content type="html">
+
+Rumors are that Spotify is raising a war chest to combat record labels imminent price rise.
+
+
+  In the seven months since Spotify launched in the U.S. it’s made huge strides, signing up over 3 million paying  subscribers, and hitting 17.4 million monthly and 5.3 million daily users. Even though the record labels own a stake of the company, Spotify’s success make it a lucrative target for extortion.
+
+
+The music content industry is a sinking ship, act accordingly.
+</content>
+  </entry>
+  <entry>
+    <title>We're joining 500 Startups to blow up how developers get hired</title>
+    <link href="http://alexbaldwin.com/joining-500-startups" rel="alternate"/>
+    <id>http://alexbaldwin.com/joining-500-startups</id>
+    <published>2011-05-24T17:49:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">This post is from the Hello World Posterous Archive
+
+It's been a crazy last week quitting our jobs, packing our lives into a duffle bag, and moving from San Antonio to Mountain View. We never thought that after 3 Day Startup this is where we would...</summary>
+    <content type="html">This post is from the Hello World Posterous Archive
+
+It's been a crazy last week quitting our jobs, packing our lives into a duffle bag, and moving from San Antonio to Mountain View. We never thought that after 3 Day Startup this is where we would end up so quickly. Special thanks to Pat Condon for sponsoring us at 3DS and pushing us to build something of lasting value. Hello World is joining the 500 Startups accelerator program and will be mentored by the best in the business. Already in just two days we've refined our pitch, coded some new features, and started talking to key people who want to use our product. At this rate Hello World will be Incredible Hulk unstoppable by demo day.
+
+As of right now our concept is "Sortfolio for developers" and our pitch is "Hello World creates profiles that get developers hired", especially after today we expect and hope to iterate on this rapidly. Startup Lessons Learned was yesterday and despite all the new methods we learned for thinking about our customers, it wasn't hard to notice that every speaker, even Brad Smith (CEO of Intuit), had the "we're hiring" pitch. We ran into tons of other startups that were having similar problems;
+
+
+  Where do we find developers?
+  How do we pitch them?
+  After we find someone, how do we know they are good?
+
+
+In this environment it's crazy that every developer doesn't have two jobs, yet we know so many that are funemployed. The disconnect in the market is very apparent. We know the problem affects almost every company hard right now, and are thinking about the solution every day.
+
+Patrick Vlaskovits came to give Batch #001 a chat about customer development hacks. This is what came out of it for us:
+
+
+
+We're thinking that you can ask developers their typical project price range and ellicit how serious they are / their own perceived value of their work. This might work well for freelancers, but we also want to target full-time and part-time employees. Hopefully this would lead to a better matching.
+</content>
+  </entry>
+  <entry>
+    <title>This is how you do a pre-launch landing page</title>
+    <link href="http://alexbaldwin.com/this-is-how-you-do-a-prelaunch-landing-page" rel="alternate"/>
+    <id>http://alexbaldwin.com/this-is-how-you-do-a-prelaunch-landing-page</id>
+    <published>2011-03-29T14:16:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">This post is from the Alex Baldwin Posterous Archive
+
+
+
+Design like this makes me sign up without any knowledge of what it even is.
+</summary>
+    <content type="html">This post is from the Alex Baldwin Posterous Archive
+
+
+
+Design like this makes me sign up without any knowledge of what it even is.
+</content>
+  </entry>
+  <entry>
+    <title>What makes entrepreneurs entrepreneurial</title>
+    <link href="http://alexbaldwin.com/what-makes-entrepreneurs-entrepreneurial" rel="alternate"/>
+    <id>http://alexbaldwin.com/what-makes-entrepreneurs-entrepreneurial</id>
+    <published>2011-03-26T10:15:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">This post is from the Alex Baldwin Posterous Archive
+
+Normally I hate papers, but this one caught my eye. Especially when a VC comments horseshit.
+
+
+
+via Khosla Ventures
+</summary>
+    <content type="html">This post is from the Alex Baldwin Posterous Archive
+
+Normally I hate papers, but this one caught my eye. Especially when a VC comments horseshit.
+
+
+
+via Khosla Ventures
+</content>
+  </entry>
+  <entry>
+    <title>Entrepreneurs are the new hipsters</title>
+    <link href="http://alexbaldwin.com/entrepreneurs-are-the-new-hipsters" rel="alternate"/>
+    <id>http://alexbaldwin.com/entrepreneurs-are-the-new-hipsters</id>
+    <published>2011-03-26T10:09:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">This post is from the Alex Baldwin Posterous Archive
+
+If I hear synergy, social media, or about a groupon clone one more time…
+
+
+</summary>
+    <content type="html">This post is from the Alex Baldwin Posterous Archive
+
+If I hear synergy, social media, or about a groupon clone one more time…
+
+
+</content>
+  </entry>
+  <entry>
+    <title>All the fonts you'll ever need</title>
+    <link href="http://alexbaldwin.com/all-the-fonts-youll-ever-need" rel="alternate"/>
+    <id>http://alexbaldwin.com/all-the-fonts-youll-ever-need</id>
+    <published>2011-03-23T10:08:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">This post is from the Alex Baldwin Posterous Archive
+
+
+
+via kadavy.net
+</summary>
+    <content type="html">This post is from the Alex Baldwin Posterous Archive
+
+
+
+via kadavy.net
+</content>
+  </entry>
+  <entry>
+    <title>How preferences are meant to look</title>
+    <link href="http://alexbaldwin.com/how-preferences-are-meant-to-look" rel="alternate"/>
+    <id>http://alexbaldwin.com/how-preferences-are-meant-to-look</id>
+    <published>2011-03-23T10:06:00-07:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">This post is from the Alex Baldwin Posterous Archive
+
+
+
+Don't be that guy with the 200 preference options.
+</summary>
+    <content type="html">This post is from the Alex Baldwin Posterous Archive
+
+
+
+Don't be that guy with the 200 preference options.
+</content>
+  </entry>
+  <entry>
+    <title>Github's new helper</title>
+    <link href="http://alexbaldwin.com/githubs-new-helper" rel="alternate"/>
+    <id>http://alexbaldwin.com/githubs-new-helper</id>
+    <published>2011-03-04T00:00:00-08:00</published>
+    <updated>2015-09-16T21:43:15-07:00</updated>
+    <author>
+      <name>Alex Baldwin</name>
+    </author>
+    <summary type="html">This post is from the Alex Baldwin Posterous Archive
+
+
+Minimal way of doing a "walkthrough", that lets people click to what they are interested in rather than forcing steps. Also, really easy to code this in to an existing site.
+</summary>
+    <content type="html">This post is from the Alex Baldwin Posterous Archive
+
+
+Minimal way of doing a "walkthrough", that lets people click to what they are interested in rather than forcing steps. Also, really easy to code this in to an existing site.
 </content>
   </entry>
 </feed>
