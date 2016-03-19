@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Alex Baldwin</title>
-  <id>http://alexbaldwin.com/</id>
-  <link href="http://alexbaldwin.com/"/>
-  <link href="http://alexbaldwin.com/feed.xml" rel="self"/>
+  <id>https://alexbaldwin.com/</id>
+  <link href="https://alexbaldwin.com/"/>
+  <link href="https://alexbaldwin.com/feed.xml" rel="self"/>
   <author>
     <name>Alex Baldwin</name>
   </author>
   <updated>2015-09-29T20:10:00-07:00</updated>
   <entry>
     <title>Taco Week</title>
-    <link href="http://alexbaldwin.com/taco-week" rel="alternate"/>
-    <id>http://alexbaldwin.com/taco-week</id>
+    <link href="https://alexbaldwin.com/taco-week" rel="alternate"/>
+    <id>https://alexbaldwin.com/taco-week</id>
     <published>2015-09-29T20:10:00-07:00</published>
     <updated>2015-09-29T20:12:18-07:00</updated>
     <author>
@@ -26,8 +26,8 @@
   </entry>
   <entry>
     <title>Rave Robot</title>
-    <link href="http://alexbaldwin.com/rave-robot" rel="alternate"/>
-    <id>http://alexbaldwin.com/rave-robot</id>
+    <link href="https://alexbaldwin.com/rave-robot" rel="alternate"/>
+    <id>https://alexbaldwin.com/rave-robot</id>
     <published>2015-09-27T19:11:00-07:00</published>
     <updated>2015-09-27T19:14:53-07:00</updated>
     <author>
@@ -46,8 +46,8 @@ Giphy GJ have surpassed it's meager feature list.
   </entry>
   <entry>
     <title>Belly B-sides Mix</title>
-    <link href="http://alexbaldwin.com/belly-bside" rel="alternate"/>
-    <id>http://alexbaldwin.com/belly-bside</id>
+    <link href="https://alexbaldwin.com/belly-bside" rel="alternate"/>
+    <id>https://alexbaldwin.com/belly-bside</id>
     <published>2015-09-24T10:36:00-07:00</published>
     <updated>2015-09-27T19:08:00-07:00</updated>
     <author>
@@ -62,8 +62,8 @@ Giphy GJ have surpassed it's meager feature list.
   </entry>
   <entry>
     <title>IAM FINE Mix</title>
-    <link href="http://alexbaldwin.com/iam-fine" rel="alternate"/>
-    <id>http://alexbaldwin.com/iam-fine</id>
+    <link href="https://alexbaldwin.com/iam-fine" rel="alternate"/>
+    <id>https://alexbaldwin.com/iam-fine</id>
     <published>2015-09-18T11:38:00-07:00</published>
     <updated>2015-09-27T19:08:00-07:00</updated>
     <author>
@@ -80,8 +80,8 @@ Here's a mix I put together of all the discovered tracks.
   </entry>
   <entry>
     <title>Product Design Sprints - QCon 2014</title>
-    <link href="http://alexbaldwin.com/qcon-2014" rel="alternate"/>
-    <id>http://alexbaldwin.com/qcon-2014</id>
+    <link href="https://alexbaldwin.com/qcon-2014" rel="alternate"/>
+    <id>https://alexbaldwin.com/qcon-2014</id>
     <published>2014-06-11T07:07:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -315,8 +315,8 @@ More info:
   </entry>
   <entry>
     <title>See, Think, Design, Produce</title>
-    <link href="http://alexbaldwin.com/see-think-design-produce" rel="alternate"/>
-    <id>http://alexbaldwin.com/see-think-design-produce</id>
+    <link href="https://alexbaldwin.com/see-think-design-produce" rel="alternate"/>
+    <id>https://alexbaldwin.com/see-think-design-produce</id>
     <published>2014-05-07T15:30:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -640,8 +640,8 @@ Edward Tufte, Author
   </entry>
   <entry>
     <title>Waking up, ready for creativity</title>
-    <link href="http://alexbaldwin.com/morning-routine" rel="alternate"/>
-    <id>http://alexbaldwin.com/morning-routine</id>
+    <link href="https://alexbaldwin.com/morning-routine" rel="alternate"/>
+    <id>https://alexbaldwin.com/morning-routine</id>
     <published>2013-09-30T23:08:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -685,8 +685,8 @@ Your morning routine runs everything around you. Have one and stick to it.
   </entry>
   <entry>
     <title>Growth Hackers Conference Notes</title>
-    <link href="http://alexbaldwin.com/growth-hackers" rel="alternate"/>
-    <id>http://alexbaldwin.com/growth-hackers</id>
+    <link href="https://alexbaldwin.com/growth-hackers" rel="alternate"/>
+    <id>https://alexbaldwin.com/growth-hackers</id>
     <published>2013-05-10T15:50:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -878,8 +878,8 @@ Fix your email funnel and optimize in the order of magnitude of holes in your fu
   </entry>
   <entry>
     <title>Life is in beta</title>
-    <link href="http://alexbaldwin.com/life-is-in-beta" rel="alternate"/>
-    <id>http://alexbaldwin.com/life-is-in-beta</id>
+    <link href="https://alexbaldwin.com/life-is-in-beta" rel="alternate"/>
+    <id>https://alexbaldwin.com/life-is-in-beta</id>
     <published>2013-04-30T18:10:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -938,8 +938,8 @@ Product roles
   </entry>
   <entry>
     <title>Kill the alarm clock</title>
-    <link href="http://alexbaldwin.com/alarm-clock" rel="alternate"/>
-    <id>http://alexbaldwin.com/alarm-clock</id>
+    <link href="https://alexbaldwin.com/alarm-clock" rel="alternate"/>
+    <id>https://alexbaldwin.com/alarm-clock</id>
     <published>2013-03-15T15:20:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -977,8 +977,8 @@ Remove the first annoyance of your day and be better for it.
   </entry>
   <entry>
     <title>Ask me anything</title>
-    <link href="http://alexbaldwin.com/ask-me-anything" rel="alternate"/>
-    <id>http://alexbaldwin.com/ask-me-anything</id>
+    <link href="https://alexbaldwin.com/ask-me-anything" rel="alternate"/>
+    <id>https://alexbaldwin.com/ask-me-anything</id>
     <published>2013-02-16T00:07:00-08:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -999,8 +999,8 @@ Remove the first annoyance of your day and be better for it.
   </entry>
   <entry>
     <title>2012 in review</title>
-    <link href="http://alexbaldwin.com/2012-review" rel="alternate"/>
-    <id>http://alexbaldwin.com/2012-review</id>
+    <link href="https://alexbaldwin.com/2012-review" rel="alternate"/>
+    <id>https://alexbaldwin.com/2012-review</id>
     <published>2012-12-31T14:21:00-08:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1057,8 +1057,8 @@ Thank you so much to my friends, family, coworkers, and posse for this past year
   </entry>
   <entry>
     <title>Goldeneye 64's inspirational startup story</title>
-    <link href="http://alexbaldwin.com/goldeneye" rel="alternate"/>
-    <id>http://alexbaldwin.com/goldeneye</id>
+    <link href="https://alexbaldwin.com/goldeneye" rel="alternate"/>
+    <id>https://alexbaldwin.com/goldeneye</id>
     <published>2012-11-01T12:03:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1104,8 +1104,8 @@ Thanks to Andy Parker for editing. Illustration by Alexandra Bond.
   </entry>
   <entry>
     <title>FF Chartwell</title>
-    <link href="http://alexbaldwin.com/ff-chartwell" rel="alternate"/>
-    <id>http://alexbaldwin.com/ff-chartwell</id>
+    <link href="https://alexbaldwin.com/ff-chartwell" rel="alternate"/>
+    <id>https://alexbaldwin.com/ff-chartwell</id>
     <published>2012-05-17T15:38:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1130,8 +1130,8 @@ Web fonts are slowly taking over, despite the lack of pixel perfection on the we
   </entry>
   <entry>
     <title>RubyMotion brings MacRuby to life</title>
-    <link href="http://alexbaldwin.com/rubymotion" rel="alternate"/>
-    <id>http://alexbaldwin.com/rubymotion</id>
+    <link href="https://alexbaldwin.com/rubymotion" rel="alternate"/>
+    <id>https://alexbaldwin.com/rubymotion</id>
     <published>2012-05-06T15:41:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1158,8 +1158,8 @@ Going to be great seeing the Ruby community come out with apps for iOS now. Chec
   </entry>
   <entry>
     <title>How typing on an iPad should be</title>
-    <link href="http://alexbaldwin.com/how-typing-on-an-ipad-should-be" rel="alternate"/>
-    <id>http://alexbaldwin.com/how-typing-on-an-ipad-should-be</id>
+    <link href="https://alexbaldwin.com/how-typing-on-an-ipad-should-be" rel="alternate"/>
+    <id>https://alexbaldwin.com/how-typing-on-an-ipad-should-be</id>
     <published>2012-05-04T15:42:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1185,8 +1185,8 @@ It's always been slightly frustrating to type on an iPad. Writing notes and jott
   </entry>
   <entry>
     <title>Why Instagram is so damn fast at uploading photos</title>
-    <link href="http://alexbaldwin.com/why-instagram-is-so-damn-fast-at-uploading-photos" rel="alternate"/>
-    <id>http://alexbaldwin.com/why-instagram-is-so-damn-fast-at-uploading-photos</id>
+    <link href="https://alexbaldwin.com/why-instagram-is-so-damn-fast-at-uploading-photos" rel="alternate"/>
+    <id>https://alexbaldwin.com/why-instagram-is-so-damn-fast-at-uploading-photos</id>
     <published>2012-05-01T15:42:00-07:00</published>
     <updated>2016-03-18T20:27:35-07:00</updated>
     <author>
@@ -1205,8 +1205,8 @@ It's always been slightly frustrating to type on an iPad. Writing notes and jott
   </entry>
   <entry>
     <title>Idea inertia</title>
-    <link href="http://alexbaldwin.com/idea-intertia" rel="alternate"/>
-    <id>http://alexbaldwin.com/idea-intertia</id>
+    <link href="https://alexbaldwin.com/idea-intertia" rel="alternate"/>
+    <id>https://alexbaldwin.com/idea-intertia</id>
     <published>2012-04-29T15:43:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1231,8 +1231,8 @@ P.S. If anyone wants to run the "startup babysitter" experiment, I'd love to hea
   </entry>
   <entry>
     <title>Export all your Photoshop layer groups as images, simply</title>
-    <link href="http://alexbaldwin.com/export-all-your-photoshop-layer-groups-as-images-simply" rel="alternate"/>
-    <id>http://alexbaldwin.com/export-all-your-photoshop-layer-groups-as-images-simply</id>
+    <link href="https://alexbaldwin.com/export-all-your-photoshop-layer-groups-as-images-simply" rel="alternate"/>
+    <id>https://alexbaldwin.com/export-all-your-photoshop-layer-groups-as-images-simply</id>
     <published>2012-04-04T15:45:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1265,8 +1265,8 @@ Also it's from MacRabbit, the awesome team that makes Espresso. Download Layer C
   </entry>
   <entry>
     <title>Day in the life of Google Glass</title>
-    <link href="http://alexbaldwin.com/day-in-the-life-of-google-glass" rel="alternate"/>
-    <id>http://alexbaldwin.com/day-in-the-life-of-google-glass</id>
+    <link href="https://alexbaldwin.com/day-in-the-life-of-google-glass" rel="alternate"/>
+    <id>https://alexbaldwin.com/day-in-the-life-of-google-glass</id>
     <published>2012-04-04T15:44:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1285,8 +1285,8 @@ Sure beats the hell out of Google Goggles.
   </entry>
   <entry>
     <title>Field studies for product designers</title>
-    <link href="http://alexbaldwin.com/field-studies-for-product-designers" rel="alternate"/>
-    <id>http://alexbaldwin.com/field-studies-for-product-designers</id>
+    <link href="https://alexbaldwin.com/field-studies-for-product-designers" rel="alternate"/>
+    <id>https://alexbaldwin.com/field-studies-for-product-designers</id>
     <published>2012-04-02T15:45:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1304,8 +1304,8 @@ Their first field study with Skillshare is launching this spring. Be notified wh
   </entry>
   <entry>
     <title>Paper makes me smile while I pay them</title>
-    <link href="http://alexbaldwin.com/paper-makes-me-smile" rel="alternate"/>
-    <id>http://alexbaldwin.com/paper-makes-me-smile</id>
+    <link href="https://alexbaldwin.com/paper-makes-me-smile" rel="alternate"/>
+    <id>https://alexbaldwin.com/paper-makes-me-smile</id>
     <published>2012-03-30T15:45:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1330,8 +1330,8 @@ Download Paper for iPad
   </entry>
   <entry>
     <title>Gaug.es embodies Edward Tufte's principles</title>
-    <link href="http://alexbaldwin.com/gaug-dot-es-embodies-edward-tuftes-principles" rel="alternate"/>
-    <id>http://alexbaldwin.com/gaug-dot-es-embodies-edward-tuftes-principles</id>
+    <link href="https://alexbaldwin.com/gaug-dot-es-embodies-edward-tuftes-principles" rel="alternate"/>
+    <id>https://alexbaldwin.com/gaug-dot-es-embodies-edward-tuftes-principles</id>
     <published>2012-03-28T14:29:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1378,8 +1378,8 @@ Their data visuals hit the right chord of function and beauty. Gauges really liv
   </entry>
   <entry>
     <title>Multi touch light table for DJs</title>
-    <link href="http://alexbaldwin.com/multi-touch-light-table-for-djs" rel="alternate"/>
-    <id>http://alexbaldwin.com/multi-touch-light-table-for-djs</id>
+    <link href="https://alexbaldwin.com/multi-touch-light-table-for-djs" rel="alternate"/>
+    <id>https://alexbaldwin.com/multi-touch-light-table-for-djs</id>
     <published>2012-03-27T14:32:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1398,8 +1398,8 @@ Great design thinking on evolving traditional turntables. I wish Numark, Native 
   </entry>
   <entry>
     <title>Startup Advice</title>
-    <link href="http://alexbaldwin.com/startup-advice" rel="alternate"/>
-    <id>http://alexbaldwin.com/startup-advice</id>
+    <link href="https://alexbaldwin.com/startup-advice" rel="alternate"/>
+    <id>https://alexbaldwin.com/startup-advice</id>
     <published>2012-03-27T14:32:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1422,8 +1422,8 @@ Great design thinking on evolving traditional turntables. I wish Numark, Native 
   </entry>
   <entry>
     <title>DHH on bike shedding</title>
-    <link href="http://alexbaldwin.com/dhh-on-bike-shedding" rel="alternate"/>
-    <id>http://alexbaldwin.com/dhh-on-bike-shedding</id>
+    <link href="https://alexbaldwin.com/dhh-on-bike-shedding" rel="alternate"/>
+    <id>https://alexbaldwin.com/dhh-on-bike-shedding</id>
     <published>2012-03-27T14:29:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1445,8 +1445,8 @@ Amen.
   </entry>
   <entry>
     <title>DJ Spirograph</title>
-    <link href="http://alexbaldwin.com/dj-spirograph" rel="alternate"/>
-    <id>http://alexbaldwin.com/dj-spirograph</id>
+    <link href="https://alexbaldwin.com/dj-spirograph" rel="alternate"/>
+    <id>https://alexbaldwin.com/dj-spirograph</id>
     <published>2012-03-26T14:32:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1469,8 +1469,8 @@ See also, DJ Roomba.
   </entry>
   <entry>
     <title>Colourlovers acquires Forrst</title>
-    <link href="http://alexbaldwin.com/colourlovers-acquires-forrst" rel="alternate"/>
-    <id>http://alexbaldwin.com/colourlovers-acquires-forrst</id>
+    <link href="https://alexbaldwin.com/colourlovers-acquires-forrst" rel="alternate"/>
+    <id>https://alexbaldwin.com/colourlovers-acquires-forrst</id>
     <published>2012-03-26T14:32:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1491,8 +1491,8 @@ Full disclosure: Kyle and Keith carpool with us to go rock climbing.
   </entry>
   <entry>
     <title>Spotify's protection money</title>
-    <link href="http://alexbaldwin.com/spotify" rel="alternate"/>
-    <id>http://alexbaldwin.com/spotify</id>
+    <link href="https://alexbaldwin.com/spotify" rel="alternate"/>
+    <id>https://alexbaldwin.com/spotify</id>
     <published>2012-03-24T14:33:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1518,8 +1518,8 @@ The music content industry is a sinking ship, act accordingly.
   </entry>
   <entry>
     <title>We're joining 500 Startups to blow up how developers get hired</title>
-    <link href="http://alexbaldwin.com/joining-500-startups" rel="alternate"/>
-    <id>http://alexbaldwin.com/joining-500-startups</id>
+    <link href="https://alexbaldwin.com/joining-500-startups" rel="alternate"/>
+    <id>https://alexbaldwin.com/joining-500-startups</id>
     <published>2011-05-24T17:49:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1551,8 +1551,8 @@ We're thinking that you can ask developers their typical project price range and
   </entry>
   <entry>
     <title>This is how you do a pre-launch landing page</title>
-    <link href="http://alexbaldwin.com/this-is-how-you-do-a-prelaunch-landing-page" rel="alternate"/>
-    <id>http://alexbaldwin.com/this-is-how-you-do-a-prelaunch-landing-page</id>
+    <link href="https://alexbaldwin.com/this-is-how-you-do-a-prelaunch-landing-page" rel="alternate"/>
+    <id>https://alexbaldwin.com/this-is-how-you-do-a-prelaunch-landing-page</id>
     <published>2011-03-29T14:16:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1573,8 +1573,8 @@ Design like this makes me sign up without any knowledge of what it even is.
   </entry>
   <entry>
     <title>What makes entrepreneurs entrepreneurial</title>
-    <link href="http://alexbaldwin.com/what-makes-entrepreneurs-entrepreneurial" rel="alternate"/>
-    <id>http://alexbaldwin.com/what-makes-entrepreneurs-entrepreneurial</id>
+    <link href="https://alexbaldwin.com/what-makes-entrepreneurs-entrepreneurial" rel="alternate"/>
+    <id>https://alexbaldwin.com/what-makes-entrepreneurs-entrepreneurial</id>
     <published>2011-03-26T10:15:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1599,8 +1599,8 @@ via Khosla Ventures
   </entry>
   <entry>
     <title>Entrepreneurs are the new hipsters</title>
-    <link href="http://alexbaldwin.com/entrepreneurs-are-the-new-hipsters" rel="alternate"/>
-    <id>http://alexbaldwin.com/entrepreneurs-are-the-new-hipsters</id>
+    <link href="https://alexbaldwin.com/entrepreneurs-are-the-new-hipsters" rel="alternate"/>
+    <id>https://alexbaldwin.com/entrepreneurs-are-the-new-hipsters</id>
     <published>2011-03-26T10:09:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1621,8 +1621,8 @@ If I hear synergy, social media, or about a groupon clone one more time…
   </entry>
   <entry>
     <title>All the fonts you'll ever need</title>
-    <link href="http://alexbaldwin.com/all-the-fonts-youll-ever-need" rel="alternate"/>
-    <id>http://alexbaldwin.com/all-the-fonts-youll-ever-need</id>
+    <link href="https://alexbaldwin.com/all-the-fonts-youll-ever-need" rel="alternate"/>
+    <id>https://alexbaldwin.com/all-the-fonts-youll-ever-need</id>
     <published>2011-03-23T10:08:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1643,8 +1643,8 @@ via kadavy.net
   </entry>
   <entry>
     <title>How preferences are meant to look</title>
-    <link href="http://alexbaldwin.com/how-preferences-are-meant-to-look" rel="alternate"/>
-    <id>http://alexbaldwin.com/how-preferences-are-meant-to-look</id>
+    <link href="https://alexbaldwin.com/how-preferences-are-meant-to-look" rel="alternate"/>
+    <id>https://alexbaldwin.com/how-preferences-are-meant-to-look</id>
     <published>2011-03-23T10:06:00-07:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
@@ -1665,8 +1665,8 @@ Don't be that guy with the 200 preference options.
   </entry>
   <entry>
     <title>Github's new helper</title>
-    <link href="http://alexbaldwin.com/githubs-new-helper" rel="alternate"/>
-    <id>http://alexbaldwin.com/githubs-new-helper</id>
+    <link href="https://alexbaldwin.com/githubs-new-helper" rel="alternate"/>
+    <id>https://alexbaldwin.com/githubs-new-helper</id>
     <published>2011-03-04T00:00:00-08:00</published>
     <updated>2015-09-16T21:43:15-07:00</updated>
     <author>
