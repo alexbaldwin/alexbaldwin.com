@@ -32,10 +32,6 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
-configure :development do
-  activate :livereload
-end
-
 configure :build do
   activate :minify_html
   activate :minify_css
@@ -44,9 +40,4 @@ configure :build do
   activate :cache_buster
   activate :relative_assets
   activate :gzip
-end
-
-activate :deploy do |deploy|
-  deploy.build_before = true
-  deploy.method = :git
 end

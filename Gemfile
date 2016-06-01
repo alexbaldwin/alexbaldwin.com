@@ -1,11 +1,6 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
+ruby '2.3.1'
 
 gem 'builder', '~> 3.0.0'
 gem 'middleman'
 gem 'middleman-blog'
-gem 'middleman-deploy'
-gem 'middleman-livereload'
-gem 'middleman-minify-html'
-gem 'nokogiri'
-gem 'eventmachine', :git => 'git://github.com/eventmachine/eventmachine.git', :branch => 'master'
