@@ -15,4 +15,8 @@ blockquote p {
 ```
 
 Since it only applies to quote marks, you can avoid single purpose classes and
-trust that your quotes will hang everywhere.
+trust that your quotes will hang everywhere. Chrome hasn't yet implemented the
+`hanging-punctuation` property, but it works perfectly in Safari.
+[Typeset.js](https://github.com/davidmerfield/Typeset) is an HTML pre-processor
+that adds a lot more functionality and will allow you to get cross browser
+compatibility.
