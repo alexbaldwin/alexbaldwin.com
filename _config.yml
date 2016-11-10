@@ -1,0 +1,22 @@
+# Welcome to Jekyll!
+#
+gems:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+title: "Alex Baldwin"
+description: > # this means to ignore newlines until "baseurl:"
+  Alex Baldwin, product designer based out of San Francisco. Designer of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup's Dashboard.io, and many more fun projects.
+baseurl: ""
+url: "https://alexbaldwin.com"
+
+# jekyll-seo-tag
+twitter:
+  username: alexbaldwin
+# Build settings
+markdown: kramdown
+permalink: /:slug/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: post

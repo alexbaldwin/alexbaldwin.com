@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://npmcdn.com/basscss@7.1.1/css/basscss.min.css" rel="stylesheet">
+    <style>
+      body, h1, h2, h3, h4, h5, h6 {
+        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,sans-serif;
+      }
+    </style>
+    {% seo %}
+  </head>
+  <body>
+    <div class="py2 px2 mb2 border-bottom fixed col-12 bg-white">
+      <header class="container flex flex-center">
+        <h1 class="flex-none m0 regular h4">
+          <a href="/" class="black">Alex Baldwin</a>
+        </h1>
+      </header>
+    </div>
+    <article role="main" class="clearfix py4">
+      {{ content }}
+    </article>
+    <footer class="container mb4 clearfix">
+      <small class="gray px2">&copy;2011-2016.</small>
+    </footer>
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-24725855-1');ga('send','pageview');
+    </script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<style>
+  figure {
+    margin: 0;
+  }
+  ul, ol {
+    margin-left: -2.5rem;
+  }
+.prose {
+  color: #262626;
+}
+.prose p, .prose li {
+  font-family: Athelas,Georgia,serif;
+  font-size: 20px;
+}
+.prose blockquote {
+  margin: 2rem 0 2rem 2rem;
+  font-style: italic;
+}
+.prose blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+</style>
+<article class="container mx-auto mt3">
+  <div class="clearfix">
+  <div class="col col-12 md-col-10 lg-col-8 px2 prose">
+    {% if page.date %}
+    <header class="mb2">
+<h1 class="h0 mt0 mb1" style="font-weight: 900;">{{ page.title }}</h1>
+<span class="gray"><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span>
+</header>
+{% endif %}
+
+    {% if page.image %}
+<img class="col-12 fit mb2" src="{{ page.image }}">
+{% endif %}
+{{ content }}
+</article>
+</div>
+</div>

@@ -1,0 +1,12 @@
+---
+title: Articles
+---
+
+{% for post in site.posts %}
+{% if post.external %}
+<h3><a href="{{ post.external }}">{{ post.title }} &rarr;</a></h3>
+{% else %}
+<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+{% endif %}
+<p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong><a href="{{ post.url }}"></a></small></p>
+{% endfor %}

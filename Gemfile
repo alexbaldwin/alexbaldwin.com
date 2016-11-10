@@ -1,6 +1,5 @@
-source 'https://rubygems.org'
-ruby '2.3.1'
+source "https://rubygems.org"
 
-gem 'builder', '~> 3.0.0'
-gem 'middleman'
-gem 'middleman-blog'
+gem "jekyll", "3.2.1"
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"

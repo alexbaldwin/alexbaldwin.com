@@ -17,11 +17,13 @@ The team faced insane amounts of adversity and uncertainty. Starting out, they d
 
 Getting closer to the release date, the final platform specs were released and they had to make significant graphic cuts to make it work.
 
-> The final Nintendo 64 hardware could render polygons faster than the SGI Onyx workstations they had been using, but the game's textures had to be cut down by half. Karl Hilton explained one method of improving the game's performance: "A lot of GoldenEye is in black and white. RGB color textures cost a lot more in terms of processing power. You could do double the resolution if you used greyscale, so a lot was done like that. If I needed a bit of color, I'd add it in the vertex."
+> The final Nintendo 64 hardware could render polygons faster than the SGI Onyx workstations they had been using, but the game's textures had to be cut down by half. Karl Hilton explained one method of improving the game's performance: "A lot of GoldenEye is in black and white. RGB color textures cost a lot more in terms of processing power. You could do double the resolution if you used greyscale, so a lot was done like that. If I needed a bit of color, I'd add it in the vertex." [^1]
 
 While doing all this, their team had almost no idea what they were doing when they started out. Sound familiar?
 
-> GoldenEye 007 was developed by an inexperienced team, eight of whom had never previously worked on video games. David Doak commented in 2004, "Looking back, there are things I'd be wary of attempting now, but as none of the people working on the code, graphics, and game design had worked on a game before, there was this joyful naïveté."
+GoldenEye 007 was developed by an inexperienced team, eight of whom had never previously worked on video games. David Doak      commented in 2004;
+
+> "Looking back, there are things I'd be wary of attempting now, but as none of the people working on the code, graphics, and game design had worked on a game before, there was this joyful naïveté."
 
 Scope was so slim, they didn't even originally plan out the legendary multiplayer mode that arguably made the game so successful. It was done almost exclusively by one guy as an afterthought.
 
@@ -30,3 +32,5 @@ Scope was so slim, they didn't even originally plan out the legendary multiplaye
 Despite everything, the game went on to become the third highest selling N64 game, inspire console shooting games, and [win a crazy amount of awards](http://alexbaldw.in/KbGG). Next time you're heading down the wrong way of the [entrepreneurial rollercoaster](http://www.fourhourworkweek.com/blog/2008/10/03/harnessing-entrepreneurial-manic-depression-making-the-rollercoaster-work-for-you/), take a deep breath, make a cup of tea, and remember that you can make it happen. Persevere and dominate.
 
 Thanks to [Andy Parker](http://about.me/andylynnparker) for editing. Illustration by [Alexandra Bond](http://alexandra-bond.com/).
+
+[^1]: [Source: Wikipedia](https://en.wikipedia.org/wiki/GoldenEye_007_(1997_video_game))

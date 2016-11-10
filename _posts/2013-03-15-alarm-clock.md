@@ -4,15 +4,15 @@ date: 2013-03-15 15:20 -07:00
 tags:
 ---
 
-> There is only one formula for healthy and refreshing sleep: Go to sleep only when you are very tired. Not earlier. Not later. Wake up naturally without an alarm clock.
+In response to the resurgance of Supermemo's popular [free running sleep](http://www.supermemo.com/articles/sleep.htm#Free_running_sleep) article, it was time for a test run. Previously I've tried polyphasic and biphasic sleep to optimize my life with varying degrees of success
 
-In response to the resurgance of Supermemo's popular [free running sleep](http://www.supermemo.com/articles/sleep.htm#Free_running_sleep) article, it was time for a test run. Previously I've tried polyphasic and biphasic sleep to optimize my life with varying degress of success.
+> There is only one formula for healthy and refreshing sleep: Go to sleep only when you are very tired. Not earlier. Not later. Wake up naturally without an alarm clock.
 
 Here's the rules I set for a two-week free running sleep experiment;
 
 * No alarm clock
 * Retire nightly around 9pm
-* No caffiene after 11am
+* No caffeine after 11am
 * Only drink alcohol that will metabolize before sleep
 * Move exercise to the morning
 
@@ -20,6 +20,6 @@ After two weeks, what I found is that free running sleep forces me to assume res
 
 Unexpectedly my dream recall was near flawless, twelve out of fourteen mornings I was able to record a dream journal entry. Not only was my recall more frequent, but more descriptive as well. Looking back at my entries they were quite a bit longer than normal.
 
-It's been about a month since I started the experiment and I'm still going strong. I found myself to have better control over my sleep, dream recall, and energy during the day. 
+It's been about a month since I started the experiment and I'm still going strong. I found myself to have better control over my sleep, dream recall, and energy during the day.
 
 Remove the first annoyance of your day and be better for it.
