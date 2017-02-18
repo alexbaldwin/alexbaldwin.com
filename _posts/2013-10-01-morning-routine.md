@@ -1,8 +1,7 @@
 ---
 title: Waking up, ready for creativity
-date: 2013-10-01 06:08 UTC
-tags:
-image: /images/seoul-train.jpg
+date: 2013-10-01 06:08:00 Z
+image: "/images/seoul-train.jpg"
 ---
 
 *This post is part of [Startup Edition 21](http://startupedition.com).  Sign up to the weekly newsletter  to get the response to a single question each week from a curated gathering of bloggers in the startup community.*

@@ -1,8 +1,6 @@
 ---
 title: Github's new helper
-date: 2011-03-04 00:00 -08:00
-tags:
-published: true
+date: 2011-03-04 08:00:00 Z
 ---
 
 *This post is from the Alex Baldwin Posterous Archive*

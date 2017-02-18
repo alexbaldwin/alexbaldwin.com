@@ -1,7 +1,6 @@
 ---
 title: See, Think, Design, Produce
-date: 2014-05-07 22:30 UTC
-tags:
+date: 2014-05-07 22:30:00 Z
 ---
 
 ## Jonathan Corum, New York Times

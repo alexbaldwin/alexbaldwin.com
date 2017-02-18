@@ -1,8 +1,7 @@
 ---
 title: Goldeneye 64's inspirational startup story
-date: 2012-11-01 12:03 -07:00
-tags:
-image: /images/goldeneye.jpg
+date: 2012-11-01 19:03:00 Z
+image: "/images/goldeneye.jpg"
 ---
 
 GoldenEye 64 had a special place in my heart when I was growing up. It was the first game my parents wouldn't let me buy due to violent content. I saved up allowances and dug up couch treasures for months to taste the forbidden fruit. The effort turned into one of the pillars of my childhood experiences. I still vividly remember where to place the proximity mines on Temple to get crazy spawn point kill streaks against my little brother. Fifteen years later, it still inspires me, but not for the proximity mines.

@@ -1,8 +1,6 @@
 ---
 title: What makes entrepreneurs entrepreneurial
-date: 2011-03-26 09:15 -08:00
-tags:
-published: true
+date: 2011-03-26 17:15:00 Z
 ---
 
 *This post is from the Alex Baldwin Posterous Archive*

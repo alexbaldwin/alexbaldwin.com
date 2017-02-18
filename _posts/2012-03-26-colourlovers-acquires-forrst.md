@@ -1,7 +1,6 @@
 ---
 title: Colourlovers acquires Forrst
-date: 2012-03-26 14:32 -07:00
-tags:
+date: 2012-03-26 21:32:00 Z
 ---
 
 > Design community Colourlovers has acquired another design community called Forrst in a bid to create the preeminent place on the Web where creative types can come together, make pretty things, help each other get better at making pretty things, share pretty things and ultimately monetize them. The combined site wants to make great design simple and accessible and create a lucrative business doing that.

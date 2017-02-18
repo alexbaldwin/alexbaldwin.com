@@ -1,7 +1,6 @@
 ---
 title: Growth Hackers Conference Notes
-date: 2013-05-10 15:50 -07:00
-tags:
+date: 2013-05-10 22:50:00 Z
 ---
 
 ## Growth vs Growth Hacking

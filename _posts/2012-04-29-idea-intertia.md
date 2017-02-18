@@ -1,7 +1,6 @@
 ---
 title: Idea inertia
-date: 2012-04-29 15:43 -07:00
-tags:
+date: 2012-04-29 22:43:00 Z
 ---
 
 There's a funny thing about ideas no one talks about. An idea at rest, tends to stay at rest. The longer it stays sitting, the less likely it ever it to come to fruition. 

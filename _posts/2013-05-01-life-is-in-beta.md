@@ -1,7 +1,6 @@
 ---
 title: Life is in beta
-date: 2013-04-30 17:10 -08:00
-tags:
+date: 2013-05-01 01:10:00 Z
 ---
 
 <iframe width="600" height="379" scrolling="no" allowtransparency="true" src="http://typotalks.com/embed_video/m/ttv_13_4_13.171" frameborder="0"></iframe>

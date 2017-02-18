@@ -1,8 +1,6 @@
 ---
 title: How preferences are meant to look
-date: 2011-03-23 09:06 -08:00
-tags:
-published: true
+date: 2011-03-23 17:06:00 Z
 ---
 
 *This post is from the Alex Baldwin Posterous Archive*

@@ -1,7 +1,6 @@
 ---
 title: How typing on an iPad should be
-date: 2012-05-04 15:42 -07:00
-tags:
+date: 2012-05-04 22:42:00 Z
 ---
 
 <iframe width="560" height="315" src="http://www.youtube.com/embed/RGQTaHGQ04Q" frameborder="0" allowfullscreen></iframe>

@@ -1,7 +1,6 @@
 ---
 title: Ask me anything
-date: 2013-02-16 00:07 -08:00
-tags:
+date: 2013-02-16 08:07:00 Z
 ---
 
 Get some [Clarity](http://clarity.fm), ask me anything.

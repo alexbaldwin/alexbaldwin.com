@@ -1,8 +1,6 @@
 ---
 title: Entrepreneurs are the new hipsters
-date: 2011-03-26 09:09 -08:00
-tags:
-published: true
+date: 2011-03-26 17:09:00 Z
 ---
 
 *This post is from the Alex Baldwin Posterous Archive*

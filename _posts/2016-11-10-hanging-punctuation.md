@@ -1,6 +1,6 @@
 ---
-title: "One line of CSS to add hanging quotes"
-tags:
+title: One line of CSS to add hanging quotes
+date: 2016-11-10 00:00:00 Z
 external: https://css-tricks.com/almanac/properties/h/hanging-punctuation/
 ---
 

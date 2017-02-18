@@ -1,7 +1,6 @@
 ---
 title: Field studies for product designers
-date: 2012-04-02 15:45 -07:00
-tags:
+date: 2012-04-02 22:45:00 Z
 ---
 
 <iframe src="http://player.vimeo.com/video/39452373?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>

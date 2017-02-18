@@ -1,8 +1,6 @@
 ---
 title: We're joining 500 Startups to blow up how developers get hired
-date: 2011-05-24 16:49 -08:00
-tags:
-published: true
+date: 2011-05-25 00:49:00 Z
 ---
 
 *This post is from the Hello World Posterous Archive*

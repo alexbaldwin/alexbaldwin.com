@@ -1,7 +1,6 @@
 ---
 title: Rave Robot
-date: 2015-09-28 02:11 UTC
-tags:
+date: 2015-09-28 02:11:00 Z
 external: http://alexbaldwin.com/lab/raverobot
 ---
 

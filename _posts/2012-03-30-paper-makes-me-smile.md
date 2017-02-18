@@ -1,7 +1,6 @@
 ---
 title: Paper makes me smile while I pay them
-date: 2012-03-30 15:45 -07:00
-tags:
+date: 2012-03-30 22:45:00 Z
 ---
 
 ![Paper for iPad](http://f.cl.ly/items/1w2H31173o471R3m2E0o/mza_6693426418653452101.jpeg)

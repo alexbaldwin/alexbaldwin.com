@@ -1,23 +1,30 @@
-# Welcome to Jekyll!
-#
+---
+title: Alex Baldwin
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: post
 gems:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-title: "Alex Baldwin"
-description: > # this means to ignore newlines until "baseurl:"
-  Alex Baldwin, product designer based out of San Francisco. Designer of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup's Dashboard.io, and many more fun projects.
-baseurl: ""
-url: "https://alexbaldwin.com"
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+description: 'Alex Baldwin, product designer based out of San Francisco. Designer
+  of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup''s Dashboard.io, and many
+  more fun projects.
 
-# jekyll-seo-tag
+'
+baseurl: ''
+url: https://alexbaldwin.com
 twitter:
   username: alexbaldwin
-# Build settings
 markdown: kramdown
-permalink: /:slug/
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: post
+permalink: "/:slug/"

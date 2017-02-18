@@ -1,7 +1,6 @@
 ---
 title: RubyMotion brings MacRuby to life
-date: 2012-05-06 15:41 -07:00
-tags:
+date: 2012-05-06 22:41:00 Z
 ---
 
 ![RubyMotion](http://dribbble.com/system/users/1518/screenshots/546819/rubymoytion.png)

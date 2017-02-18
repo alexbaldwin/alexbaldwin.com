@@ -1,7 +1,6 @@
 ---
 title: Export all your Photoshop layer groups as images, simply
-date: 2012-04-04 15:45 -07:00
-tags:
+date: 2012-04-04 22:45:00 Z
 ---
 
 ![Layer Cake Screenshot](http://f.cl.ly/items/461c0d2i1w2i1o0h0H2A/mza_2162241797129234367.jpeg)

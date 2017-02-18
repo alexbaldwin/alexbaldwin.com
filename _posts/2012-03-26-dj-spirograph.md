@@ -1,7 +1,6 @@
 ---
 title: DJ Spirograph
-date: 2012-03-26 14:32 -07:00
-tags:
+date: 2012-03-26 21:32:00 Z
 ---
 
 Artist Robert Howsare calls it a [drawing apparatus](http://roberthowsare.com/rational-aesthetics/drawing-apparatus/) and it is fascinating.

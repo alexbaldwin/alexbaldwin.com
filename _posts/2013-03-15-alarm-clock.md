@@ -1,7 +1,6 @@
 ---
 title: Kill the alarm clock
-date: 2013-03-15 15:20 -07:00
-tags:
+date: 2013-03-15 22:20:00 Z
 ---
 
 In response to the resurgance of Supermemo's popular [free running sleep](http://www.supermemo.com/articles/sleep.htm#Free_running_sleep) article, it was time for a test run. Previously I've tried polyphasic and biphasic sleep to optimize my life with varying degrees of success

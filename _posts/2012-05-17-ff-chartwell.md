@@ -1,7 +1,6 @@
 ---
 title: FF Chartwell
-date: 2012-05-17 15:38 -07:00
-tags:
+date: 2012-05-17 22:38:00 Z
 ---
 
 ![Chartwell demo](http://media.tumblr.com/tumblr_m3t6cerhoS1qzrula.png)

@@ -1,7 +1,6 @@
 ---
 title: Gaug.es embodies Edward Tufte's principles
-date: 2012-03-28 14:29 -07:00
-tags:
+date: 2012-03-28 21:29:00 Z
 ---
 
 ![Gauges bar charts](http://get.gaug.es/assets/4e8497fddabe9d365700ed40/overview.jpg)

@@ -1,7 +1,6 @@
 ---
 title: DHH on bike shedding
-date: 2012-03-27 14:29 -07:00
-tags:
+date: 2012-03-27 21:29:00 Z
 ---
 
 Think about this [DHH](http://david.heinemeierhansson.com/posts/44-rookies-in-the-bike-shed) quote before next time you start creeping towards the bike shed.
