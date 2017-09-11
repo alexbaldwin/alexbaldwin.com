@@ -1,5 +1,5 @@
 ---
-title: "Artisanal outbound with Clearbit Connect"
+title: Artisanal outbound with Clearbit Connect
 date: 2017-09-11 00:00:00 Z
 ---
 
