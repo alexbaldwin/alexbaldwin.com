@@ -28,7 +28,7 @@ For my Hack Design list, I was lucky and had about a dozen sponsors from previou
 ### Get the right contacts from Clearbit Connect
 
 1. Add the column names `Email` and `Full Name` to your Google Sheet.
-2. Install Clearbit Connect if you haven't already. This is the secret sauce that will allow you to find anyone's email, for free. Connect does have a limit but for small batches, you shouldn't have any problems. Disclosure: I'm a small-time investor in Clearbit.
+2. Install [Clearbit Connect](https://connect.clearbit.com) if you haven't already. This is the secret sauce that will allow you to find anyone's email, for free. Connect does have a limit but for small batches, you shouldn't have any problems. Disclosure: I'm a small-time investor in Clearbit.
 3. In Gmail, hit the `Clearbit` button in the top nav and then press `Find email`. Yep, it's really that easy.
 4. You must start with the company and then narrow down by name or title. Copy and paste that into your Google Sheet.
 
