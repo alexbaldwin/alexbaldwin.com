@@ -3,6 +3,9 @@ layout: default
 ---
 
 <style>
+  .container {
+    width: 40rem;
+  }
 figure {
   margin: 0;
 }
@@ -14,9 +17,38 @@ ul, ol {
 }
 .prose p, .prose li {
   font-family: Athelas,Georgia,serif;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 1.4;
 }
+.prose p, .prose figcaption {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.prose figcaption {
+  font-size: 0.8rem;
+  color: var(--gray7);
+}
+
+.prose figure {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.prose a, .prose p {
+  color: var(--gray9);
+}
+
+.prose a {
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: var(--red5);
+}
+
 .prose blockquote {
+  border-left: 2px solid var(--red5);
   margin: 2rem 0 2rem 2rem;
   font-style: italic;
 }
@@ -28,20 +60,14 @@ ul, ol {
 }
 
 </style>
-<article class="container mx-auto mt3">
-  <div class="clearfix">
-  <div class="col col-12 md-col-10 lg-col-8 px2 prose">
-    {% if page.date %}
-    <header class="mb2">
-<h1 class="h0 mt0 mb1" style="font-weight: 900;">{{ page.title }}</h1>
-<span class="gray"><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span>
-</header>
-{% endif %}
-
-    {% if page.image %}
-<img class="col-12 fit mb2" src="{{ page.image }}">
-{% endif %}
-{{ content }}
+<article class="container">
+  <header class="mb2 center px4">
+  {% if page.date %}
+  <span class="gray"><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></span>
+  {% endif %}
+    <h1 class="h0 mt0 mb1" style="font-weight: 900;">{{ page.title }}</h1>
+  </header>
+  <section class="prose">
+    {{ content }}
+  </section>
 </article>
-</div>
-</div>
