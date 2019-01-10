@@ -2,107 +2,12 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="https://use.typekit.net/unu7pjc.css">
-
-<style>
-  body {
-    background-color: #fdfcfc;
-  }
-  *, *:before, *:after {
-        -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-feature-settings: "kern" 1;
-    -ms-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    -webkit-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-  }
-  .container { 
-    width: 40rem;
-  }
-figure {
-  margin: 0;
-}
-.prose {
-  color: #262626;
-}
-.prose p, .prose li {
-  font-family: "garvis-pro",Georgia,serif;
-  font-size: 1.125rem;
-  line-height: 1.5;
-  opacity: 0.85;
-}
-.prose h2 {
-  margin-top: 3rem;
-  font-size: 1.125rem;
-  margin-bottom: 0.75rem;
-}
-
-.prose h3 {
-  margin-top: 2.5rem;
-  text-transform: uppercase;
-  font-size: 0.875rem;
-  margin-bottom: 0.75rem;
-  letter-spacing: 1.5px;
-}
-.sans-serif {
-  font-family: "cresta", helvetica;
-}
-
-.prose li {
-  margin-bottom 1rem;
-}
-.prose p, .prose figcaption {
-  margin-bottom: 1.5rem;
-}
-
-.prose figcaption {
-  font-size: 0.8rem;
-  color: var(--gray7);
-}
-
-.prose figure {
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-
-.prose a, .prose p {
-  color: var(--gray9);
-}
-
-.prose a {
-  text-decoration: underline;
-}
-
-.prose a:hover {
-  color: var(--red5);
-}
-
-.prose blockquote {
-  border-left: 4px solid #dededd;
-  margin: 2rem 0 2rem 0;
-  padding: 0 2rem;
-  font-style: italic;
-}
-.prose blockquote p {
-  hanging-punctuation: first;
-}
-.prose blockquote p:last-child {
-  margin-bottom: 0;
-}
-
-</style>
-<article class="container mt4">
-  <header class="mb2">
-    <h1 class="mt0 mb1 h2">{{ page.title }}</h1>
-  {% if page.date %}
-  <h2 class="mt0 mb0 muted h5 regular"><time datetime="{{page.date|date:"%F"}}">{{page.date|date:"%b %d, %Y"}}</time></h2>
-  {% endif %}
-  </header>
+<article class="container" style="margin-top: 8rem;">
   <section class="prose">
+    <header class="">
+      <h1>{{ page.title }}</h1>
+    </header>
+
     {{ content }}
   </section>
 </article>
