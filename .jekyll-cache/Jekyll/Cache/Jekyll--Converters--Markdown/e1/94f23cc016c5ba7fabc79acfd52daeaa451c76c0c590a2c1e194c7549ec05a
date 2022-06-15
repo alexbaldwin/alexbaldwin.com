@@ -1,0 +1,39 @@
+I";<p>For press releases, advertiser requests, or similar sales campaigns you’re sending a small batch of, usually cold, emails out with a specific ask. Finding potential recipients, writing an email that’s helpful, and tracking the results doesn’t need to take all day or be painful. I’ve watched my fellow product people struggle with the pitfalls of outbound; spend all day trying to find emails, copy and pasting boring boilerplate copy, and then never following up.</p>
+
+<p>By stringing together Clearbit Connect, Google Sheets, and Streak, you can knock out these outbound projects super quickly, personalize them, and track progress through a funnel. I’ll walk you through exactly how it works using my most recent campaign, a sponsorship request for Hack Design.</p>
+
+<h3 id="researching-for-the-right-audience">Researching for the right audience</h3>
+
+<p>First up, you’re looking for the most likely people to be interested. For a press launch, that may be who frequently cover products in that space. In our example, Hack Design’s sponsor list, I was quickly able to look at who else was sponsoring comparable websites. For me, that meant researching the advertisers on Offscreen, Sidebar, Dribbble, recent design conferences and podcasts.</p>
+
+<p>It’s super simple to save your research and move on to finding the right people at those companies.</p>
+
+<h3 id="add-companies-to-your-list">Add companies to your list</h3>
+
+<ol>
+  <li>Start a Google Sheet with the column name <code class="language-plaintext highlighter-rouge">Company</code>.</li>
+  <li>Research the companies most relevant to your outbound campaign. Great places to look are Angel List, Product Hunt, job boards (to see who is hiring in a space), Crunchbase, etc. Anywhere that let’s your group and filter through relevant companies.</li>
+  <li>Add the company name to your list.</li>
+</ol>
+
+<h2 id="finding-anyones-email-in-seconds">Finding anyone’s email in seconds</h2>
+
+<p>Now that you have a list of potential companies, let’s find the emails for the best people to talk to there.</p>
+
+<p>For my Hack Design list, I was lucky and had about a dozen sponsors from previous years. However, since we haven’t accepted sponsorship in over a year, a lot of my contacts at those companies were out of date. This process made it trivial to find the new people in those roles and be able to reach out.</p>
+
+<h3 id="get-the-right-contacts-from-clearbit-connect">Get the right contacts from Clearbit Connect</h3>
+
+<ol>
+  <li>Add the column names <code class="language-plaintext highlighter-rouge">Email</code> and <code class="language-plaintext highlighter-rouge">Full Name</code> to your Google Sheet.</li>
+  <li>Install <a href="https://connect.clearbit.com">Clearbit Connect</a> if you haven’t already. This is the secret sauce that will allow you to find anyone’s email, for free. Connect does have a limit but for small batches, you shouldn’t have any problems. Disclosure: I’m a small-time investor in Clearbit.</li>
+  <li>In Gmail, hit the <code class="language-plaintext highlighter-rouge">Clearbit</code> button in the top nav and then press <code class="language-plaintext highlighter-rouge">Find email</code>. Yep, it’s really that easy.</li>
+  <li>You must start with the company and then narrow down by name or title. Copy and paste that into your Google Sheet.</li>
+</ol>
+
+<h2 id="more-coming-soon">More coming soon</h2>
+
+<p>Next up we’ll write our email and learn how to quickly customize every single one of them.</p>
+
+<p>This article is part one of a three part series, released weekly. Subscribe to get access first.</p>
+:ET

@@ -1,0 +1,20 @@
+I"<blockquote>
+  <p>The hanging-punctuation property aims at giving web web designers a finer grained control over typography on the web.</p>
+</blockquote>
+
+<blockquote>
+  <p>The idea behind hanging punctuation is to put some punctuation characters from start (or to a lesser extend at the end) of text elements “outside” of the box in order to preserve the reading flow.</p>
+</blockquote>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>blockquote p {
+  hanging-punctuation: first;
+}
+</code></pre></div></div>
+
+<p>Since it only applies to quote marks, you can avoid single purpose classes and
+trust that your quotes will hang everywhere. Chrome hasn’t yet implemented the
+<code class="language-plaintext highlighter-rouge">hanging-punctuation</code> property, but it works perfectly in Safari.
+<a href="https://github.com/davidmerfield/Typeset">Typeset.js</a> is an HTML pre-processor
+that adds a lot more functionality and will allow you to get cross browser
+compatibility.</p>
+:ET
