@@ -8,5 +8,5 @@ title: Articles
 {% else %}
 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 {% endif %}
-<p class="opacity-50 text-xs">{{ post.date | date: "%B %e, %Y" }}</strong><a href="{{ post.url }}"></a></p>
+<p class="opacity-50 text-sm">{{ post.date | date: "%B %e, %Y" }}</strong><a href="{{ post.url }}"></a></p>
 {% endfor %}

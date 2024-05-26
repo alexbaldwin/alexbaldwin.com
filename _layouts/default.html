@@ -13,7 +13,7 @@
     {% seo %}
   </head>
   <body
-    class="max-w-lg mx-auto py-4 px-4 prose prose-stone prose-sm bg-neutral-50 prose-a:font-normal prose-blockquote:font-normal prose-blockquote:text-stone-400 prose-h2:font-normal prose-h2:text-sm prose-h3:text-sm prose-h3:font-normal prose-h3:text-stone-400 prose-h2:text-stone-400 prose-h1:text-lg prose-h1:font-normal"
+    class="max-w-lg mx-auto py-4 px-4 prose prose-stone bg-neutral-50 prose-a:font-normal prose-blockquote:font-normal prose-blockquote:text-stone-400 prose-h2:font-normal prose-h2:text-base prose-h3:text-base prose-h3:font-normal prose-h3:text-stone-400 prose-h2:text-stone-400 prose-h1:text-lg prose-h1:font-normal"
   >
     <header class="">
       <nav
@@ -29,7 +29,7 @@
       </nav>
     </header>
     <article role="main">{{ content }}</article>
-    <footer class="opacity-50 text-xs mt-12 mb-12">
+    <footer class="opacity-50 text-sm mt-12 mb-12">
       <div class="flex-1 space-x-2">
         <a class="no-underline" href="https://x.com/alexbaldwin">Twitter</a>
         <a class="no-underline" href="https://instagram.com/alexbaldwin"
@@ -37,7 +37,7 @@
         >
         <a class="no-underline" href="https://github.com/alexbaldwin">Github</a>
       </div>
-      <p>&copy; 2004-{{ site.time | date: '%Y' }} Alex Baldwin.</p>
+      <p class="text-xs">&copy; 2004-{{ site.time | date: '%Y' }}.</p>
     </footer>
 
     <script>
