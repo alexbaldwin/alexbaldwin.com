@@ -15,6 +15,7 @@ defaults:
     layout: post
 plugins:
   - jekyll-seo-tag
+  - jekyll-postcss
 description: 'Alex Baldwin, product designer based out of San Francisco. Designer
   of Console.fm, Latte, Retina Mac Apps, GRID, 500 Startup''s Dashboard.io, and many
   more fun projects.
@@ -26,3 +27,5 @@ twitter:
   username: alexbaldwin
 markdown: kramdown
 permalink: "/:slug/"
+postcss:
+  cache: false
