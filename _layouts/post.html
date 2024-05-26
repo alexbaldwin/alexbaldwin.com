@@ -4,9 +4,11 @@ layout: default
 
 <article>
   <section class="">
+    {% if page.type == "post" %}
     <header class="">
       <h1>{{ page.title }}</h1>
     </header>
+    {% endif %}
 
     {{ content }}
   </section>

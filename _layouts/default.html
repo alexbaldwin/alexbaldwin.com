@@ -13,84 +13,31 @@
     {% seo %}
   </head>
   <body
-    class="max-w-lg mx-auto py-4 px-2 prose prose-stone prose-sm bg-neutral-50"
+    class="max-w-lg mx-auto py-4 px-4 prose prose-stone prose-sm bg-neutral-50 prose-a:font-normal prose-blockquote:font-normal prose-blockquote:text-stone-400 prose-h2:font-normal prose-h2:text-sm prose-h3:text-sm prose-h3:font-normal prose-h3:text-stone-400 prose-h2:text-stone-400 prose-h1:text-lg prose-h1:font-normal"
   >
     <header class="">
-      <div class="mx-auto">
-        <div class="flex flex-center">
-          <div class="flex-auto">
-            <h1 class="h2 m0">
-              <a class="black text-decoration-none" href="/">alex baldwin.</a>
-            </h1>
-          </div>
-
-          <a class="black text-decoration-none" href="/articles/">
-            <svg
-              class="flex-none"
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 16 16"
-              width="16"
-              height="16"
-              fill="none"
-              stroke="currentcolor"
-              stroke-width="3"
-              style="
-                display: inline-block;
-                vertical-align: middle;
-                overflow: visible;
-              "
-            >
-              <path d="M0 2.5 L16 2.5" />
-              <path d="M0 8 L16 8" />
-              <path d="M0 13.5 L16 13.5" />
-            </svg>
-          </a>
+      <nav
+        class="py-6 mb-6 mt-6 border-0 border-b border-solid border-stone-200"
+      >
+        <h1 class="">
+          <a class="no-underline" href="/">Alex Baldwin</a>
+        </h1>
+        <div class="flex-1 space-x-2 opacity-50">
+          <a class="no-underline" href="/articles/">Writing</a>
+          <a class="no-underline" href="/now/">Now</a>
         </div>
-      </div>
+      </nav>
     </header>
     <article role="main">{{ content }}</article>
-    <footer class="py2 mt4">
-      <div class="container mx-auto md-flex">
-        <div class="flex-auto mt2">
-          <div class="col-12 md-col-9 lg-col-7">
-            <p class="white">
-              I'm very much into
-              <a class="white" href="https://www.instagram.com/lilcabins/"
-                >lil' cabins</a
-              >,
-              <a class="white" href="https://vimeo.com/channels/crossfire"
-                >90's nostalgia mixtapes</a
-              >, and
-              <a class="white" href="https://controllerport.com/@alexbaldwin"
-                >retro games</a
-              >.
-            </p>
-            <p class="small white muted">
-              &copy; 2004-{{ site.time | date: '%Y' }} Alex Baldwin
-            </p>
-          </div>
-        </div>
-
-        <nav class="flex-none mt2">
-          <ul class="m0 p0 list-style-none">
-            <li class="m0">
-              <a class="bold white h3" href="https://twitter.com/alexbaldwin"
-                >Twitter</a
-              >
-            </li>
-            <li class="m0">
-              <a class="bold white h3" href="https://instagram.com/alexbaldwin"
-                >Instagram</a
-              >
-            </li>
-            <li class="m0">
-              <a class="bold white h3" href="https://github.com/alexbaldwin"
-                >Github</a
-              >
-            </li>
-          </ul>
-        </nav>
+    <footer class="opacity-50 text-xs mt-12 mb-12">
+      <div class="flex-1 space-x-2">
+        <a class="no-underline" href="https://x.com/alexbaldwin">Twitter</a>
+        <a class="no-underline" href="https://instagram.com/alexbaldwin"
+          >Instagram</a
+        >
+        <a class="no-underline" href="https://github.com/alexbaldwin">Github</a>
       </div>
+      <p>&copy; 2004-{{ site.time | date: '%Y' }} Alex Baldwin.</p>
     </footer>
 
     <script>
