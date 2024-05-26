@@ -1,220 +1,260 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-      {% include basscss.min.css %}
+            {% include basscss.min.css %}
 
-      body, h1, h2, h3, h4, h5, h6 {
-        font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,sans-serif;
+            body, h1, h2, h3, h4, h5, h6 {
+              font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Helvetica,sans-serif;
+            }
+
+            .prose p,
+            .prose blockquote,
+            .prose ul,
+            .prose ol,
+            .prose h2,
+            .prose h3,
+            .prose h4,
+            .prose h5,
+            .prose h6 {
+                max-width: 40rem;
+                  margin-right: auto;
+                  margin-left: auto;
+            }
+
+        @media only screen and (max-width: 800px) {
+          html {
+            font-size: 12px;
+          }
+        }
+        html {
+          -ms-text-size-adjust: 100%;
+          -webkit-text-size-adjust: 100%;
+        }
+        .bg-white {
+          background-color: #FCFCFC;
+        }
+        body {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+        *, *:before, *:after {
+              -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          -webkit-font-smoothing: antialiased;
+          -moz-font-feature-settings: "kern" 1;
+          -ms-font-feature-settings: "kern" 1;
+          -o-font-feature-settings: "kern" 1;
+          -webkit-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+          font-kerning: normal;
+        }
+        .container {
+          width: 100%;
+          max-width: 50rem;
+            padding-right: 2rem;
+            padding-left: 2rem;
+        }
+
+      .prose figure {
+        margin: 0 auto auto;
+      }
+      .prose figure img {
+        max-width: 100%;
+          display: block;
       }
 
-      .prose p,
-      .prose blockquote,
-      .prose ul,
-      .prose ol,
-      .prose h2,
-      .prose h3,
-      .prose h4,
-      .prose h5,
-      .prose h6 {
-          max-width: 40rem;
-            margin-right: auto;
-            margin-left: auto;
+      .prose {
+        color: #262626;
+      }
+      .prose p, .prose li, .serif {
+        font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif;
       }
 
-  @media only screen and (max-width: 800px) {
-    html {
-      font-size: 12px;
-    }
-  }
-  html {
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-  }
-  .bg-white {
-    background-color: #FCFCFC;
-  }
-  body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  *, *:before, *:after {
-        -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-feature-settings: "kern" 1;
-    -ms-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    -webkit-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
-  }
-  .container { 
-    width: 100%;
-    max-width: 50rem;
-      padding-right: 2rem;
-      padding-left: 2rem;
-  }
+      .prose p, .prose li {
+          font-size: 1.5rem;
+          line-height: 1.5;
+      }
 
-.prose figure {
-  margin: 0 auto auto;
-}
-.prose figure img {
-  max-width: 100%;
-    display: block;
-}
+      .prose h1 {
+        margin-top: 0rem;
+        font-size: 3.5rem;
+        line-height: 1.1;
+        margin-bottom: 2rem;
+      }
 
-.prose {
-  color: #262626;
-}
-.prose p, .prose li, .serif {
-  font-family: Calisto MT,Bookman Old Style,Bookman,Goudy Old Style,Garamond,Hoefler Text,Bitstream Charter,Georgia,serif; 
-}
+      .prose h2 {
+        margin-top: 3rem;
+        font-size: 2.125rem;
+        margin-bottom: 1rem;
+      }
 
-.prose p, .prose li {
-    font-size: 1.5rem;
-    line-height: 1.5;
-}
+      .prose h3 {
+        margin-top: 3rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      .sans-serif {
+        font-family: "cresta", helvetica;
+      }
 
-.prose h1 {
-  margin-top: 0rem;
-  font-size: 3.5rem;
-  line-height: 1.1;
-  margin-bottom: 2rem;
-}
+      .prose li {
+        margin-bottom: 0.5rem;
+      }
 
-.prose h2 {
-  margin-top: 3rem;
-  font-size: 2.125rem;
-  margin-bottom: 1rem;
-}
+      .prose ul {
+        margin-bottom: 2rem;
+      }
+      .prose p, .prose figcaption {
+        margin-bottom: 2rem;
+      }
 
-.prose h3 {
-  margin-top: 3rem;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-}
-.sans-serif {
-  font-family: "cresta", helvetica;
-}
+      .prose figcaption {
+        font-size: 0.8rem;
+        color: var(--gray7);
+      }
 
-.prose li {
-  margin-bottom: 0.5rem;
-}
+      .prose figure {
+      }
 
-.prose ul {
-  margin-bottom: 2rem;
-}
-.prose p, .prose figcaption {
-  margin-bottom: 2rem;
-}
+      .prose a, .prose p {
+        color: var(--gray9);
+      }
 
-.prose figcaption {
-  font-size: 0.8rem;
-  color: var(--gray7);
-}
+      .prose a {
+        color: #9c97ff;
+          text-decoration: none;
+          text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
+          background-image: -webkit-linear-gradient(#fff,#fff),-webkit-linear-gradient(#fff,#fff),-webkit-linear-gradient(#9c97ff,#9c97ff);
+          background-image: -moz-linear-gradient(#fff,#fff),-moz-linear-gradient(#fff,#fff),-moz-linear-gradient(#9c97ff,#9c97ff);
+          background-image: -o-linear-gradient(#fff,#fff),-o-linear-gradient(#fff,#fff),-o-linear-gradient(#9c97ff,#9c97ff);
+          background-image: -ms-linear-gradient(#fff,#fff),-ms-linear-gradient(#fff,#fff),-ms-linear-gradient(#9c97ff,#9c97ff);
+          background-image: linear-gradient(#fff,#fff),linear-gradient(#fff,#fff),linear-gradient(#9c97ff,#9c97ff);
+          -webkit-background-size: .05em 1px,.05em 1px,2px 2px;
+          -moz-background-size: .05em 1px,.05em 1px,2px 2px;
+          background-size: .05em 1px,.05em 1px,2px 2px;
+          background-repeat: no-repeat,no-repeat,repeat-x;
+          background-position: 0 95%,100% 95%,0 95%;
+          color: #1d1d1d!important;
+      }
 
-.prose figure {
-}
+      .prose a:hover {
+        color: var(--red5);
+      }
 
-.prose a, .prose p {
-  color: var(--gray9);
-}
-
-.prose a {
-  color: #9c97ff;
-    text-decoration: none;
-    text-shadow: 0.03em 0 #fff, -0.03em 0 #fff, 0 0.03em #fff, 0 -0.03em #fff, 0.06em 0 #fff, -0.06em 0 #fff, 0.09em 0 #fff, -0.09em 0 #fff, 0.12em 0 #fff, -0.12em 0 #fff, 0.15em 0 #fff, -0.15em 0 #fff;
-    background-image: -webkit-linear-gradient(#fff,#fff),-webkit-linear-gradient(#fff,#fff),-webkit-linear-gradient(#9c97ff,#9c97ff);
-    background-image: -moz-linear-gradient(#fff,#fff),-moz-linear-gradient(#fff,#fff),-moz-linear-gradient(#9c97ff,#9c97ff);
-    background-image: -o-linear-gradient(#fff,#fff),-o-linear-gradient(#fff,#fff),-o-linear-gradient(#9c97ff,#9c97ff);
-    background-image: -ms-linear-gradient(#fff,#fff),-ms-linear-gradient(#fff,#fff),-ms-linear-gradient(#9c97ff,#9c97ff);
-    background-image: linear-gradient(#fff,#fff),linear-gradient(#fff,#fff),linear-gradient(#9c97ff,#9c97ff);
-    -webkit-background-size: .05em 1px,.05em 1px,2px 2px;
-    -moz-background-size: .05em 1px,.05em 1px,2px 2px;
-    background-size: .05em 1px,.05em 1px,2px 2px;
-    background-repeat: no-repeat,no-repeat,repeat-x;
-    background-position: 0 95%,100% 95%,0 95%;
-    color: #1d1d1d!important;
-}
-
-.prose a:hover {
-  color: var(--red5);
-}
-
-.prose blockquote {
-  border-left: 4px solid #dededd;
-  margin-bottom: 2rem;
-  padding-left: 2rem;
-  opacity: .65;
-}
-.prose blockquote p {
-  hanging-punctuation: first;
-}
-.prose blockquote p:last-child {
-  margin-bottom: 0;
-}
-
-</style>
+      .prose blockquote {
+        border-left: 4px solid #dededd;
+        margin-bottom: 2rem;
+        padding-left: 2rem;
+        opacity: .65;
+      }
+      .prose blockquote p {
+        hanging-punctuation: first;
+      }
+      .prose blockquote p:last-child {
+        margin-bottom: 0;
+      }
+    </style>
     {% seo %}
   </head>
   <body class="bg-white mt4">
     <header class="py2 fixed bg-white top-0 right-0 left-0 z4">
-
       <div class="container mx-auto">
         <div class="flex flex-center">
-        <div class="flex-auto">
-        <h1 class="h2 m0">
-          <a class="black text-decoration-none" href="/">alex baldwin.</a>
-        </h1>
-        </div>
+          <div class="flex-auto">
+            <h1 class="h2 m0">
+              <a class="black text-decoration-none" href="/">alex baldwin.</a>
+            </h1>
+          </div>
 
           <a class="black text-decoration-none" href="/articles/">
-      <svg class="flex-none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" fill="none" stroke="currentcolor" stroke-width="3" style="display:inline-block;vertical-align:middle;overflow:visible;"><path d="M0 2.5 L16 2.5"/><path d="M0 8 L16 8"/><path d="M0 13.5 L16 13.5"/></svg>
-      </a>
-
-      </div>
+            <svg
+              class="flex-none"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 16 16"
+              width="16"
+              height="16"
+              fill="none"
+              stroke="currentcolor"
+              stroke-width="3"
+              style="
+                display: inline-block;
+                vertical-align: middle;
+                overflow: visible;
+              "
+            >
+              <path d="M0 2.5 L16 2.5" />
+              <path d="M0 8 L16 8" />
+              <path d="M0 13.5 L16 13.5" />
+            </svg>
+          </a>
         </div>
+      </div>
     </header>
-    <article role="main">
-      {{ content }}
-    </article>
+    <article role="main">{{ content }}</article>
     <footer class="bg-black py2 mt4">
       <div class="container md-flex">
-
-      <div class="flex-auto mt2">
-        <div class="col-12 md-col-9 lg-col-7">
-          <p class="white">I'm very much into <a class="white" href="https://www.instagram.com/lilcabins/">lil' cabins</a>, <a class="white" href="https://vimeo.com/channels/crossfire">90's nostalgia mixtapes</a>, and <a class="white" href="https://controllerport.com/@alexbaldwin">retro games</a>.</p>
-        <p class="small white muted">&copy; 2004-2022 Alex Baldwin</p>
+        <div class="flex-auto mt2">
+          <div class="col-12 md-col-9 lg-col-7">
+            <p class="white">
+              I'm very much into
+              <a class="white" href="https://www.instagram.com/lilcabins/"
+                >lil' cabins</a
+              >,
+              <a class="white" href="https://vimeo.com/channels/crossfire"
+                >90's nostalgia mixtapes</a
+              >, and
+              <a class="white" href="https://controllerport.com/@alexbaldwin"
+                >retro games</a
+              >.
+            </p>
+            <p class="small white muted">
+              &copy; 2004-{{ site.time | date: '%Y' }} Alex Baldwin
+            </p>
+          </div>
         </div>
-      </div>
 
-      <nav class="flex-none mt2">
-        <ul class="m0 p0 list-style-none">
-          <li class="m0"><a class="bold white h3" href="https://twitter.com/alexbaldwin">Twitter</a></li>
-          <li class="m0"><a class="bold white h3" href="https://instagram.com/alexbaldwin">Instagram</a></li>
-          <li class="m0"><a class="bold white h3" href="https://github.com/alexbaldwin">Github</a></li>
-        </ul>
-      </nav>
-
+        <nav class="flex-none mt2">
+          <ul class="m0 p0 list-style-none">
+            <li class="m0">
+              <a class="bold white h3" href="https://twitter.com/alexbaldwin"
+                >Twitter</a
+              >
+            </li>
+            <li class="m0">
+              <a class="bold white h3" href="https://instagram.com/alexbaldwin"
+                >Instagram</a
+              >
+            </li>
+            <li class="m0">
+              <a class="bold white h3" href="https://github.com/alexbaldwin"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
     </footer>
 
-<script>
-(function(f, a, t, h, o, m){
-a[h]=a[h]||function(){
-    (a[h].q=a[h].q||[]).push(arguments)
-};
-o=f.createElement('script'),
-m=f.getElementsByTagName('script')[0];
-o.async=1; o.src=t; o.id='fathom-script';
-m.parentNode.insertBefore(o,m)
-})(document, window, '//cdn.usefathom.com/tracker.js', 'fathom');
-fathom('set', 'siteId', 'PITQBMOS');
-fathom('trackPageview');
-</script>
+    <script>
+      (function (f, a, t, h, o, m) {
+        a[h] =
+          a[h] ||
+          function () {
+            (a[h].q = a[h].q || []).push(arguments);
+          };
+        (o = f.createElement("script")),
+          (m = f.getElementsByTagName("script")[0]);
+        o.async = 1;
+        o.src = t;
+        o.id = "fathom-script";
+        m.parentNode.insertBefore(o, m);
+      })(document, window, "//cdn.usefathom.com/tracker.js", "fathom");
+      fathom("set", "siteId", "PITQBMOS");
+      fathom("trackPageview");
+    </script>
   </body>
 </html>
