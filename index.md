@@ -7,7 +7,10 @@ _Why hello there_, I'm Alex Baldwin; a product designer and writer. I live and w
 
 Previously I've worked as a designer-in-residence with Techstars and 500 Startups running design sessions, prepping pitch decks, and shipping an insane amount of landing pages. My focus is in product design (a combination of user interface, interaction, marketing, and graphic design), however, when I'm not doing that, you can find me hiking in nature, drinking lattes, or behind a camera lens.
 
-![Alex Baldwin, photo by Stephanie Granillo](/images/hills-have-eyes.jpg)
+<figure>
+<img src="/images/hills-have-eyes.jpg" alt="Alex Baldwin, photo by Steph Granillo">
+<figcaption>Photo by Steph Granillo</figcaption>
+</figure>
 
 ### Work
 
