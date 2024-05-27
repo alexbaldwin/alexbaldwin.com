@@ -6,3 +6,6 @@ gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
 gem "jekyll-postcss"
+
+gem "ruby-vips"
+gem "jekyll-og-image", "~> 1.3"
