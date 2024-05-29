@@ -15,6 +15,8 @@ defaults:
       layout: post
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-postcss
   - jekyll-og-image
 description: ""
