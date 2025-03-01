@@ -8,11 +8,20 @@ collections:
   uploads:
     title: Uploads
     output: true
+  pages:
+    title: Pages
+    output: true
+    permalink: /:path/
 defaults:
   - scope:
       path: ""
     values:
       layout: post
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -21,7 +30,7 @@ plugins:
   - jekyll-og-image
 description: ""
 baseurl: ""
-url: https://alexbaldwin.com
+url: https://www.alexbaldwin.com
 twitter:
   username: alexbaldwin
 markdown: kramdown

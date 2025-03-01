@@ -111,11 +111,11 @@ Ruthlessly apply **common sense**
 
 Brute **force** works but **tools** can help
 
-Understand every **step** *in the process*
+Understand every **step** _in the process_
 
-Understand what you can **control**: *accuracy, clarity, legibility, empathy, and simplicity*
+Understand what you can **control**: _accuracy, clarity, legibility, empathy, and simplicity_
 
-What might **emerge**? *Understanding, elegance, and beauty.*
+What might **emerge**? _Understanding, elegance, and beauty._
 
 > What if I am tricked? What if I believe in this just because it is beautiful? - <cite>Andre Lim</cite>
 
@@ -129,7 +129,7 @@ Respect the **reader**
 
 ## Bret Victor, worrydream
 
-[Links to examples](worrydream.com/2014-05-06)
+[Links to examples](https://worrydream.com/2014-05-06)
 
 1. Static displays
 2. Dynamic displays
@@ -169,7 +169,7 @@ Second, give control over each of the parameters while abstracting time. When yo
 
 Third, give control back by letting the reader control time and variable by marrying them together.
 
-See also — [Steven Wittens](acko.net), [Amit Patel](redblobgames.com)
+See also — [Steven Wittens](https://acko.net), [Amit Patel](https://redblobgames.com)
 
 ## Mike Bostock, New York Times
 
@@ -199,34 +199,34 @@ Don't be afraid to fail.
 
 [Let's make a bubble map.](http://bost.ocks.org/mike/bubble-map/)
 
-````pbpaste```` allows terminal to access system clipboard.
+`pbpaste` allows terminal to access system clipboard.
 
 ## Edward Tufte, Author
 
-* *The Thinking Eye*
-* > Code is now design and design is code.
-* > What was observed by us in the third place is the nature or matter of the Milky Way itself, which, with the aid of the spyglass, may be observed so well that all the disputes that for so many generations have vexed philosophers are destroyed by **visible certainty**, and we are liberated from wordy arguments. - <cite>Galileo Galilei</cite>
-* > Organizations which design systems... are constrained to produce designs which are copies of the communication structures of these organizations - <cite>Melvin E. Conway</cite>
+- _The Thinking Eye_
+- > Code is now design and design is code.
+- > What was observed by us in the third place is the nature or matter of the Milky Way itself, which, with the aid of the spyglass, may be observed so well that all the disputes that for so many generations have vexed philosophers are destroyed by **visible certainty**, and we are liberated from wordy arguments. - <cite>Galileo Galilei</cite>
+- > Organizations which design systems... are constrained to produce designs which are copies of the communication structures of these organizations - <cite>Melvin E. Conway</cite>
 
 1. Seek verbs and actions.
 2. See now, words later.
-4. A sense of the relevant.
-5. Seek forever knowledge with a taste for excellence.
-6. Understanding the difference between evidence and inference.
+3. A sense of the relevant.
+4. Seek forever knowledge with a taste for excellence.
+5. Understanding the difference between evidence and inference.
 
-* > Only two industries refer to customers as users; software and the drug industry.
-* Silence sharpens and deepens seeing.
-* *Most* of social science studies are false. Social science is harder than rocket science. It does not have the fundamental truths of nature's laws.
-* [Image quilts.](http://imagequilts.com/)
-* Distribution of excellence is extremely logarithmic.
-* > A hard look at the practice and results of conventional asymptotic theory easily leads one to three points:
+- > Only two industries refer to customers as users; software and the drug industry.
+- Silence sharpens and deepens seeing.
+- _Most_ of social science studies are false. Social science is harder than rocket science. It does not have the fundamental truths of nature's laws.
+- [Image quilts.](http://imagequilts.com/)
+- Distribution of excellence is extremely logarithmic.
+- > A hard look at the practice and results of conventional asymptotic theory easily leads one to three points:
   1. We ought not to expect it to be widely useful (since it refers to the ultimate oversimplification).
   2. Rather often it has been useful (surprise!)
   3. We have developed no basis for telling when it is likely to help and when it is not...﻿.. 123 - <cite>John W. Tukey</cite>
-* Standards of graphical excellence: Google Maps and Swiss Mountain maps.
-* Future is maps moving in time.
-* > How do you know that?
-* > How does what I see come to be seen by me?
-* Real science has it easy because they have forever laws.
-* Begin with a question, a problem, then measure.
-* > You can have your own point of view, but not your own facts. - <cite>Daniel Patrick Moynihan</cite>
+- Standards of graphical excellence: Google Maps and Swiss Mountain maps.
+- Future is maps moving in time.
+- > How do you know that?
+- > How does what I see come to be seen by me?
+- Real science has it easy because they have forever laws.
+- Begin with a question, a problem, then measure.
+- > You can have your own point of view, but not your own facts. - <cite>Daniel Patrick Moynihan</cite>

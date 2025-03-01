@@ -4,14 +4,13 @@ date: 2013-10-01 06:08:00 Z
 image: "/images/seoul-train.jpg"
 ---
 
-*This post is part of [Startup Edition 21](http://startupedition.com).  Sign up to the weekly newsletter  to get the response to a single question each week from a curated gathering of bloggers in the startup community.*
+_This post is part of [Startup Edition 21](http://startupedition.com). Sign up to the weekly newsletter to get the response to a single question each week from a curated gathering of bloggers in the startup community._
 
 Since January, when I joined thoughtbot as a designer, I've shipped a new product every 6-8 weeks. Creating new products is my job and I can't be lollygagging around waiting for my muse. Sticking to a routine allows me to avoid early morning [decision fatigue](http://en.wikipedia.org/wiki/Decision_fatigue) and get to the office ready for anything. Here's my morning game plan for consistent creative output.
 
 ### Wake up without an alarm clock.
 
-Measuring my output using [iDoneThis](http://idonethis.com) for months, I noticed that I was prone to getting into morning fogs (not unlike [Karl](KarlTheFog
-)). These would essentially paralyze me for half the day and I was forced to compensate with copious amounts of coffee that put me on edge until the end of the day.
+Measuring my output using [iDoneThis](http://idonethis.com) for months, I noticed that I was prone to getting into morning fogs (not unlike [Karl](https://twitter.com/KarlTheFog)). These would essentially paralyze me for half the day and I was forced to compensate with copious amounts of coffee that put me on edge until the end of the day.
 
 Eliminating the alarm clock allows you to wake up when your body is ready and avoid the fog.
 
