@@ -3,17 +3,17 @@ title: Kill the alarm clock
 date: 2013-03-15 22:20:00 Z
 ---
 
-In response to the resurgance of Supermemo's popular [free running sleep](http://www.supermemo.com/articles/sleep.htm#Free_running_sleep) article, it was time for a test run. Previously I've tried polyphasic and biphasic sleep to optimize my life with varying degrees of success
+In response to the resurgance of Supermemo's popular [free running sleep](https://www.supermemo.com/articles/sleep.htm#Free_running_sleep) article, it was time for a test run. Previously I've tried polyphasic and biphasic sleep to optimize my life with varying degrees of success
 
 > There is only one formula for healthy and refreshing sleep: Go to sleep only when you are very tired. Not earlier. Not later. Wake up naturally without an alarm clock.
 
 Here's the rules I set for a two-week free running sleep experiment;
 
-* No alarm clock
-* Retire nightly around 9pm
-* No caffeine after 11am
-* Only drink alcohol that will metabolize before sleep
-* Move exercise to the morning
+- No alarm clock
+- Retire nightly around 9pm
+- No caffeine after 11am
+- Only drink alcohol that will metabolize before sleep
+- Move exercise to the morning
 
 After two weeks, what I found is that free running sleep forces me to assume responsibility for my sleep, rather than simply relying on the alarm and accepting that I will be groggy all day. Normally I ended up going to bed around 11pm and waking up before 8am, which never happens. Usually I would consider myself a late riser, working until 2am and then sleeping in until the crack of noon. At no point during my experiment did I sleep past 10am and that was one time due to breaking my alcohol rule.
 

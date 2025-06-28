@@ -1,5 +1,5 @@
 ---
-title: Alex Baldwin - Product Designer & Writer
+title: Alex Baldwin - Product Designer and Writer
 layout: post
 description: "Product designer and writer from Austin, Texas. Previously designer-in-residence with Techstars and 500 Startups."
 ---
@@ -16,13 +16,13 @@ Previously I've worked as a designer-in-residence with Techstars and 500 Startup
 ### Work
 
 - [Available for design services](mailto:alex@simplecasual.com), get in touch.
-- [Simple Casual](http://simplecasual.com), a company about nothing.
+- [Simple Casual](https://simplecasual.com), a company about nothing.
 
 ### Writing
 
-- [Working with Design Sprints](/qcon-2014)
-- [Goldeneye 64's inspirational startup story](/goldeneye)
+- [Working with Design Sprints](/qcon-2014/)
+- [Goldeneye 64's inspirational startup story](/goldeneye/)
 
 ### Press
 
-- [A Man Named Alex Baldwin Is Having a Terrible Day on Twitter Thanks to Trump's Misspelling](http://people.com/politics/alex-baldwin-donald-trump-alec-baldwin-tweet/)
+- [A Man Named Alex Baldwin Is Having a Terrible Day on Twitter Thanks to Trump's Misspelling](https://people.com/politics/alex-baldwin-donald-trump-alec-baldwin-tweet/)

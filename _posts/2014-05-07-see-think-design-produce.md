@@ -33,7 +33,7 @@ Sketch with **data**
 
 Sketch in the **browser**
 
-[Find something your **brain** recognizes](http://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html)
+[Find something your **brain** recognizes](https://www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html)
 
 Remember that **aha!** moment
 
@@ -49,11 +49,11 @@ Don't be your own **audience**
 
 If you're talking to yourself, you're not communicating
 
-[Remember what it's like **not** to understand](http://www.nytimes.com/interactive/2013/10/08/science/the-higgs-boson.html#/?g=true)
+[Remember what it's like **not** to understand](https://www.nytimes.com/interactive/2013/10/08/science/the-higgs-boson.html#/?g=true)
 
 > If I could have gone back in time, what would help me get to understanding.
 
-[Explain **overview** + relevant **detail**](http://www.nytimes.com/imagepages/2007/12/10/science/20071211_WHALE_GRAPHIC.html)
+[Explain **overview** + relevant **detail**](https://www.nytimes.com/imagepages/2007/12/10/science/20071211_WHALE_GRAPHIC.html)
 
 > In order to get anything out of this [research paper], it's going to be a translation project.
 
@@ -63,9 +63,9 @@ Don't collect **trivia**
 
 > There's a reason that I'm collecting that and then presenting it.
 
-[Collections should **add up** to something](http://13pt.com/projects/nyt110705/)
+[Collections should **add up** to something](https://13pt.com/projects/nyt110705/)
 
-[Visualization **&ne;** counting](http://projects.nytimes.com/guantanamo)
+[Visualization **&ne;** counting](https://projects.nytimes.com/guantanamo)
 
 Find and show meaningful **patterns**
 
@@ -83,13 +83,13 @@ Don't count **diapers**!
 
 Be skeptical of [**vanity** data](https://www.facebook.com/Yankees)
 
-[Compared to **what**?](http://www.nytimes.com/interactive/2014/04/24/upshot/facebook-baseball-map.html)
+[Compared to **what**?](https://www.nytimes.com/interactive/2014/04/24/upshot/facebook-baseball-map.html)
 
 ### Produce
 
 > When your idea hits the real world.
 
-[Embrace **limitations**](http://www.nytimes.com/interactive/2014/02/19/sports/olympics/olympics-frame-by-frame.html?gwh=90E8664173E76317ED3987083E4E07B3&gwt=pay)
+[Embrace **limitations**](https://www.nytimes.com/interactive/2014/02/19/sports/olympics/olympics-frame-by-frame.html?gwh=90E8664173E76317ED3987083E4E07B3&gwt=pay)
 
 Point and **annotate**
 
@@ -177,7 +177,7 @@ If one of the best designers of all time doesn't know if what he makes is good, 
 
 > Good design is as little design as possible. - <cite>Dieter Rams</cite>
 
-[Fitt's law](http://en.wikipedia.org/wiki/Fitts's_law), it's easier to click on targets that are closer and bigger.
+[Fitt's law](https://en.wikipedia.org/wiki/Fitts's_law), it's easier to click on targets that are closer and bigger.
 
 Two phases: create and edit.
 
@@ -187,7 +187,7 @@ New York Times Preview tool, displays all of the ongoing work. Can switch betwee
 
 Prototypes should emphasize speed over polish.
 
-Transition from exploring to [refining near deadline](http://en.wikipedia.org/wiki/Voronoi_diagram).
+Transition from exploring to [refining near deadline](https://en.wikipedia.org/wiki/Voronoi_diagram).
 
 Delete code as you go. Be ruthless.
 
@@ -197,7 +197,7 @@ Try bad ideas deliberately.
 
 Don't be afraid to fail.
 
-[Let's make a bubble map.](http://bost.ocks.org/mike/bubble-map/)
+[Let's make a bubble map.](https://bost.ocks.org/mike/bubble-map/)
 
 `pbpaste` allows terminal to access system clipboard.
 
@@ -217,7 +217,7 @@ Don't be afraid to fail.
 - > Only two industries refer to customers as users; software and the drug industry.
 - Silence sharpens and deepens seeing.
 - _Most_ of social science studies are false. Social science is harder than rocket science. It does not have the fundamental truths of nature's laws.
-- [Image quilts.](http://imagequilts.com/)
+- [Image quilts.](https://imagequilts.com/)
 - Distribution of excellence is extremely logarithmic.
 - > A hard look at the practice and results of conventional asymptotic theory easily leads one to three points:
   1. We ought not to expect it to be widely useful (since it refers to the ultimate oversimplification).

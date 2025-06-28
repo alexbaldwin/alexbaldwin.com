@@ -33,14 +33,23 @@ permalink: "/:slug/"
 postcss:
   cache: false
 og_image:
-  output_dir: "/assets/og"
+  collections: ["posts", "pages"]
+  output_dir: "assets/images/og"
   image: "/assets/images/alexbaldwin.jpg"
   canvas:
-    background_color: "#FAFAFA"
+    background_color: "#FFFFFF"
+    width: 1200
+    height: 600
   header:
-    font_family: "GeistSans"
-    color: "#44403C"
+    font_family: "Helvetica, Bold"
+    color: "#2f313d"
   content:
-    font_family: "GeistSans"
-    color: "#44403C"
+    font_family: "Helvetica, Regular"
+    color: "#535358"
+  border_bottom:
+    width: 20
+    fill: ["#000000"]
   domain: "alexbaldwin.com"
+  force: false
+  verbose: false
+  skip_drafts: true

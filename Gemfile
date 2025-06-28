@@ -8,4 +8,4 @@ gem "jekyll-feed"
 gem "jekyll-postcss"
 
 gem "ruby-vips"
-gem "jekyll-og-image", "~> 1.3"
+gem "jekyll-og-image", "~> 2.0"

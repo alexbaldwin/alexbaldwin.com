@@ -17,11 +17,11 @@ Value => Growth => Growth Hacking
 
 ### Hacks on hacks
 
-* LinkedIn submitting personal profiles to Google
-* Pay me with Paypal buttons on eBay
-* YouTube embeddable player
-* Facebook will proactively send you a new password when you fail to login a few times
-* Yammer would get users to sign up and then call their IT department with "Your data is insecure…" once a few users from a company started using the product
+- LinkedIn submitting personal profiles to Google
+- Pay me with Paypal buttons on eBay
+- YouTube embeddable player
+- Facebook will proactively send you a new password when you fail to login a few times
+- Yammer would get users to sign up and then call their IT department with "Your data is insecure…" once a few users from a company started using the product
 
 > At Square, the brand is more important than any short-term gain.
 
@@ -43,12 +43,12 @@ Organic growth loop at Square was the transaction itself, which was a branded ex
 
 ### Transition activities
 
-* Implement user analytics
-* Identify **must have** benefit
-* Map benefit to effective hooks
-* Optimize business model
-* Optimize conversions
-* Hire growth team
+- Implement user analytics
+- Identify **must have** benefit
+- Map benefit to effective hooks
+- Optimize business model
+- Optimize conversions
+- Hire growth team
 
 1. Conversion rate = desire - friction
 2. Optimize funnel on delivering must-have benefit
@@ -80,19 +80,18 @@ You can validate any product within 48 hours, you don't need code, a business de
 
 [Josh Elman](https://twitter.com/joshelman)
 
-* Purpose: What need do you solve?
-* Inception: How can you make users *aware*?
-* Adoption: How can you *teach* users to use it?
-* Habits: How can we *keep* them using it?
+- Purpose: What need do you solve?
+- Inception: How can you make users _aware_?
+- Adoption: How can you _teach_ users to use it?
+- Habits: How can we _keep_ them using it?
 
 > SMS is the most underutilized communication medium.
 
 When using invitation emails hint at the solution and benefit to hint at how potential users should use the platform.
 
-
 ## Building the growth machine
 
-[Elliot Shmukler](http://www.linkedin.com/in/eshmu)
+[Elliot Shmukler](https://www.linkedin.com/in/eshmu)
 
 1. Set growth goal
 2. Understand drivers
@@ -100,17 +99,17 @@ When using invitation emails hint at the solution and benefit to hint at how pot
 
 ### Goals
 
-* must be measurable
-* be measurable quickly (Facebook's 10 friends in **13** days)
-* align goal with product / business
-* make it a single number
+- must be measurable
+- be measurable quickly (Facebook's 10 friends in **13** days)
+- align goal with product / business
+- make it a single number
 
 ### Understand drivers
 
 Draw a diagram of all the possible flows of getting to the purpose
 
-* work backwards from the goal
-* understand the steps to get there
+- work backwards from the goal
+- understand the steps to get there
 
 ### Optimize
 
@@ -122,14 +121,14 @@ Micro-questions, reduce friction by breaking out forms. You need all the data, b
 
 ## Email: unglamorous, difficult, effective
 
-[Mike Greenfield](http://numeratechoir.com/)
+[Mike Greenfield](https://numeratechoir.com/)
 
 Fix your email funnel and optimize in the order of magnitude of holes in your funnel. For example, only 20% of our emails got to Yahoo Mail users, by switching service providers we were able to get that number to 100%.
 
-1. **Inbox delivery**, *make sure everyone is getting your email*
-2. **One item focus**, *have one main hero piece of content*
-3. **Quality**, *highly curated content > user generated*
-4. **Subject optimization**, *test many lines and send the best one*
-5. **Winners and losers**, *quit sending loser emails*
-6. **Personalization**, *use relevant segmenting*
-7. **Frequency**, *send more than you think*
+1. **Inbox delivery**, _make sure everyone is getting your email_
+2. **One item focus**, _have one main hero piece of content_
+3. **Quality**, _highly curated content > user generated_
+4. **Subject optimization**, _test many lines and send the best one_
+5. **Winners and losers**, _quit sending loser emails_
+6. **Personalization**, _use relevant segmenting_
+7. **Frequency**, _send more than you think_
