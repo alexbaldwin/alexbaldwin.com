@@ -2,6 +2,7 @@
 title: Rave Robot
 date: 2015-09-28 02:11:00 Z
 external: http://www.alexbaldwin.com/raverobot/
+sitemap: false
 ---
 
 Full-screen gif mayhem. Worked on this one day last year with CH Albach in order

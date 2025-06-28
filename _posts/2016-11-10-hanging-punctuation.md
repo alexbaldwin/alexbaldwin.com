@@ -2,6 +2,7 @@
 title: One line of CSS to add hanging quotes
 date: 2016-11-10 00:00:00 Z
 external: https://css-tricks.com/almanac/properties/h/hanging-punctuation/
+sitemap: false
 ---
 
 > The hanging-punctuation property aims at giving web web designers a finer grained control over typography on the web.
