@@ -13,7 +13,14 @@
       }
     </style>
     <link rel="stylesheet" href="/assets/css/main.css" />
-    {% seo %}
+    {% seo %} {% if page.external %}
+    <link rel="canonical" href="{{ page.external }}" />
+    {% else %}
+    <link
+      rel="canonical"
+      href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
+    />
+    {% endif %}
     <link
       rel="sitemap"
       type="application/xml"
