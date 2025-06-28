@@ -1,5 +1,5 @@
 ---
-title: We're joining 500 Startups to blow up how developers get hired
+title: Joining 500 Startups to change developer hiring
 date: 2011-05-25 00:49:00 Z
 ---
 
@@ -16,7 +16,5 @@ As of right now our concept is "Sortfolio for developers" and our pitch is "Hell
 In this environment it's crazy that every developer doesn't have two jobs, yet we know so many that are funemployed. The disconnect in the market is very apparent. We know the problem affects almost every company hard right now, and are thinking about the solution every day.
 
 Patrick Vlaskovits came to give Batch #001 a chat about customer development hacks. This is what came out of it for us:
-
-![@pv session](pv-500.jpg)
 
 We're thinking that you can ask developers their typical project price range and ellicit how serious they are / their own perceived value of their work. This might work well for freelancers, but we also want to target full-time and part-time employees. Hopefully this would lead to a better matching.

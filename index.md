@@ -1,6 +1,7 @@
 ---
-title: Alex Baldwin
+title: Alex Baldwin - Product Designer & Writer
 layout: post
+description: "Product designer and writer from Austin, Texas. Previously designer-in-residence with Techstars and 500 Startups."
 ---
 
 _Why hello there_, I'm Alex Baldwin; a product designer and writer. I live and work in Austin, Texas.

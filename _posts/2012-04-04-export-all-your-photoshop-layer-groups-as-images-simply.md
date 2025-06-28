@@ -1,5 +1,5 @@
 ---
-title: Export all your Photoshop layer groups as images, simply
+title: Export Photoshop layer groups as images
 date: 2012-04-04 22:45:00 Z
 ---
 

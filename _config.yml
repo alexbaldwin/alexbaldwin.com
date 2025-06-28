@@ -28,7 +28,7 @@ plugins:
   - jekyll-feed
   - jekyll-postcss
   - jekyll-og-image
-description: ""
+description: "Designer, developer, and entrepreneur sharing thoughts on product design, technology, and startup culture."
 baseurl: ""
 url: https://www.alexbaldwin.com
 twitter:

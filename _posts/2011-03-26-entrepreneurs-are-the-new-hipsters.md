@@ -7,4 +7,4 @@ date: 2011-03-26 17:09:00 Z
 
 If I hear synergy, social media, or about a groupon clone one more time...
 
-![Aspiring Entrepreneur](aspiring-hipster.png)
+![Aspiring Entrepreneur](/images/aspiring-hipster.png)

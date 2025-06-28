@@ -1,6 +1,7 @@
 ---
 title: Now
 layout: post
+description: "What Alex Baldwin is currently working on: design consulting, sharing design learnings, and recent projects."
 ---
 
 Here's a little bit of what I've been up to recently:
