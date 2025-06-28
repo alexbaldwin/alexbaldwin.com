@@ -4,12 +4,10 @@ layout: default
 
 <article>
   <section class="">
-    {% if page.type == "post" %}
+    {% if page.collection == "posts" %}
     <header class="">
       <h1>{{ page.title }}</h1>
     </header>
-    {% endif %}
-
-    {{ content }}
+    {% endif %}{{ content }}
   </section>
 </article>
