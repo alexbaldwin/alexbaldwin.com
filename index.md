@@ -6,8 +6,6 @@ description: "Product designer and writer from Austin, Texas. Previously designe
 
 _Why hello there_, I'm Alex Baldwin; a product designer and writer. I live and work in Austin, Texas.
 
-Previously I've worked as a designer-in-residence with Techstars and 500 Startups running design sessions, prepping pitch decks, and shipping an insane amount of landing pages. My focus is in product design (a combination of user interface, interaction, marketing, and graphic design), however, when I'm not doing that, you can find me hiking in nature, drinking lattes, or behind a camera lens.
-
 <figure>
 <img src="/images/hills-have-eyes.jpg" alt="Alex Baldwin, photo by Steph Granillo">
 <figcaption>Photo by Steph Granillo</figcaption>
@@ -15,8 +13,8 @@ Previously I've worked as a designer-in-residence with Techstars and 500 Startup
 
 ### Work
 
-- [Available for design services](mailto:alex@simplecasual.com), get in touch.
-- [Simple Casual](https://simplecasual.com), a company about nothing.
+- [Logo.dev](https://logo.dev), brand and logo API.
+- [Simple Casual](https://simplecasual.com), design studio.
 
 ### Writing
 
