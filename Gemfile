@@ -9,3 +9,4 @@ gem "jekyll-postcss"
 
 gem "ruby-vips"
 gem "jekyll-og-image", "~> 2.0"
+gem "jekyll-last-modified-at"

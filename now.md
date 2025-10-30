@@ -6,6 +6,8 @@ description: What Alex Baldwin is currently working on - design consulting, shar
 
 Here's a little bit of what I've been up to recently:
 
+Updated At: {{ page.last_modified_at | date: "%B %-d, %Y" }}
+
 ## Product design
 
 Currently, I'm a designer at Perplexity. My primary role is with the growth team working to scale both the answer engine and our browser, Comet.
