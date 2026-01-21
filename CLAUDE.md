@@ -40,3 +40,34 @@ This is a Jekyll 4 personal website using:
 ### Styling
 
 All styling uses Tailwind utility classes directly in HTML. The typography plugin handles prose styling for Markdown content. Custom font (GeistSans) is loaded via `@font-face` in the layout.
+
+## Deployment
+
+Hosted on **Netlify**. Configuration in `netlify.toml`.
+
+### Testing Risky Changes
+
+For changes that might break deploys (netlify.toml, Gemfile, build config):
+
+```bash
+# 1. Test with preview deploy first
+netlify deploy
+
+# 2. Verify the preview URL works
+# 3. Then deploy to production
+netlify deploy --prod
+
+# 4. Only after confirming, commit and push
+git add . && git commit -m "message" && git push
+
+# 5. Monitor the git-triggered deploy
+netlify api listSiteDeploys --data '{"site_id": "cc93a9b2-d44a-47af-b8ea-37993706da4c"}' | jq '.[0] | {state, title}'
+```
+
+### Useful Commands
+
+```bash
+netlify status   # Check site status
+netlify watch    # Monitor active deploys
+netlify logs     # View function logs
+```
