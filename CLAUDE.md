@@ -40,3 +40,10 @@ This is a Jekyll 4 personal website using:
 ### Styling
 
 All styling uses Tailwind utility classes directly in HTML. The typography plugin handles prose styling for Markdown content. Custom font (GeistSans) is loaded via `@font-face` in the layout.
+
+## Deployment
+
+Hosted on **Netlify**. Configuration in `netlify.toml`:
+- Ruby version must be 3.2.2 (preinstalled on Netlify's build image)
+- Static assets cached for 1 year with immutable flag
+- Security headers (X-Frame-Options, X-Content-Type-Options, Referrer-Policy)
