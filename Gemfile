@@ -1,11 +1,12 @@
 source "https://rubygems.org"
-ruby "3.2.2"
+ruby "3.4.7"
 
-gem "jekyll", "~> 4.3.3"
+gem "csv"
+gem "jekyll", "~> 4.4.1"
 gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
-gem "jekyll-postcss"
+gem "jekyll-postcss-v2"
 
 gem "ruby-vips"
 gem "jekyll-og-image", "~> 2.0"
