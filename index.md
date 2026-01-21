@@ -7,7 +7,10 @@ description: "Product designer and writer from Austin, Texas. Previously designe
 _Why hello there_, I'm Alex Baldwin; a product designer and writer. I live and work in Austin, Texas.
 
 <figure>
+<picture>
+<source srcset="/images/hills-have-eyes.webp" type="image/webp">
 <img src="/images/hills-have-eyes.jpg" alt="Alex Baldwin, photo by Steph Granillo" width="1545" height="1024" fetchpriority="high">
+</picture>
 <figcaption>Photo by Steph Granillo</figcaption>
 </figure>
 

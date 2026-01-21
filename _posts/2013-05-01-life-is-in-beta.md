@@ -3,7 +3,7 @@ title: Life is in beta
 date: 2013-05-01 01:10:00 Z
 ---
 
-<iframe width="600" height="379" scrolling="no" allowtransparency="true" src="https://typotalks.com/embed_video/m/ttv_13_4_13.171" frameborder="0"></iframe>
+<iframe width="600" height="379" scrolling="no" allowtransparency="true" src="https://typotalks.com/embed_video/m/ttv_13_4_13.171" frameborder="0" title="Erik Spiekermann: Life is in Beta - TYPO Talk"></iframe>
 Source: [TYPO](https://typotalks.com/video/2013/04/14/erik-spiekermann-life-is-in-beta/)
 
 Erik Spiekermann goes through his firm's entire design process. Decades of knowledge in less than an hour.
