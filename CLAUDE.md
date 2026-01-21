@@ -20,7 +20,7 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 This is a Jekyll 4 personal website using:
 
-- **Jekyll** (Ruby 3.4.7) for static site generation
+- **Jekyll** (Ruby 3.2.2) for static site generation
 - **Tailwind CSS** with `@tailwindcss/typography` for styling
 - **PostCSS** with jekyll-postcss-v2 for CSS processing (cssnano in production)
 
