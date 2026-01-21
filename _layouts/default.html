@@ -15,14 +15,7 @@
       }
     </style>
     <link rel="stylesheet" href="/assets/css/main.css" />
-    {% seo %} {% if page.external %}
-    <link rel="canonical" href="{{ page.external }}" />
-    {% else %}
-    <link
-      rel="canonical"
-      href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
-    />
-    {% endif %}
+    {% seo %}
     <link
       rel="sitemap"
       type="application/xml"
@@ -34,6 +27,7 @@
   <body
     class="max-w-lg mx-auto py-4 px-4 prose prose-stone bg-neutral-50 prose-a:font-normal prose-blockquote:font-normal prose-blockquote:text-stone-400 prose-h2:font-normal prose-h2:text-base prose-h3:text-base prose-h3:font-normal prose-h3:text-stone-400 prose-h2:text-stone-400 prose-h1:text-lg prose-h1:font-normal prose-strong:font-[600] prose-a:decoration-stone-400"
   >
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-stone-900 text-white px-4 py-2 z-50">Skip to main content</a>
     <header class="">
       <nav
         class="py-6 mb-6 mt-6 border-0 border-b border-solid border-stone-200"
@@ -41,21 +35,19 @@
         <div class="text-md font-normal">
           <a class="no-underline" href="/">Alex Baldwin</a>
         </div>
-        <div class="flex-1 space-x-2 opacity-50">
-          <a class="no-underline" href="/articles/">Writing</a>
-          <a class="no-underline" href="/now/">Now</a>
-          <a class="no-underline" href="/about/">About</a>
+        <div class="flex-1 space-x-2 text-stone-500">
+          <a class="no-underline hover:text-stone-700" href="/articles/">Writing</a>
+          <a class="no-underline hover:text-stone-700" href="/now/">Now</a>
+          <a class="no-underline hover:text-stone-700" href="/about/">About</a>
         </div>
       </nav>
     </header>
-    <article role="main">{{ content }}</article>
-    <footer class="opacity-50 text-sm mt-12 mb-12">
+    <main id="main" role="main">{{ content }}</main>
+    <footer class="text-stone-500 text-sm mt-12 mb-12">
       <div class="flex-1 space-x-2">
-        <a class="no-underline" href="https://x.com/alexbaldwin">Twitter</a>
-        <a class="no-underline" href="https://instagram.com/alexbaldwin"
-          >Instagram</a
-        >
-        <a class="no-underline" href="https://github.com/alexbaldwin">Github</a>
+        <a class="no-underline hover:text-stone-700" href="https://x.com/alexbaldwin">Twitter</a>
+        <a class="no-underline hover:text-stone-700" href="https://instagram.com/alexbaldwin">Instagram</a>
+        <a class="no-underline hover:text-stone-700" href="https://github.com/alexbaldwin">Github</a>
       </div>
       <p class="text-xs">&copy; 2004-{{ site.time | date: '%Y' }}.</p>
     </footer>
@@ -73,7 +65,7 @@
         o.src = t;
         o.id = "fathom-script";
         m.parentNode.insertBefore(o, m);
-      })(document, window, "//cdn.usefathom.com/tracker.js", "fathom");
+      })(document, window, "https://cdn.usefathom.com/tracker.js", "fathom");
       fathom("set", "siteId", "PITQBMOS");
       fathom("trackPageview");
     </script>
