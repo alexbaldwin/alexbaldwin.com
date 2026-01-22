@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ahrefs__doc",
+      "mcp__ahrefs__site-explorer-domain-rating",
+      "mcp__ahrefs__site-explorer-metrics",
+      "mcp__ahrefs__site-explorer-backlinks-stats",
+      "mcp__ahrefs__site-explorer-organic-keywords",
+      "mcp__ahrefs__site-explorer-referring-domains",
+      "Bash(bundle install:*)",
+      "Bash(rbenv versions:*)",
+      "Bash(rvm list:*)",
+      "Bash(asdf list:*)",
+      "Bash(brew install:*)",
+      "Bash(rbenv local:*)",
+      "Bash(ruby --version:*)",
+      "Bash(export NVM_DIR=\"$HOME/.nvm\")",
+      "Bash([ -s \"/opt/homebrew/opt/nvm/nvm.sh\" ])",
+      "Bash(. \"/opt/homebrew/opt/nvm/nvm.sh\")",
+      "Bash(nvm install:*)",
+      "Bash(rbenv uninstall:*)",
+      "Bash(rbenv install:*)",
+      "Bash(bundle exec jekyll serve:*)",
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}

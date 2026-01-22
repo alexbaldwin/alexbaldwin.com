@@ -1,0 +1,720 @@
+---
+layout: null
+title: Inter Type Specimen
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Inter Type Specimen</title>
+  <link rel="preload" href="/assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin />
+  <!--
+    Typography Checklist Implementation
+    ===================================
+    This specimen demonstrates typography rules with proper CSS.
+  -->
+  <style>
+    @font-face {
+      font-family: "Inter";
+      src: url("/assets/fonts/InterVariable.woff2") format("woff2");
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face {
+      font-family: "Inter";
+      src: url("/assets/fonts/InterVariable-Italic.woff2") format("woff2");
+      font-weight: 100 900;
+      font-style: italic;
+      font-display: swap;
+    }
+
+    :root {
+      --color-ink: #171717;
+      --color-paper: #fafafa;
+      --color-muted: #737373;
+      --color-subtle: #a3a3a3;
+      --color-border: #e5e5e5;
+      --color-accent: #171717;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-family: "Inter", system-ui, ui-sans-serif, -apple-system, sans-serif;
+      font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    body {
+      background: var(--color-paper);
+      color: var(--color-ink);
+      font-size: 1.125rem;
+      line-height: 1.6;
+    }
+
+    /* Container with max-width constraint */
+    main {
+      max-width: 48rem;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    header {
+      border-bottom: 1px solid var(--color-border);
+      padding: 3rem 1.5rem;
+      max-width: 48rem;
+      margin: 0 auto;
+    }
+
+    header h1 {
+      font-size: 3.75rem;
+      font-weight: 700;
+      letter-spacing: -0.04em;
+      line-height: 1;
+    }
+
+    header p {
+      margin-top: 0.75rem;
+      font-size: 1.125rem;
+      color: var(--color-muted);
+    }
+
+    section {
+      margin-bottom: 4rem;
+    }
+
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--color-muted);
+      margin-bottom: 2rem;
+    }
+
+    .caption {
+      font-size: 0.875rem;
+      color: var(--color-muted);
+    }
+
+    /* Prose styling with max-width */
+    .prose {
+      max-width: 65ch;
+    }
+
+    .prose p {
+      margin-bottom: 1.25em;
+      line-height: 1.6;
+    }
+
+    .prose p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* Lead paragraph */
+    .lead {
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+
+    /* Orphan/widow handling */
+    .no-orphans {
+      text-wrap: pretty;
+      widows: 2;
+      orphans: 2;
+    }
+
+    /* Hanging punctuation */
+    .hanging-punct {
+      hanging-punctuation: first last;
+      text-indent: -0.4em;
+    }
+
+    /* Headings */
+    h1, h2, h3 {
+      margin-top: 2em;
+      margin-bottom: 0.75em;
+    }
+
+    h1:first-child, h2:first-child, h3:first-child {
+      margin-top: 0;
+    }
+
+    /* Tailwind-style text sizes */
+    .text-7xl { font-size: 4.5rem; line-height: 1; letter-spacing: -0.04em; }
+    .text-6xl { font-size: 3.75rem; line-height: 1; letter-spacing: -0.035em; }
+    .text-5xl { font-size: 3rem; line-height: 1; letter-spacing: -0.025em; }
+    .text-4xl { font-size: 2.25rem; line-height: 1.1; letter-spacing: -0.02em; }
+    .text-3xl { font-size: 1.875rem; line-height: 1.2; }
+    .text-2xl { font-size: 1.5rem; line-height: 1.3; }
+    .text-xl { font-size: 1.25rem; line-height: 1.4; }
+    .text-lg { font-size: 1.125rem; line-height: 1.6; }
+    .text-base { font-size: 1rem; line-height: 1.6; }
+    .text-sm { font-size: 0.875rem; line-height: 1.5; }
+    .text-xs { font-size: 0.75rem; line-height: 1.5; }
+
+    /* Tailwind-style font weights */
+    .font-thin { font-weight: 100; }
+    .font-extralight { font-weight: 200; }
+    .font-light { font-weight: 300; }
+    .font-normal { font-weight: 400; }
+    .font-medium { font-weight: 500; }
+    .font-semibold { font-weight: 600; }
+    .font-bold { font-weight: 700; }
+    .font-extrabold { font-weight: 800; }
+    .font-black { font-weight: 900; }
+
+    /* Italic */
+    .italic { font-style: italic; }
+
+    /* Tracking */
+    .tracking-tight { letter-spacing: -0.025em; }
+    .tracking-tighter { letter-spacing: -0.05em; }
+
+    /* Scale items */
+    .scale-item {
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .scale-item:last-child {
+      border-bottom: none;
+    }
+
+    /* Weights */
+    .weight-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      border-bottom: 1px solid var(--color-border);
+      padding-bottom: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .weight-item:last-child {
+      border-bottom: none;
+    }
+
+    /* OpenType features */
+    .feature-row {
+      margin-bottom: 2.5rem;
+    }
+
+    .feature-title {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .liga { font-feature-settings: "liga" 1, "calt" 1; }
+    .no-liga { font-feature-settings: "liga" 0, "calt" 0; }
+    .tnum { font-feature-settings: "tnum" 1; font-variant-numeric: tabular-nums; }
+    .small-caps { font-variant-caps: small-caps; letter-spacing: 0.05em; }
+    .case { font-feature-settings: "case" 1; }
+    .ss02 { font-feature-settings: "ss02" 1; }
+    .frac { font-feature-settings: "frac" 1; }
+    .sups { font-feature-settings: "sups" 1; }
+    .subs { font-feature-settings: "subs" 1; }
+    .uppercase-tracked { text-transform: uppercase; letter-spacing: 0.1em; }
+
+    /* Character set */
+    .charset {
+      font-size: 1.5rem;
+      word-break: break-all;
+      line-height: 1.8;
+    }
+
+    .charset-section {
+      margin-bottom: 1.5rem;
+    }
+
+    /* Punctuation grid */
+    .punct-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .punct-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .punct-item {
+      font-size: 1.25rem;
+    }
+
+    /* Vertical rhythm */
+    .space-y-4 > * + * { margin-top: 1rem; }
+    .space-y-6 > * + * { margin-top: 1.5rem; }
+    .rhythm-16 { margin-bottom: 4rem; }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--color-border);
+      padding: 2rem 1.5rem;
+      max-width: 48rem;
+      margin: 0 auto;
+    }
+
+    footer p {
+      font-size: 0.875rem;
+      color: var(--color-muted);
+      text-align: center;
+    }
+
+    footer a {
+      color: var(--color-accent);
+      text-decoration: underline;
+    }
+
+    /* Print styles */
+    @media print {
+      body {
+        font-size: 12pt;
+        line-height: 1.5;
+        color: #000;
+        background: #fff;
+      }
+      h1, h2, h3 {
+        page-break-after: avoid;
+      }
+      p {
+        orphans: 3;
+        widows: 3;
+      }
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      header h1 { font-size: 2.5rem; }
+      .text-7xl { font-size: 2.5rem; }
+      .text-6xl { font-size: 2rem; }
+      .feature-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Inter</h1>
+    <p>A typeface carefully crafted for computer screens</p>
+  </header>
+
+  <main>
+    <!-- PROSE SECTION -->
+    <section class="rhythm-16">
+      <article class="prose no-orphans">
+        <h1 style="font-size: 2.5rem; font-weight: 700; letter-spacing: -0.025em; margin: 0 0 1rem 0;">Why Typography Matters</h1>
+
+        <p class="lead">Typography is the art and technique of arranging type to make written language legible, readable, and appealing. This specimen demonstrates flawless typography using Inter&mdash;a variable font designed specifically for computer screens.</p>
+
+        <h2 style="font-size: 1.75rem; font-weight: 600; margin: 2rem 0 0.75rem 0;">The Craft of Type</h2>
+
+        <p>&ldquo;Typography is two-dimensional architecture, based on experience and imagination, and guided by rules and readability,&rdquo; said Hermann Zapf. This quote&mdash;from one of history&rsquo;s greatest type designers&mdash;captures the balance between creativity and function.</p>
+
+        <h3 style="font-size: 1.25rem; font-weight: 600; margin: 1.5rem 0 0.5rem 0;">Line Length and Rhythm</h3>
+
+        <p>When setting body text, the optimal line length is 45&ndash;75 characters. Lines that are too long cause readers to lose their place; lines too short break the reading rhythm.</p>
+
+        <p>The screen measures 6&#x2032; 2&#x2033; diagonally. That&rsquo;s 6 feet, 2 inches using proper prime symbols.</p>
+      </article>
+    </section>
+
+    <!-- TYPE SCALE -->
+    <section class="rhythm-16">
+      <h2 class="section-label">Type Scale</h2>
+
+      <div class="space-y-6">
+        <div class="scale-item">
+          <span class="caption tnum">72px &middot; Display</span>
+          <p class="text-7xl font-bold">Display</p>
+        </div>
+
+        <div class="scale-item">
+          <span class="caption tnum">48px &middot; H1</span>
+          <h1 class="text-5xl font-bold tracking-tight" style="margin: 0;">Heading One</h1>
+        </div>
+
+        <div class="scale-item">
+          <span class="caption tnum">36px &middot; H2</span>
+          <h2 class="text-4xl font-semibold" style="margin: 0;">Heading Two</h2>
+        </div>
+
+        <div class="scale-item">
+          <span class="caption tnum">30px &middot; H3</span>
+          <h3 class="text-3xl font-semibold" style="margin: 0;">Heading Three</h3>
+        </div>
+
+        <div class="scale-item">
+          <span class="caption tnum">24px &middot; H4</span>
+          <p class="text-2xl font-medium">Heading Four</p>
+        </div>
+
+        <div class="scale-item">
+          <span class="caption tnum">18px &middot; Body</span>
+          <p class="text-lg">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+
+        <div class="scale-item">
+          <span class="caption tnum">14px &middot; Small</span>
+          <p class="text-sm">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+
+        <div class="scale-item">
+          <span class="caption tnum">12px &middot; Extra Small</span>
+          <p class="text-xs">The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FONT WEIGHTS -->
+    <section class="rhythm-16">
+      <h2 class="section-label">Font Weights</h2>
+
+      <div class="space-y-4">
+        <div class="weight-item">
+          <span class="text-3xl font-thin">Thin</span>
+          <span class="caption tnum">100</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-3xl font-extralight">Extra Light</span>
+          <span class="caption tnum">200</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-3xl font-light">Light</span>
+          <span class="caption tnum">300</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-3xl font-normal">Regular</span>
+          <span class="caption tnum">400</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-3xl font-medium">Medium</span>
+          <span class="caption tnum">500</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-3xl font-semibold">Semibold</span>
+          <span class="caption tnum">600</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-3xl font-bold">Bold</span>
+          <span class="caption tnum">700</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-3xl font-extrabold">Extra Bold</span>
+          <span class="caption tnum">800</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-3xl font-black">Black</span>
+          <span class="caption tnum">900</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ITALIC VARIANTS -->
+    <section class="rhythm-16">
+      <h2 class="section-label">Italic Variants</h2>
+
+      <div class="space-y-4">
+        <div class="weight-item">
+          <span class="text-2xl italic font-light">Light Italic</span>
+          <span class="caption">300 italic</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-2xl italic font-normal">Regular Italic</span>
+          <span class="caption">400 italic</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-2xl italic font-medium">Medium Italic</span>
+          <span class="caption">500 italic</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-2xl italic font-semibold">Semibold Italic</span>
+          <span class="caption">600 italic</span>
+        </div>
+        <div class="weight-item">
+          <span class="text-2xl italic font-bold">Bold Italic</span>
+          <span class="caption">700 italic</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- OPENTYPE FEATURES -->
+    <section id="features" class="rhythm-16">
+      <h2 class="section-label">OpenType Features</h2>
+
+      <div class="feature-row">
+        <div class="feature-title">Ligatures <span class="caption" style="margin-left: 0.5rem;">liga, calt</span></div>
+        <p class="caption" style="margin-bottom: 1rem;">Standard ligatures improve readability of common letter combinations.</p>
+        <div class="feature-grid">
+          <div>
+            <span class="caption">With ligatures (default)</span>
+            <p class="text-2xl liga">fi fl ff ffi ffl ft</p>
+          </div>
+          <div>
+            <span class="caption">Without ligatures</span>
+            <p class="text-2xl no-liga">fi fl ff ffi ffl ft</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-row">
+        <div class="feature-title">Tabular Figures <span class="caption" style="margin-left: 0.5rem;">tnum</span></div>
+        <p class="caption" style="margin-bottom: 1rem;">Fixed-width numerals for aligned data columns.</p>
+        <div class="feature-grid">
+          <div>
+            <span class="caption">Proportional (default)</span>
+            <p class="text-2xl">1,234,567<br>9,876,543<br>1,111,111</p>
+          </div>
+          <div>
+            <span class="caption">Tabular</span>
+            <p class="text-2xl tnum">1,234,567<br>9,876,543<br>1,111,111</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-row">
+        <div class="feature-title">Small Caps <span class="caption" style="margin-left: 0.5rem;">smcp</span></div>
+        <p class="caption" style="margin-bottom: 1rem;">For acronyms and abbreviations, with slight letter-spacing.</p>
+        <div class="feature-grid">
+          <div>
+            <span class="caption">Regular capitals</span>
+            <p class="text-xl">NASA, IBM, HTML, CSS</p>
+          </div>
+          <div>
+            <span class="caption">Small caps (with tracking)</span>
+            <p class="text-xl small-caps">NASA, IBM, HTML, CSS</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-row">
+        <div class="feature-title">Case-Sensitive Forms <span class="caption" style="margin-left: 0.5rem;">case</span></div>
+        <p class="caption" style="margin-bottom: 1rem;">Adjusted punctuation height for all-caps text.</p>
+        <div class="feature-grid">
+          <div>
+            <span class="caption">Default</span>
+            <p class="text-2xl uppercase-tracked">HELLO (WORLD)</p>
+          </div>
+          <div>
+            <span class="caption">Case-sensitive</span>
+            <p class="text-2xl uppercase-tracked case">HELLO (WORLD)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-row">
+        <div class="feature-title">Disambiguation <span class="caption" style="margin-left: 0.5rem;">ss02</span></div>
+        <p class="caption" style="margin-bottom: 1rem;">Distinguish similar characters: I l 1, O 0.</p>
+        <div class="feature-grid">
+          <div>
+            <span class="caption">Default</span>
+            <p class="text-2xl">Il1 O0o</p>
+          </div>
+          <div>
+            <span class="caption">Disambiguation (ss02)</span>
+            <p class="text-2xl ss02">Il1 O0o</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-row">
+        <div class="feature-title">Fractions <span class="caption" style="margin-left: 0.5rem;">frac</span></div>
+        <p class="caption" style="margin-bottom: 1rem;">Automatic fraction formatting.</p>
+        <div class="feature-grid">
+          <div>
+            <span class="caption">Without fractions</span>
+            <p class="text-2xl">1/2 3/4 1/4 2/3</p>
+          </div>
+          <div>
+            <span class="caption">With fractions</span>
+            <p class="text-2xl frac">1/2 3/4 1/4 2/3</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="feature-row">
+        <div class="feature-title">Super/Subscript <span class="caption" style="margin-left: 0.5rem;">sups, subs</span></div>
+        <p class="caption" style="margin-bottom: 1rem;">Native superscript and subscript characters.</p>
+        <p class="text-2xl">
+          <span class="sups">1st 2nd 3rd</span>
+          <span style="margin: 0 1rem;">&middot;</span>
+          H<span class="subs">2</span>O
+          <span style="margin: 0 1rem;">&middot;</span>
+          E = mc<span class="sups">2</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- SPECIAL CHARACTERS -->
+    <section class="rhythm-16">
+      <h2 class="section-label">Special Characters</h2>
+
+      <div style="margin-bottom: 2rem;">
+        <div class="feature-title" style="margin-bottom: 1rem;">Quotation Marks</div>
+        <div class="punct-grid">
+          <div class="punct-item">
+            <span class="caption">Double &ldquo; &rdquo;</span>
+            <p>&ldquo;Hello, World&rdquo;</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">Single &lsquo; &rsquo;</span>
+            <p>&lsquo;Hello, World&rsquo;</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">Guillemets &laquo; &raquo;</span>
+            <p>&laquo;Hello, World&raquo;</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 2rem;">
+        <div class="feature-title" style="margin-bottom: 1rem;">Dashes</div>
+        <div class="punct-grid">
+          <div class="punct-item">
+            <span class="caption">Hyphen -</span>
+            <p>self-aware</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">En dash &ndash;</span>
+            <p>2020&ndash;2024</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">Em dash &mdash;</span>
+            <p>word&mdash;break</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 2rem;">
+        <div class="feature-title" style="margin-bottom: 1rem;">Prime Symbols</div>
+        <div class="punct-grid">
+          <div class="punct-item">
+            <span class="caption">Single &#x2032; (feet)</span>
+            <p>6&#x2032; tall</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">Double &#x2033; (inches)</span>
+            <p>5&#x2033; wide</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">Combined</span>
+            <p>6&#x2032; 2&#x2033;</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom: 2rem;">
+        <div class="feature-title" style="margin-bottom: 1rem;">Math &amp; Legal</div>
+        <div class="punct-grid">
+          <div class="punct-item">
+            <span class="caption">Multiply &times;</span>
+            <p>3 &times; 4</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">Minus &minus;</span>
+            <p>&minus;5&deg;C</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">Legal</span>
+            <p>&copy; &trade; &reg;</p>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="feature-title" style="margin-bottom: 1rem;">Other Symbols</div>
+        <div class="punct-grid">
+          <div class="punct-item">
+            <span class="caption">Ellipsis &hellip;</span>
+            <p>Wait&hellip;</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">Bullet &bull;</span>
+            <p>A &bull; B &bull; C</p>
+          </div>
+          <div class="punct-item">
+            <span class="caption">Arrows</span>
+            <p>&larr; &rarr; &uarr; &darr;</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHARACTER SET -->
+    <section class="rhythm-16">
+      <h2 class="section-label">Character Set</h2>
+
+      <div class="charset-section">
+        <span class="caption">Uppercase</span>
+        <p class="charset">ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+      </div>
+
+      <div class="charset-section">
+        <span class="caption">Lowercase</span>
+        <p class="charset">abcdefghijklmnopqrstuvwxyz</p>
+      </div>
+
+      <div class="charset-section">
+        <span class="caption">Numbers</span>
+        <p class="charset tnum">0123456789</p>
+      </div>
+
+      <div class="charset-section">
+        <span class="caption">Punctuation</span>
+        <p class="charset">. , : ; ! ? &apos; &quot; - &ndash; &mdash; ( ) [ ] { } / \ @ # $ % ^ &amp; * + =</p>
+      </div>
+
+      <div class="charset-section">
+        <span class="caption">Extended Latin</span>
+        <p class="charset">&agrave;&aacute;&acirc;&atilde;&auml;&aring;&aelig;&ccedil;&egrave;&eacute;&ecirc;&euml;&igrave;&iacute;&icirc;&iuml;&ntilde;&ograve;&oacute;&ocirc;&otilde;&ouml;&oslash;&ugrave;&uacute;&ucirc;&uuml;&yacute;&yuml;</p>
+      </div>
+
+      <div class="charset-section">
+        <span class="caption">Currency &amp; Symbols</span>
+        <p class="charset">&euro; &pound; &yen; &cent; $ &deg; &plusmn; &frac14; &frac12; &frac34; &dagger; &Dagger; &sect; &para; &infin;</p>
+      </div>
+    </section>
+
+    <!-- PARAGRAPH SAMPLES -->
+    <section>
+      <h2 class="section-label">Paragraph Samples</h2>
+
+      <div style="margin-bottom: 2.5rem;">
+        <span class="caption tnum">18px / 1.6 line-height &middot; max-width 65ch</span>
+        <p class="prose text-lg no-orphans" style="margin-top: 0.5rem;">Typography is the craft of endowing human language with a durable visual form. In a well-made page, the weights and measures of the text, the spaces between words, letters, and lines&mdash;all these things come together with harmony and grace. The shapes and colors of the letters mirror the texture of human thought.</p>
+      </div>
+
+      <div style="margin-bottom: 2.5rem;">
+        <span class="caption tnum">16px / 1.5 line-height &middot; Standard body</span>
+        <p class="prose text-base no-orphans" style="margin-top: 0.5rem;">Typography is the craft of endowing human language with a durable visual form. In a well-made page, the weights and measures of the text, the spaces between words, letters, and lines&mdash;all these things come together with harmony and grace. The shapes and colors of the letters mirror the texture of human thought.</p>
+      </div>
+
+      <div>
+        <span class="caption tnum">14px / 1.5 line-height &middot; Secondary text</span>
+        <p class="prose text-sm no-orphans" style="margin-top: 0.5rem; color: var(--color-muted);">Typography is the craft of endowing human language with a durable visual form. In a well-made page, the weights and measures of the text, the spaces between words, letters, and lines&mdash;all these things come together with harmony and grace. The shapes and colors of the letters mirror the texture of human thought.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Specimen built with <a href="https://rsms.me/inter/">Inter</a></p>
+    <p style="margin-top: 0.5rem;"><a href="/">&larr; Back to alexbaldwin.com</a></p>
+  </footer>
+</body>
+</html>

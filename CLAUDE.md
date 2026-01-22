@@ -22,11 +22,12 @@ This is a Jekyll 4 personal website using:
 
 - **Jekyll** (Ruby 3.2.2) for static site generation
 - **Tailwind CSS** with `@tailwindcss/typography` for styling
-- **PostCSS** with jekyll-postcss-v2 for CSS processing (cssnano in production)
+- **PostCSS** with jekyll-postcss-v2 for CSS processing (postcss-import → tailwindcss → autoprefixer → cssnano in production)
 
 ### Key Directories
 
 - `_posts/` - Blog posts in Markdown
+- `_uploads/` - File uploads collection
 - `_layouts/` - `default.html` (base template) and `post.html` (wraps default)
 - `_includes/` - Reusable HTML partials
 - `assets/css/main.css` - Tailwind entry point (uses Jekyll front matter for processing)
@@ -36,10 +37,15 @@ This is a Jekyll 4 personal website using:
 - `jekyll-seo-tag` - SEO meta tags via `{% seo %}` in layout
 - `jekyll-og-image` - Auto-generates Open Graph images to `assets/images/og/`
 - `jekyll-sitemap` and `jekyll-feed` - Auto-generated sitemap and RSS
+- `jekyll-last-modified-at` - Adds last modified timestamps to pages
 
 ### Styling
 
-All styling uses Tailwind utility classes directly in HTML. The typography plugin handles prose styling for Markdown content. Custom font (GeistSans) is loaded via `@font-face` in the layout.
+All styling uses Tailwind utility classes directly in HTML. The typography plugin handles prose styling for Markdown content. Inter variable font is loaded via `@font-face` in the layout.
+
+CSS variables for design tokens are defined in `_layouts/default.html`:
+- `--background`, `--foreground`, `--foreground-strong`, `--foreground-muted`, `--foreground-subtle`
+- `--border`, `--border-muted`, `--border-hairline` (0.5px on retina)
 
 ## Deployment
 

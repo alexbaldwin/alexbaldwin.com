@@ -6,50 +6,181 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="preload" href="/assets/fonts/GeistVF.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin />
     <style>
+      :root {
+        --background: #fcfcfc;
+        --foreground: #1f1f1f;
+        --foreground-strong: #0d0d0d;
+        --foreground-muted: #525252;
+        --foreground-subtle: #868686;
+        --border: #ebebeb;
+        --border-muted: #f5f5f5;
+        --border-hairline: 1px;
+      }
+
+      /* Hairline borders on retina displays */
+      @media only screen and (-webkit-min-device-pixel-ratio: 2),
+             only screen and (min-resolution: 192dpi) {
+        :root {
+          --border-hairline: 0.5px;
+        }
+      }
+
       @font-face {
-        font-family: "GeistSans";
-        src: url("/assets/fonts/GeistVF.woff2") format("woff2");
+        font-family: "Inter";
+        src: url("/assets/fonts/InterVariable.woff2") format("woff2");
+        font-weight: 100 900;
+        font-style: normal;
         font-display: swap;
+      }
+      @font-face {
+        font-family: "Inter";
+        src: url("/assets/fonts/InterVariable-Italic.woff2") format("woff2");
+        font-weight: 100 900;
+        font-style: italic;
+        font-display: swap;
+      }
+
+      html {
+        font-family: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-feature-settings: "liga" 1, "calt" 1, "kern" 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+      }
+
+      @supports (font-variation-settings: normal) {
+        html {
+          font-family: "Inter", ui-sans-serif, system-ui, -apple-system, sans-serif;
+          font-optical-sizing: auto;
+        }
+      }
+
+      /* Selection styling */
+      ::selection {
+        background: rgba(0, 0, 0, 0.08);
+      }
+
+      /* Balanced text wrapping for headings */
+      h1, h2, h3, h4, h5, h6 {
+        text-wrap: balance;
+      }
+
+      /* Touch-friendly buttons and links */
+      a, button {
+        touch-action: manipulation;
+      }
+
+      /* Navigation links - base styles */
+      .nav-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
+        padding: 0 12px;
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--foreground-muted);
+        text-decoration: none;
+        border-radius: 9999px;
+        transition-property: background-color, color;
+        transition-duration: 150ms;
+        transition-timing-function: ease-out;
+      }
+
+      .nav-link-subtle {
+        color: var(--foreground-subtle);
+      }
+
+      /* Hover only on devices that support it */
+      @media (hover: hover) and (pointer: fine) {
+        .nav-link:hover {
+          background-color: var(--border);
+          color: var(--foreground);
+        }
+      }
+
+      /* Active/pressed state for touch */
+      .nav-link:active {
+        background-color: var(--border);
+        color: var(--foreground);
+      }
+
+      /* Site title link */
+      .site-title {
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--foreground-strong);
+        text-decoration: none;
+        letter-spacing: -0.01em;
+        transition-property: color;
+        transition-duration: 150ms;
+        transition-timing-function: ease-out;
+      }
+
+      @media (hover: hover) and (pointer: fine) {
+        .site-title:hover {
+          color: var(--foreground-muted);
+        }
+      }
+
+      /* Footer border using box-shadow for better blending */
+      .footer-border {
+        box-shadow: inset 0 1px 0 0 var(--border);
+      }
+
+      /* Tabular nums for dates/numbers */
+      .tabular-nums {
+        font-variant-numeric: tabular-nums;
       }
     </style>
     <link rel="stylesheet" href="/assets/css/main.css" />
     {% seo %}
-    <link
-      rel="sitemap"
-      type="application/xml"
-      title="Sitemap"
-      href="/sitemap.xml"
-    />
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
     <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
   </head>
-  <body
-    class="max-w-lg mx-auto py-4 px-4 prose prose-stone bg-neutral-50 prose-a:font-normal prose-blockquote:font-normal prose-blockquote:text-stone-400 prose-h2:font-normal prose-h2:text-base prose-h3:text-base prose-h3:font-normal prose-h3:text-stone-400 prose-h2:text-stone-400 prose-h1:text-lg prose-h1:font-normal prose-strong:font-[600] prose-a:decoration-stone-400"
-  >
-    <header class="">
-      <nav
-        class="py-6 mb-6 mt-6 border-0 border-b border-solid border-stone-200"
-      >
-        <div class="text-md font-normal">
-          <a class="no-underline" href="/">Alex Baldwin</a>
+  <body class="antialiased bg-[#fcfcfc] text-[#1f1f1f]">
+    <div class="max-w-[38rem] mx-auto px-6 py-10 sm:py-14">
+      <header>
+        <nav class="flex items-center justify-between mb-12 sm:mb-16">
+          <a class="site-title" href="/">Alex Baldwin</a>
+          <div class="flex">
+            <a class="nav-link" href="/articles/">Writing</a>
+            <a class="nav-link" href="/now/">Now</a>
+            <a class="nav-link" href="/about/">About</a>
+          </div>
+        </nav>
+      </header>
+
+      <main id="main" role="main" class="prose prose-neutral max-w-none
+        prose-headings:font-semibold prose-headings:text-[#0d0d0d] prose-headings:tracking-[-0.02em]
+        prose-h1:text-[1.75rem] prose-h1:leading-[1.2] prose-h1:mb-6
+        prose-h2:text-[1.25rem] prose-h2:leading-[1.3] prose-h2:mt-10 prose-h2:mb-4
+        prose-h3:text-[1.0625rem] prose-h3:leading-[1.4] prose-h3:mt-8 prose-h3:mb-3 prose-h3:text-[#1f1f1f]
+        prose-p:text-[#1f1f1f] prose-p:text-[0.9375rem] prose-p:leading-[1.625] prose-p:tracking-[-0.005em]
+        prose-a:text-[#1f1f1f] prose-a:font-medium prose-a:no-underline prose-a:border-b prose-a:border-[#d4d4d4]
+        prose-strong:font-semibold prose-strong:text-[#0d0d0d]
+        prose-em:text-[#1f1f1f]
+        prose-blockquote:border-l-[#ebebeb] prose-blockquote:border-l-2 prose-blockquote:pl-4 prose-blockquote:text-[#525252] prose-blockquote:font-normal prose-blockquote:not-italic prose-blockquote:text-[0.9375rem]
+        prose-ul:text-[#1f1f1f] prose-ol:text-[#1f1f1f]
+        prose-li:text-[0.9375rem] prose-li:leading-[1.625] prose-li:my-1
+        prose-figcaption:text-[#868686] prose-figcaption:text-[0.8125rem] prose-figcaption:mt-3
+        prose-img:rounded-lg prose-img:my-6
+        prose-hr:border-[#ebebeb] prose-hr:my-10
+        prose-code:text-[0.875rem] prose-code:font-normal prose-code:text-[#1f1f1f] prose-code:bg-[#f5f5f5] prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:before:content-none prose-code:after:content-none
+        prose-pre:bg-[#1b1b1b] prose-pre:text-[#b4b4b4] prose-pre:rounded-lg prose-pre:text-[0.8125rem]
+      ">{{ content }}</main>
+
+      <footer class="footer-border mt-16 sm:mt-20 pt-8">
+        <div class="flex mb-6">
+          <a class="nav-link nav-link-subtle" href="https://x.com/alexbaldwin">Twitter</a>
+          <a class="nav-link nav-link-subtle" href="https://instagram.com/alexbaldwin">Instagram</a>
+          <a class="nav-link nav-link-subtle" href="https://github.com/alexbaldwin">GitHub</a>
         </div>
-        <div class="flex-1 space-x-4 text-stone-600">
-          <a class="no-underline hover:text-stone-800 py-2 inline-block" href="/articles/">Writing</a>
-          <a class="no-underline hover:text-stone-800 py-2 inline-block" href="/now/">Now</a>
-          <a class="no-underline hover:text-stone-800 py-2 inline-block" href="/about/">About</a>
-        </div>
-      </nav>
-    </header>
-    <main id="main" role="main">{{ content }}</main>
-    <footer class="text-stone-600 text-sm mt-12 mb-12">
-      <div class="flex-1 space-x-4">
-        <a class="no-underline hover:text-stone-800 py-2 inline-block" href="https://x.com/alexbaldwin">Twitter</a>
-        <a class="no-underline hover:text-stone-800 py-2 inline-block" href="https://instagram.com/alexbaldwin">Instagram</a>
-        <a class="no-underline hover:text-stone-800 py-2 inline-block" href="https://github.com/alexbaldwin">Github</a>
-      </div>
-      <p class="text-xs">&copy; 2004-{{ site.time | date: '%Y' }}.</p>
-    </footer>
+        <p class="text-[11px] text-[#868686] tracking-wide tabular-nums">&copy; 2004&ndash;{{ site.time | date: '%Y' }}</p>
+      </footer>
+    </div>
 
     <script>
       (function (f, a, t, h, o, m) {

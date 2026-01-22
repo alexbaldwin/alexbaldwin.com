@@ -6,11 +6,12 @@ module.exports = {
     "./_layouts/**/*.html",
     "./_posts/*.md",
     "./*.html",
+    "./*.md",
   ],
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"GeistSans"', ...defaultTheme.fontFamily.sans],
+        sans: ['"Inter"', ...defaultTheme.fontFamily.sans],
       },
     },
   },
