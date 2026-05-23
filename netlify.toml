@@ -7,6 +7,13 @@
   RUBY_VERSION = "3.2.2"
   NODE_VERSION = "20"
 
+# Redirects
+[[redirects]]
+  from = "/photobooth"
+  to = "https://photos.app.goo.gl/Z692ZiC6dS5i7vVXA"
+  status = 301
+  force = true
+
 # Cache static assets aggressively
 [[headers]]
   for = "/assets/*"
