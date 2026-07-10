@@ -1,0 +1,267 @@
+{% assign root_url = "/" | absolute_url %}
+{% assign canonical_url = page.url | absolute_url %}
+{% assign writing_url = "/articles/" | absolute_url %}
+{% assign website_id = root_url | append: "#website" %}
+{% assign person_id = root_url | append: "#person" %}
+{% assign website_image_id = root_url | append: "#website-image" %}
+{% assign person_image_id = root_url | append: "#person-image" %}
+{% assign webpage_id = canonical_url | append: "#webpage" %}
+{% assign breadcrumb_id = canonical_url | append: "#breadcrumb" %}
+{% assign blog_id = writing_url | append: "#blog" %}
+{% assign blogposting_id = canonical_url | append: "#blogposting" %}
+{% assign blogposting_image_id = canonical_url | append: "#blogposting-image" %}
+{% assign person_image_url = "/assets/images/alexbaldwin.jpg" | absolute_url %}
+{% assign language = site.lang | default: "en-US" %}
+
+{% assign is_home = false %}
+{% if page.url == "/" %}
+  {% assign is_home = true %}
+{% endif %}
+
+{% assign is_about = false %}
+{% if page.url == "/about/" %}
+  {% assign is_about = true %}
+{% endif %}
+
+{% assign is_articles = false %}
+{% if page.url == "/articles/" %}
+  {% assign is_articles = true %}
+{% endif %}
+
+{% assign is_post = false %}
+{% if page.collection == "posts" %}
+  {% assign is_post = true %}
+{% endif %}
+
+{% assign page_schema_type = "WebPage" %}
+{% if is_home or is_about %}
+  {% assign page_schema_type = "ProfilePage" %}
+{% elsif is_articles %}
+  {% assign page_schema_type = "CollectionPage" %}
+{% endif %}
+
+{% assign page_name = page.title | default: site.title %}
+{% if is_articles %}
+  {% assign page_name = "Writing" %}
+{% endif %}
+
+{% capture page_summary %}
+  {% if page.description %}
+    {{ page.description }}
+  {% elsif page.excerpt %}
+    {{ page.excerpt | strip_html | normalize_whitespace | truncate: 160 }}
+  {% else %}
+    {{ site.description }}
+  {% endif %}
+{% endcapture %}
+{% assign page_summary = page_summary | strip %}
+
+{% assign date_modified = nil %}
+{% if page.last_modified_at %}
+  {% assign date_modified = page.last_modified_at | date_to_xmlschema %}
+{% endif %}
+
+{% if is_post %}
+  {% if page.image.path %}
+    {% assign post_image_url = page.image.path | absolute_url %}
+    {% assign post_image_width = page.image.width %}
+    {% assign post_image_height = page.image.height %}
+  {% elsif page.image %}
+    {% assign post_image_url = page.image | absolute_url %}
+    {% assign post_image_width = nil %}
+    {% assign post_image_height = nil %}
+  {% else %}
+    {% capture post_image_path %}/assets/images/og/posts/{{ page.slug }}.png{% endcapture %}
+    {% assign post_image_url = post_image_path | absolute_url %}
+    {% assign post_image_width = 1200 %}
+    {% assign post_image_height = 600 %}
+  {% endif %}
+{% endif %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ root_url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "alternateName": ["alexbaldwin.com", "Alex Baldwin"],
+      "description": {{ site.description | jsonify }},
+      "inLanguage": {{ language | jsonify }},
+      "publisher": {
+        "@id": {{ person_id | jsonify }}
+      },
+      "image": {
+        "@type": "ImageObject",
+        "@id": {{ website_image_id | jsonify }},
+        "url": {{ person_image_url | jsonify }},
+        "caption": "Alex Baldwin",
+        "width": 400,
+        "height": 400
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "url": {{ root_url | jsonify }},
+      "name": "Alex Baldwin",
+      "alternateName": "alexbaldwin",
+      "givenName": "Alex",
+      "familyName": "Baldwin",
+      "description": "Product designer, UI engineer, and writer from Austin, Texas. Currently building AI-powered search at Perplexity.",
+      "disambiguatingDescription": "Product designer and writer named Alex Baldwin, distinct from Alec Baldwin.",
+      "jobTitle": "Product Designer and UI Engineer",
+      "knowsLanguage": {{ language | jsonify }},
+      "knowsAbout": [
+        "Product design",
+        "UI engineering",
+        "Design education",
+        "Startups",
+        "AI-powered search"
+      ],
+      "homeLocation": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Austin",
+          "addressRegion": "Texas",
+          "addressCountry": "US"
+        }
+      },
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai/"
+      },
+      "affiliation": [
+        {
+          "@type": "Organization",
+          "name": "Hack Design",
+          "url": "https://hackdesign.org/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Logo.dev",
+          "url": "https://logo.dev/"
+        },
+        {
+          "@type": "Organization",
+          "name": "Simple Casual",
+          "url": "https://simplecasual.com/"
+        }
+      ],
+      "image": {
+        "@type": "ImageObject",
+        "@id": {{ person_image_id | jsonify }},
+        "url": {{ person_image_url | jsonify }},
+        "caption": "Alex Baldwin",
+        "width": 400,
+        "height": 400
+      },
+      "sameAs": [
+        "https://x.com/alexbaldwin",
+        "https://instagram.com/alexbaldwin",
+        "https://github.com/alexbaldwin"
+      ]
+    },
+    {
+      "@type": {{ page_schema_type | jsonify }},
+      "@id": {{ webpage_id | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "isPartOf": {
+        "@id": {{ website_id | jsonify }}
+      },
+      "name": {{ page_name | jsonify }},
+      "description": {{ page_summary | jsonify }},
+      "inLanguage": {{ language | jsonify }}{% if is_home or is_about %},
+      "mainEntity": {
+        "@id": {{ person_id | jsonify }}
+      }{% elsif is_articles %},
+      "about": {
+        "@id": {{ person_id | jsonify }}
+      }{% endif %}{% unless is_home %},
+      "breadcrumb": {
+        "@id": {{ breadcrumb_id | jsonify }}
+      }{% endunless %}{% if date_modified %},
+      "dateModified": {{ date_modified | jsonify }}{% endif %}
+    }{% unless is_home %},
+    {
+      "@type": "BreadcrumbList",
+      "@id": {{ breadcrumb_id | jsonify }},
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": {{ root_url | jsonify }}
+        }{% if is_post %},
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Writing",
+          "item": {{ writing_url | jsonify }}
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {{ page.title | jsonify }},
+          "item": {{ canonical_url | jsonify }}
+        }{% else %},
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {{ page_name | jsonify }},
+          "item": {{ canonical_url | jsonify }}
+        }{% endif %}
+      ]
+    }{% endunless %}{% if is_articles or is_post %},
+    {
+      "@type": "Blog",
+      "@id": {{ blog_id | jsonify }},
+      "isPartOf": {
+        "@id": {{ website_id | jsonify }}
+      }{% if is_articles %},
+      "mainEntityOfPage": {
+        "@id": {{ webpage_id | jsonify }}
+      }{% endif %},
+      "name": "Alex Baldwin's Writing",
+      "description": {{ site.description | jsonify }},
+      "inLanguage": {{ language | jsonify }},
+      "publisher": {
+        "@id": {{ person_id | jsonify }}
+      }
+    }{% endif %}{% if is_post %},
+    {
+      "@type": "BlogPosting",
+      "@id": {{ blogposting_id | jsonify }},
+      "url": {{ canonical_url | jsonify }},
+      "mainEntityOfPage": {
+        "@id": {{ webpage_id | jsonify }}
+      },
+      "isPartOf": {
+        "@id": {{ blog_id | jsonify }}
+      },
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page_summary | jsonify }},
+      "inLanguage": {{ language | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }}{% if date_modified %},
+      "dateModified": {{ date_modified | jsonify }}{% endif %},
+      "author": {
+        "@id": {{ person_id | jsonify }}
+      },
+      "publisher": {
+        "@id": {{ person_id | jsonify }}
+      },
+      "image": {
+        "@type": "ImageObject",
+        "@id": {{ blogposting_image_id | jsonify }},
+        "url": {{ post_image_url | jsonify }}{% if post_image_width and post_image_height %},
+        "width": {{ post_image_width }},
+        "height": {{ post_image_height }}{% endif %}
+      }
+    }{% endif %}
+  ]
+}
+</script>

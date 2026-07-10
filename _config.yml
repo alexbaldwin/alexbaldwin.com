@@ -27,8 +27,19 @@ plugins:
 description: "Designer, developer, and entrepreneur sharing thoughts on product design, technology, and startup culture."
 baseurl: ""
 url: https://www.alexbaldwin.com
+lang: en-US
+author:
+  name: Alex Baldwin
+  type: Person
+  url: https://www.alexbaldwin.com/
 twitter:
   username: alexbaldwin
+social:
+  name: Alex Baldwin
+  links:
+    - https://x.com/alexbaldwin
+    - https://instagram.com/alexbaldwin
+    - https://github.com/alexbaldwin
 markdown: kramdown
 permalink: "/:slug/"
 postcss:
